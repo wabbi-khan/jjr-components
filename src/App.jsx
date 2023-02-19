@@ -33,7 +33,7 @@ function App() {
             active={active}
             video={world.imgUrl}
             // deactive={deactive}
-            // handleClick={setActive}
+            handleClick={setActive}
             handleClick2={() => getImg(world?.imgUrl)}
             // handleClick3={setDeActive}
           />
