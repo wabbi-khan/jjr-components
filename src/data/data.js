@@ -1,13 +1,13 @@
 // import IMG from '../assets/planet-03.png';
 // import IMG2 from '../assets/planet-02.png';
 import Video from '../assets/JJR Video/video1.mp4';
-import Video2 from '../assets/JJR Video/Fan Hologram.mp4';
-import Video3 from '../assets/JJR Video/video2.mp4';
-import Video4 from '../assets/JJR Video/Live Hologram HCT Annual Forum.mp4';
-import Video5 from '../assets/JJR Video/video3.mp4';
-import Video6 from '../assets/JJR Video/Sliding Screen.mp4';
-import Video7 from '../assets/JJR Video/video4.mp4';
-import Video8 from '../assets/JJR Video/video5.mp4';
+import Video2 from '../assets/JJR Video/v2.mp4';
+import Video3 from '../assets/JJR Video/v3.mp4';
+import Video4 from '../assets/JJR Video/v4.mp4';
+import Video5 from '../assets/JJR Video/v5.mp4';
+import Video6 from '../assets/JJR Video/v6.mp4';
+import Video7 from '../assets/JJR Video/v7.mp4';
+import Video8 from '../assets/JJR Video/v8.mp4';
 export const dataWorld = [
   {
     id: '1',
