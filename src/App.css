@@ -67,7 +67,7 @@ body {
   cursor: pointer;
   transition: 0.5s all ease-in-out;
   border-radius: 5px;
-  /* filter: grayscale(20%); */
+  filter: grayscale(100%);
   overflow: hidden;
 }
 
