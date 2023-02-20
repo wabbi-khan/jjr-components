@@ -40,15 +40,15 @@ function App() {
         <div className="allItems">
           {dataWorld.map((world, index) => (
             <Slider
-              key={world.id}
+              key={world?.id}
               {...world}
               index={index}
               active={active}
-              video={world.imgUrl}
+              video={world?.imgUrl}
               // deactive={deactive}
               handleClick={setActive}
               handleClick2={() => getImg(world?.imgUrl)}
-              // handleClick3={setDeActive}
+              handleClick3={() => setActive(false)}
             />
           ))}
         </div>
