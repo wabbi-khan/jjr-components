@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 import { MdClose } from 'react-icons/md';
 import Header from './components/Header';
 import Spinner from './components/Spinner';
+import { HiSpeakerWave } from 'react-icons/hi2';
 function App() {
   const [active, setActive] = useState();
   // const [deactive, setDeActive] = useState();
@@ -53,6 +54,15 @@ function App() {
           ))}
         </div>
       )}
+      <div className="features">
+        <div className="soundIcon">
+          <HiSpeakerWave />
+        </div>
+        <div>
+          <h2>Feature Work</h2>{' '}
+        </div>
+        <div></div>
+      </div>
       <div className="copyRight">© 2023 | Developed By XCL Technologies</div>
     </>
   );
