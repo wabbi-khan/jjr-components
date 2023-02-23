@@ -11,9 +11,9 @@ function App() {
   // const [deactive, setDeActive] = useState();
   const [model, setModel] = useState(false);
   const [temImgSrc, setTemImgSrc] = useState("");
-  const getImg = (imgSrc) => {
-    // console.log(imgSrc);
-    setTemImgSrc(imgSrc);
+  const getImg = (imgUrl) => {
+    console.log(imgUrl);
+    setTemImgSrc(imgUrl);
     setModel(true);
   };
 

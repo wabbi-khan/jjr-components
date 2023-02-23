@@ -13,7 +13,9 @@ const Slider = ({
 
   handleClick3,
   autoPlay,
+  pic,
 }) => {
+  console.log(pic);
   return (
     <motion.div
       className={` ${active === id ? "asd" : "cover"}  `}
@@ -22,7 +24,7 @@ const Slider = ({
       onClick={handleClick2}
     >
       {/* <div className="sliderList"> */}
-      <video
+      {/* <video
         webkit-playsinline
         playsinline
         src={video}
@@ -30,8 +32,8 @@ const Slider = ({
         autoplay
         onMouseEnter={(event) => event.target.play(id)}
         onMouseOut={(event) => event.target.pause(id)}
-      />
-      {/* <img src={imgUrl} alt="" /> */}
+      /> */}
+      <img src={pic} alt="" />
       {/* </div> */}
     </motion.div>
   );
