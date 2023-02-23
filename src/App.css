@@ -118,7 +118,7 @@ body {
   z-index: 999;
 }
 
-.model.open  {
+.model.open {
   visibility: visible;
   opacity: 1;
   transform: scale(1);

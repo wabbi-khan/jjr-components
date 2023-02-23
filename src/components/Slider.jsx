@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+
 // import IMG from '../assets/billi.jpg';
 const Slider = ({
   id,
@@ -22,9 +23,11 @@ const Slider = ({
     >
       {/* <div className="sliderList"> */}
       <video
+        webkit-playsinline
         playsinline
         src={video}
         muted
+        autoplay
         onMouseEnter={(event) => event.target.play(id)}
         onMouseOut={(event) => event.target.pause(id)}
       />
