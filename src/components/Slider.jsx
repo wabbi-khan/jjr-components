@@ -1,33 +1,34 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import React from "react";
+import { motion } from "framer-motion";
 // import IMG from '../assets/billi.jpg';
 const Slider = ({
   id,
   imgUrl,
   active,
-  // deactive,
-  // video,
+  deactive,
+  video,
   handleClick,
   handleClick2,
 
   handleClick3,
-  // autoPlay,
+  autoPlay,
 }) => {
   return (
     <motion.div
-      className={` ${active === id ? 'asd' : 'cover'}  `}
+      className={` ${active === id ? "asd" : "cover"}  `}
       onMouseEnter={() => handleClick(id)}
       onMouseLeave={handleClick3}
       onClick={handleClick2}
     >
       {/* <div className="sliderList"> */}
-      {/* <video
+      <video
+        playsinline
         src={video}
         muted
         onMouseEnter={(event) => event.target.play(id)}
         onMouseOut={(event) => event.target.pause(id)}
-      /> */}
-      <img src={imgUrl} alt="" />
+      />
+      {/* <img src={imgUrl} alt="" /> */}
       {/* </div> */}
     </motion.div>
   );
