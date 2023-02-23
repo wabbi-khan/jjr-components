@@ -3,10 +3,10 @@ import { motion } from 'framer-motion';
 // import IMG from '../assets/billi.jpg';
 const Slider = ({
   id,
-  // imgUrl,
+  imgUrl,
   active,
   // deactive,
-  video,
+  // video,
   handleClick,
   handleClick2,
 
@@ -21,17 +21,13 @@ const Slider = ({
       onClick={handleClick2}
     >
       {/* <div className="sliderList"> */}
-      <video
+      {/* <video
         src={video}
         muted
         onMouseEnter={(event) => event.target.play(id)}
         onMouseOut={(event) => event.target.pause(id)}
-      />
-      {/* <img
-          src={imgUrl}
-          alt=""
-          
-        /> */}
+      /> */}
+      <img src={imgUrl} alt="" />
       {/* </div> */}
     </motion.div>
   );

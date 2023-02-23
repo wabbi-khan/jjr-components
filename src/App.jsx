@@ -31,8 +31,8 @@ function App() {
       <Header />
       {/* =========== Slider =================== */}
       <div className={model ? 'model open' : 'model'}>
-        {/* <img src={temImgSrc} alt="temImgSrc" /> */}
-        <video src={temImgSrc} autoPlay muted />
+        <img src={temImgSrc} alt="temImgSrc" />
+        {/* <video src={temImgSrc} autoPlay muted /> */}
         <MdClose className="closeIcon" onClick={() => setModel(false)} />
       </div>
       {loading ? (
