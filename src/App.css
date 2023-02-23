@@ -219,9 +219,9 @@ body {
 
 .copyRight {
   width: 100%;
-  position: absolute;
+  /* position: absolute; */
   padding: 20px 0px;
-  bottom: 0;
+  /* bottom: 0; */
   font-size: 16px;
   text-align: center;
 }
@@ -246,7 +246,7 @@ body {
 
 /* @media query */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .header {
     padding: 10px 20px;
   }
@@ -262,6 +262,7 @@ body {
   }
   .copyRight {
     font-size: 13px;
+    /* position: relative; */
   }
   .features h2 {
     font-size: 20px;
