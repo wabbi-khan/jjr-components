@@ -1,16 +1,16 @@
-import "./App.css";
-import Slider from "./components/Slider";
-import { dataWorld } from "./data/data.js";
-import { useState, useEffect } from "react";
-import { MdClose } from "react-icons/md";
-import Header from "./components/Header";
-import Spinner from "./components/Spinner";
-import { HiSpeakerWave } from "react-icons/hi2";
+import './App.css';
+import Slider from './components/Slider';
+import { dataWorld } from './data/data.js';
+import { useState, useEffect } from 'react';
+import { MdClose } from 'react-icons/md';
+import Header from './components/Header';
+import Spinner from './components/Spinner';
+import { HiSpeakerWave } from 'react-icons/hi2';
 function App() {
   const [active, setActive] = useState();
   // const [deactive, setDeActive] = useState();
   const [model, setModel] = useState(false);
-  const [temImgSrc, setTemImgSrc] = useState("");
+  const [temImgSrc, setTemImgSrc] = useState('');
   const getImg = (imgUrl) => {
     console.log(imgUrl);
     setTemImgSrc(imgUrl);
@@ -30,7 +30,7 @@ function App() {
     <>
       <Header />
       {/* =========== Slider =================== */}
-      <div className={model ? "model open" : "model"}>
+      <div className={model ? 'model open' : 'model'}>
         {/* <img src={temImgSrc} alt="temImgSrc" /> */}
         <video src={temImgSrc} autoPlay muted />
         <MdClose className="closeIcon" onClick={() => setModel(false)} />
@@ -59,7 +59,7 @@ function App() {
           <HiSpeakerWave />
         </div>
         <div>
-          <h2>Feature Work</h2>{" "}
+          <h2>Feature Work</h2>
         </div>
         <div></div>
       </div>
