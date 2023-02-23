@@ -20,12 +20,12 @@ function App() {
   // spinner
 
   const [loading, setLoading] = useState(false);
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 10000);
-  }, []);
+  // useEffect(() => {
+  //   setLoading(true);
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //   }, 10000);
+  // }, []);
   return (
     <>
       <Header />
