@@ -17,7 +17,7 @@ const Slider = ({
   console.log(pic);
   return (
     <motion.div
-      className={` ${active === id ? 'asd' : 'cover'}  `}
+      className={` ${active === id ? 'whenHover' : 'cover'}  `}
       onMouseEnter={() => handleClick(id)}
       onMouseLeave={handleClick3}
       onClick={handleClick2}
