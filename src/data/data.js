@@ -2,71 +2,71 @@ export const dataWorld = [
   {
     id: '1',
     imgUrl:
-      'https://res.cloudinary.com/xcltech/video/upload/v1677151959/v5_hnesjb.mp4',
+      'https://res.cloudinary.com/xcltech/video/upload/v1677322585/ppt%20videos%20for%20jjr/Media4_n2owol.mp4',
 
-    pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677241311/jjr%20photos/Al-mirkaz%20Ramadan%20Tent/ramadan_tent_idh7jb.png',
+    pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677322584/ppt%20videos%20for%20jjr/thumb_4_j3mtib.png',
   },
   {
     id: '2',
     imgUrl:
-      'https://res.cloudinary.com/xcltech/video/upload/v1677151954/v8_isotkl.mp4',
+      'https://res.cloudinary.com/xcltech/video/upload/v1677322646/ppt%20videos%20for%20jjr/Media6_wws7ya.mp4',
 
-    pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677241354/jjr%20photos/diriyah%20season/Screenshot_31_pjxs1c.png',
+    pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677322642/ppt%20videos%20for%20jjr/thumb_6_aqxq2l.png',
   },
   {
     id: '3',
     imgUrl:
-      'https://res.cloudinary.com/xcltech/video/upload/v1677151952/video1_vlkgsc.mp4',
+      'https://res.cloudinary.com/xcltech/video/upload/v1677322757/ppt%20videos%20for%20jjr/Media7_nr8jjy.mp4',
 
-    pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677241353/jjr%20photos/diriyah%20season/Screenshot_29_z5u4s9.png',
+    pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677322749/ppt%20videos%20for%20jjr/thumb_7_pu6uyf.png',
   },
   {
     id: '4',
     imgUrl:
-      'https://res.cloudinary.com/xcltech/video/upload/v1677151951/video_1_gsfx7w.mp4',
+      'https://res.cloudinary.com/xcltech/video/upload/v1677322794/ppt%20videos%20for%20jjr/Media8_hr3xsc.mp4',
 
-    pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677241365/jjr%20photos/dyson/Screenshot_32_nqfz0c.png',
+    pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677322788/ppt%20videos%20for%20jjr/thumb_8_xm2iqx.png',
   },
   {
     id: '5',
     imgUrl:
-      'https://res.cloudinary.com/xcltech/video/upload/v1677151948/v6_tcu36g.mp4',
+      'https://res.cloudinary.com/xcltech/video/upload/v1677322834/ppt%20videos%20for%20jjr/Media9_ba8gko.mp4',
 
-    pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677241370/jjr%20photos/exhibition/ilko_iera3g.jpg',
+    pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677322824/ppt%20videos%20for%20jjr/thumb_9_frbw2j.png',
   },
   {
     id: '6',
     imgUrl:
-      'https://res.cloudinary.com/xcltech/video/upload/v1677151947/v7_eumhvh.mp4',
+      'https://res.cloudinary.com/xcltech/video/upload/v1677322866/ppt%20videos%20for%20jjr/Media11_gi84yh.mp4',
 
-    pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677241370/jjr%20photos/exhibition/aroma_q3afgi.jpg',
+    pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677322865/ppt%20videos%20for%20jjr/thumb_11_ulyf3h.png',
   },
   {
     id: '7',
     imgUrl:
-      'https://res.cloudinary.com/xcltech/video/upload/v1677151946/v2_csdauw.mp4',
+      'https://res.cloudinary.com/xcltech/video/upload/v1677322935/ppt%20videos%20for%20jjr/Media12_ki8z4s.mp4',
 
-    pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677241375/jjr%20photos/Games%20of%20throne/pic8_r8vcvj.jpg',
+    pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677322904/ppt%20videos%20for%20jjr/thumb_12_hez0fs.png',
   },
   {
     id: '8',
     imgUrl:
-      'https://res.cloudinary.com/xcltech/video/upload/v1677151945/v3_vawd4v.mp4',
+      'https://res.cloudinary.com/xcltech/video/upload/v1677322961/ppt%20videos%20for%20jjr/Media14_qyfel1.mp4',
 
-    pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677241379/jjr%20photos/global%20village/Screenshot_35_lzzhp8.png',
+    pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677322939/ppt%20videos%20for%20jjr/thumb_14_twat0z.png',
   },
   {
     id: '9',
     imgUrl:
-      'https://res.cloudinary.com/xcltech/video/upload/v1677151941/v4_xcfsa9.mp4',
+      'https://res.cloudinary.com/xcltech/video/upload/v1677323183/ppt%20videos%20for%20jjr/Media15_jbhkja.mp4',
 
-    pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677241383/jjr%20photos/mother%20of%20the%20nation/Screenshot_39_zyjjvf.png',
+    pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677323144/ppt%20videos%20for%20jjr/thumb_15_iq19uc.png',
   },
   {
     id: '10',
     imgUrl:
-      'https://res.cloudinary.com/xcltech/video/upload/v1677151941/v4_xcfsa9.mp4',
+      'https://res.cloudinary.com/xcltech/video/upload/v1677323260/ppt%20videos%20for%20jjr/Media16_qp98gh.mp4',
 
-    pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677241406/jjr%20photos/Promotional%20stand/promotional_stand_ip73cw.png',
+    pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677323226/ppt%20videos%20for%20jjr/thumb_16_o8seis.png',
   },
 ];
