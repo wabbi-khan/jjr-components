@@ -8,13 +8,14 @@ import { BsCalendar2EventFill } from 'react-icons/bs';
 // import { GrTechnology } from 'react-icons/gr';
 import { RiContactsFill } from 'react-icons/ri';
 import { BiCategory } from 'react-icons/bi';
+import { FaUsers } from 'react-icons/fa';
 import Logo from '../assets/logo.png';
 import { Link } from 'react-router-dom';
 const Header = () => {
   const [isShow, setIsShow] = useState(false);
   return (
     <div className="header">
-      <div className="headerIcon">{/* <AiFillBell /> */}</div>
+      <div className="headerIcon"></div>
       <div className="headernName">
         <img src={Logo} alt="Logo" />
       </div>
@@ -67,6 +68,14 @@ const Header = () => {
                     <RiContactsFill />
                   </div>
                   <span>Contact</span>
+                </div>{' '}
+                <div className="home">
+                  <div>
+                    <FaUsers />
+                  </div>
+                  <span>
+                    <Link to={'/OurPartners'}>Our Partners</Link>
+                  </span>
                 </div>
               </div>
             </motion.div>
