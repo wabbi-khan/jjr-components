@@ -1,9 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, {
+  useState,
+  // useEffect
+} from 'react';
 import Slider from './Slider';
 import { dataWorld } from '../data/data';
 import { MdClose } from 'react-icons/md';
 import Header from './Header';
-import Spinner from './Spinner';
+// import Spinner from './Spinner';
 import { HiSpeakerWave } from 'react-icons/hi2';
 
 const Home = () => {
@@ -19,7 +22,7 @@ const Home = () => {
 
   // spinner
 
-  const [loading, setLoading] = useState(false);
+  // const [loading, setLoading] = useState(false);
   // useEffect(() => {
   //   setLoading(true);
   //   setTimeout(() => {
@@ -32,28 +35,28 @@ const Home = () => {
       {/* =========== Slider =================== */}
       <div className={model ? 'model open' : 'model'}>
         {/* <img src={temImgSrc} alt="temImgSrc" /> */}
-        <video src={temImgSrc} autoPlay muted />
+        <video src={temImgSrc} autoPlay muted controls />
         <MdClose className="closeIcon" onClick={() => setModel(false)} />
       </div>
-      {loading ? (
+      {/* {loading ? (
         <Spinner loading={loading} />
-      ) : (
-        <div className="allItems">
-          {dataWorld.map((world, index) => (
-            <Slider
-              key={world?.id}
-              {...world}
-              index={index}
-              active={active}
-              video={world?.imgUrl}
-              // deactive={deactive}
-              handleClick={setActive}
-              handleClick2={() => getImg(world?.imgUrl)}
-              handleClick3={() => setActive(false)}
-            />
-          ))}
-        </div>
-      )}
+      ) : ( */}
+      <div className="allItems">
+        {dataWorld.map((world, index) => (
+          <Slider
+            key={world?.id}
+            {...world}
+            index={index}
+            active={active}
+            video={world?.imgUrl}
+            // deactive={deactive}
+            handleClick={setActive}
+            handleClick2={() => getImg(world?.imgUrl)}
+            handleClick3={() => setActive(false)}
+          />
+        ))}
+      </div>
+      {/* )} */}
       <div className="features">
         <div className="soundIcon">
           <HiSpeakerWave />

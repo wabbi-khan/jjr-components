@@ -23,10 +23,9 @@ const Slider = ({
       onClick={handleClick2}
     >
       <video
-        // webkit-playsinline
-        // playsinline
         src={video}
         muted
+        controls
         autoplay
         onMouseEnter={(event) => event.target.play(id)}
         onMouseOut={(event) => event.target.pause(id)}

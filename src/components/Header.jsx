@@ -38,14 +38,16 @@ const Header = () => {
                   <div>
                     <AiFillHome />
                   </div>
-                  <span>Home</span>
+                  <span>
+                    <Link to={'/'}>Home</Link>
+                  </span>
                 </div>
                 <div className="home">
                   <div>
                     <BsCalendar2EventFill />
                   </div>
                   <span>
-                    <Link to={'/events'}> Event Production</Link>{' '}
+                    <Link to={'/events'}> Event Production</Link>
                   </span>
                 </div>
                 <div className="home">
