@@ -62,11 +62,16 @@ const Home = () => {
           <HiSpeakerWave />
         </div>
         <div>
-          <h2>Feature Work</h2>
+          <h2>
+            Feature <b> Work</b>
+          </h2>
         </div>
         <div></div>
       </div>
-      <div className="copyRight">© 2023 | Developed By XCL Technologies</div>
+      <div className="copyRight">
+        © JJR NETWORK 2023 - All Right Reserved <br />{' '}
+        <span>Powered by XCL TECHNOLOGIES</span>
+      </div>
     </>
   );
 };

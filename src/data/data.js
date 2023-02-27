@@ -1,3 +1,17 @@
+import Logo1 from '../assets/jjr_logo/logo1.png';
+import Logo2 from '../assets/jjr_logo/logo2.png';
+import Logo3 from '../assets/jjr_logo/logo3.png';
+import Logo4 from '../assets/jjr_logo/logo4.png';
+import Logo5 from '../assets/jjr_logo/logo5.png';
+import Logo6 from '../assets/jjr_logo/logo6.png';
+import Logo7 from '../assets/jjr_logo/logo7.png';
+import Logo8 from '../assets/jjr_logo/logo8.png';
+import Logo9 from '../assets/jjr_logo/logo9.png';
+import Logo10 from '../assets/jjr_logo/logo10.png';
+import Logo11 from '../assets/jjr_logo/logo11.png';
+import Logo12 from '../assets/jjr_logo/logo12.png';
+import Logo33 from '../assets/jjr_logo/logo33.png';
+import Logo23 from '../assets/jjr_logo/logo23.png';
 export const dataWorld = [
   {
     id: '1',
@@ -68,5 +82,66 @@ export const dataWorld = [
       'https://res.cloudinary.com/xcltech/video/upload/v1677323260/ppt%20videos%20for%20jjr/Media16_qp98gh.mp4',
 
     pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677323226/ppt%20videos%20for%20jjr/thumb_16_o8seis.png',
+  },
+];
+
+// ================ our partners logo =============
+
+export const partnersLogo = [
+  {
+    id: 1,
+    logo: Logo1,
+  },
+  {
+    id: 2,
+    logo: Logo2,
+  },
+  {
+    id: 3,
+    logo: Logo3,
+  },
+  {
+    id: 4,
+    logo: Logo4,
+  },
+  {
+    id: 5,
+    logo: Logo5,
+  },
+  {
+    id: 6,
+    logo: Logo6,
+  },
+  {
+    id: 7,
+    logo: Logo7,
+  },
+  {
+    id: 8,
+    logo: Logo8,
+  },
+  {
+    id: 9,
+    logo: Logo9,
+  },
+  {
+    id: 10,
+    logo: Logo10,
+  },
+  {
+    id: 11,
+    logo: Logo11,
+  },
+  {
+    id: 12,
+    logo: Logo12,
+  },
+  {
+    id: 33,
+    logo: Logo33,
+  },
+  {
+    id: 23,
+    logo: Logo23,
   },
 ];
