@@ -175,15 +175,13 @@ body {
     rgba(35, 31, 32, 1) 100%
   );
   width: 300px;
-  height: 100vh;
+  height: auto;
   padding: 20px;
   z-index: 999;
   border-radius: 15px 0px 0px 0px;
   display: flex;
   flex-direction: column;
   gap: 5rem;
-  /* align-items: center; */
-  /* justify-content: center; */
 }
 
 .sidebar svg {
@@ -222,6 +220,11 @@ body {
 
 .home span {
   font-size: 16px;
+}
+
+.home span a {
+  text-decoration: none;
+  color: white;
 }
 
 .home svg {

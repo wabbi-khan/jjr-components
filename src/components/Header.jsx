@@ -9,6 +9,7 @@ import { BsCalendar2EventFill } from 'react-icons/bs';
 import { RiContactsFill } from 'react-icons/ri';
 import { BiCategory } from 'react-icons/bi';
 import Logo from '../assets/logo.png';
+import { Link } from 'react-router-dom';
 const Header = () => {
   const [isShow, setIsShow] = useState(false);
   return (
@@ -43,7 +44,9 @@ const Header = () => {
                   <div>
                     <BsCalendar2EventFill />
                   </div>
-                  <span>Event Production</span>
+                  <span>
+                    <Link to={'/events'}> Event Production</Link>{' '}
+                  </span>
                 </div>
                 <div className="home">
                   <div>
