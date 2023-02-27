@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
-// import { AiFillBell } from 'react-icons/ai';
 import { HiOutlineBars3CenterLeft } from 'react-icons/hi2';
 import { MdClose } from 'react-icons/md';
 import { motion } from 'framer-motion';
 import { AiFillHome, AiTwotoneSetting } from 'react-icons/ai';
 import { BsCalendar2EventFill } from 'react-icons/bs';
-// import { GrTechnology } from 'react-icons/gr';
 import { RiContactsFill } from 'react-icons/ri';
 import { BiCategory } from 'react-icons/bi';
 import { FaUsers } from 'react-icons/fa';

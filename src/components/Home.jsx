@@ -6,9 +6,8 @@ import Slider from './Slider';
 import { dataWorld } from '../data/data';
 import { MdClose } from 'react-icons/md';
 import Header from './Header';
-// import Spinner from './Spinner';
 import { HiSpeakerWave } from 'react-icons/hi2';
-
+import CopyRight from './CopyRight';
 const Home = () => {
   const [active, setActive] = useState();
   // const [deactive, setDeActive] = useState();
@@ -68,10 +67,7 @@ const Home = () => {
         </div>
         <div></div>
       </div>
-      <div className="copyRight">
-        © JJR NETWORK 2023 - All Right Reserved <br />{' '}
-        <span>Powered by XCL TECHNOLOGIES</span>
-      </div>
+      <CopyRight additionalClass={'copyRight'} />
     </>
   );
 };

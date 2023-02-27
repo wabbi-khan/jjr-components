@@ -1,17 +1,3 @@
-import Logo1 from '../assets/jjr_logo/logo1.png';
-import Logo2 from '../assets/jjr_logo/logo2.png';
-import Logo3 from '../assets/jjr_logo/logo3.png';
-import Logo4 from '../assets/jjr_logo/logo4.png';
-import Logo5 from '../assets/jjr_logo/logo5.png';
-import Logo6 from '../assets/jjr_logo/logo6.png';
-import Logo7 from '../assets/jjr_logo/logo7.png';
-import Logo8 from '../assets/jjr_logo/logo8.png';
-import Logo9 from '../assets/jjr_logo/logo9.png';
-import Logo10 from '../assets/jjr_logo/logo10.png';
-import Logo11 from '../assets/jjr_logo/logo11.png';
-import Logo12 from '../assets/jjr_logo/logo12.png';
-import Logo33 from '../assets/jjr_logo/logo33.png';
-import Logo23 from '../assets/jjr_logo/logo23.png';
 export const dataWorld = [
   {
     id: '1',
@@ -90,58 +76,115 @@ export const dataWorld = [
 export const partnersLogo = [
   {
     id: 1,
-    logo: Logo1,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498257/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo32_l9uoaa.png',
+    // class: 'logo1',
   },
   {
     id: 2,
-    logo: Logo2,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498257/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo11_yzwgeg.png',
   },
   {
     id: 3,
-    logo: Logo3,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498257/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo13_fqn8nq.png',
   },
   {
     id: 4,
-    logo: Logo4,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498256/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo12_zjnk9o.png',
   },
   {
     id: 5,
-    logo: Logo5,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498256/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo10_xkybxd.png',
   },
   {
     id: 6,
-    logo: Logo6,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498256/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo7_yxyfw8.png',
   },
   {
     id: 7,
-    logo: Logo7,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498256/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo6_f6trwt.png',
   },
   {
     id: 8,
-    logo: Logo8,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498256/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo8_ujcyvj.png',
   },
   {
     id: 9,
-    logo: Logo9,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498256/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo4_utde2r.png',
   },
   {
     id: 10,
-    logo: Logo10,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498255/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo5_zsavlk.png',
   },
   {
     id: 11,
-    logo: Logo11,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498255/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo36_by86qv.png',
   },
   {
     id: 12,
-    logo: Logo12,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498255/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo2_kloo4f.png',
   },
   {
-    id: 33,
-    logo: Logo33,
+    id: 13,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498255/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo34_zoflzn.png',
+  },
+  {
+    id: 14,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498255/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo35_vlzrn6.png',
+  },
+  {
+    id: 15,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498255/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo31_lsg40u.png',
+  },
+  {
+    id: 16,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498255/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo29_ahrcvd.png',
+  },
+  {
+    id: 17,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498255/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo1_e09u61.png',
+  },
+  {
+    id: 18,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498254/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo28_xhrl0v.png',
+  },
+  {
+    id: 19,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498254/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo30_k5dn5p.png',
+  },
+  {
+    id: 20,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498254/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo27_xwiqdm.png',
+  },
+  {
+    id: 21,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498254/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo24_wfzxaa.png',
+  },
+  {
+    id: 22,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498254/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo20_ulryqh.png',
   },
   {
     id: 23,
-    logo: Logo23,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498254/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo25_h6evez.png',
+  },
+  {
+    id: 24,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498253/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo23_w6ht6t.png',
+  },
+  {
+    id: 25,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498253/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo22_awupng.png',
+  },
+  {
+    id: 26,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498253/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo21_g225tf.png',
+  },
+  {
+    id: 27,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498252/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo16_cg9jbk.png',
+  },
+  {
+    id: 28,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498252/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo17_ujbvr5.png',
   },
 ];
