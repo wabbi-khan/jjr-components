@@ -1,37 +1,31 @@
-import React, {
-  useState,
-
-  // useEffect
-} from 'react';
+import React, { useState, useEffect } from 'react';
 import Slider from './Slider';
 import { dataWorld } from '../data/data';
 import { MdClose } from 'react-icons/md';
 import Header from './Header';
-import { HiSpeakerWave } from 'react-icons/hi2';
+import { HiSpeakerWave, HiSpeakerXMark } from 'react-icons/hi2';
 import CopyRight from './CopyRight';
+
 // import { Howl, Howler } from 'howler';
-// import audio1 from '../audioPlay/1.wav';
+import audio1 from '../audioPlay/1.wav';
 const Home = () => {
-  // const [value, setValue] = useState(0);
-  // const playAudio = () => {
-  //   new Audio(audio1).play();
-  // };
-  // useEffect(() => {
-  //   playAudio();
-  // }, [value]);
+  // ======audio=========
+  const [playing, setPlaying] = useState(false);
+  const player = new Audio(audio1);
+  useEffect(() => {
+    playing ? player.pause() : player.play();
 
-  // const audioClip = [{ sound: audi1, label: 'hehehehe' }];
-  // const soundPlay = (src) => {
-  //   const sound = new Howl({
-  //     src,
-  //     html5: true,
-  //   });
-  //   sound.play();
+    // This is cleanup of the effect
+    return () => player.pause();
+  }, [playing]);
 
-  // };
-
+  function togglePlay() {
+    // Using the callback version of `setState` so you always
+    // toggle based on the latest state
+    setPlaying((s) => !s);
+  }
+  // ==========================
   const [active, setActive] = useState();
-  // const [deactive, setDeActive] = useState();
   const [model, setModel] = useState();
   const [temImgSrc, setTemImgSrc] = useState('');
   const getImg = (imgUrl) => {
@@ -40,15 +34,6 @@ const Home = () => {
     setModel(true);
   };
 
-  // spinner
-
-  // const [loading, setLoading] = useState(false);
-  // useEffect(() => {
-  //   setLoading(true);
-  //   setTimeout(() => {
-  //     setLoading(false);
-  //   }, 10000);
-  // }, []);
   return (
     <>
       <Header />
@@ -58,9 +43,6 @@ const Home = () => {
         <video src={temImgSrc} autoPlay muted controls />
         <MdClose className="closeIcon" onClick={() => setModel(false)} />
       </div>
-      {/* {loading ? (
-        <Spinner loading={loading} />
-      ) : ( */}
       <div className="allItems">
         {dataWorld.map((world, index) => (
           <Slider
@@ -76,15 +58,16 @@ const Home = () => {
           />
         ))}
       </div>
-      {/* )} */}
       <div className="features">
         <div className="soundIcon">
-          {/* {audioClip.map((item) => (
-            <> */}
-          <HiSpeakerWave style={{ cursor: 'pointer' }} />
-          {/* <div onClick={() => setValue(!value)}>wahab</div> */}
-          {/* </> */}
-          {/* ))} */}
+          {/* <HiSpeakerWave style={{ cursor: 'pointer' }} /> */}
+          <div onClick={() => togglePlay()}>
+            {playing ? (
+              <HiSpeakerXMark style={{ cursor: 'pointer' }} />
+            ) : (
+              <HiSpeakerWave style={{ cursor: 'pointer' }} />
+            )}
+          </div>
         </div>
         <div>
           <h2>

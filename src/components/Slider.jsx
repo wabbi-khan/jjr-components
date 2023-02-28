@@ -14,7 +14,6 @@ const Slider = ({
   // autoPlay,
   pic,
 }) => {
-  console.log(pic);
   return (
     <motion.div
       className={` ${active === id ? 'whenHover' : 'cover'}  `}
@@ -26,7 +25,7 @@ const Slider = ({
         src={video}
         muted
         controls
-        autoplay
+        autoPlay
         onMouseEnter={(event) => event.target.play(id)}
         onMouseOut={(event) => event.target.pause(id)}
       />
