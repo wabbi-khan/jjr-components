@@ -1,5 +1,6 @@
 import React, {
   useState,
+
   // useEffect
 } from 'react';
 import Slider from './Slider';
@@ -8,10 +9,30 @@ import { MdClose } from 'react-icons/md';
 import Header from './Header';
 import { HiSpeakerWave } from 'react-icons/hi2';
 import CopyRight from './CopyRight';
+// import { Howl, Howler } from 'howler';
+// import audio1 from '../audioPlay/1.wav';
 const Home = () => {
+  // const [value, setValue] = useState(0);
+  // const playAudio = () => {
+  //   new Audio(audio1).play();
+  // };
+  // useEffect(() => {
+  //   playAudio();
+  // }, [value]);
+
+  // const audioClip = [{ sound: audi1, label: 'hehehehe' }];
+  // const soundPlay = (src) => {
+  //   const sound = new Howl({
+  //     src,
+  //     html5: true,
+  //   });
+  //   sound.play();
+
+  // };
+
   const [active, setActive] = useState();
   // const [deactive, setDeActive] = useState();
-  const [model, setModel] = useState(false);
+  const [model, setModel] = useState();
   const [temImgSrc, setTemImgSrc] = useState('');
   const getImg = (imgUrl) => {
     console.log(imgUrl);
@@ -58,7 +79,12 @@ const Home = () => {
       {/* )} */}
       <div className="features">
         <div className="soundIcon">
-          <HiSpeakerWave />
+          {/* {audioClip.map((item) => (
+            <> */}
+          <HiSpeakerWave style={{ cursor: 'pointer' }} />
+          {/* <div onClick={() => setValue(!value)}>wahab</div> */}
+          {/* </> */}
+          {/* ))} */}
         </div>
         <div>
           <h2>

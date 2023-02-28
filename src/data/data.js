@@ -188,3 +188,84 @@ export const partnersLogo = [
     logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498252/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo17_ujbvr5.png',
   },
 ];
+
+// ================== Event Production ================
+export const eventProduction = [
+  {
+    id: 1,
+    eventImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677241311/jjr%20photos/Al-mirkaz%20Ramadan%20Tent/ramadan_tent_idh7jb.png',
+    eventName: 'Al-mirkaz Ramadan Tent',
+  },
+  {
+    id: 2,
+    eventImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677241354/jjr%20photos/diriyah%20season/Screenshot_31_pjxs1c.png',
+    eventName: 'Diriyah Season',
+  },
+  {
+    id: 3,
+    eventImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677241396/jjr%20photos/pos%20material/Screenshot_38_khnz5k.png',
+    // 'https://res.cloudinary.com/xcltech/image/upload/v1677241365/jjr%20photos/dyson/Screenshot_32_nqfz0c.png',
+    eventName: 'pos material',
+  },
+  {
+    id: 4,
+    eventImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677241370/jjr%20photos/exhibition/ilko_iera3g.jpg',
+    eventName: 'Exhibition',
+  },
+  {
+    id: 5,
+    eventImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677241375/jjr%20photos/Games%20of%20throne/pic8_r8vcvj.jpg',
+    eventName: 'Games Of Throne',
+  },
+  {
+    id: 6,
+    eventImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677241379/jjr%20photos/global%20village/Screenshot_35_lzzhp8.png',
+    eventName: 'Global Village',
+  },
+];
+
+// =============== Technology ===============
+export const technology = [
+  {
+    id: 1,
+    techName: 'BLOWER PHOTOBOOTH',
+    techImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677582875/jjr%20photos/Technology%20images/BLOWER_PHOTOBOOTH_zizmfz.jpg',
+  },
+  {
+    id: 2,
+    techName: 'DIGITAL POST- IT',
+    techImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677582876/jjr%20photos/Technology%20images/DIGITAL_POST-_IT_zmewqk.jpg',
+  },
+  {
+    id: 3,
+    techName: 'DIGITAL SLINGSHOT',
+    techImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677582876/jjr%20photos/Technology%20images/DIGITAL_SLINGSHOT_ux9uhc.png',
+  },
+  {
+    id: 4,
+    techName: 'INTERACTIVE VENDING MACHINE',
+    techImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677582875/jjr%20photos/Technology%20images/INTERACTIVE_WALL_o0kzsr.png',
+  },
+  {
+    id: 5,
+    techName: 'INTERACTIVE WALL',
+    techImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677582875/jjr%20photos/Technology%20images/INTERACTIVE_VENDING_MACHINE_sxqbyr.png',
+  },
+  {
+    id: 6,
+    techName: 'MOTION EXPERIENCES',
+    techImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677582875/jjr%20photos/Technology%20images/MOTION_EXPERIENCES_hjpgkm.jpg',
+  },
+];

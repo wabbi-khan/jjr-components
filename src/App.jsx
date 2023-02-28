@@ -4,6 +4,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './components/Home';
 import Event from './components/Event';
 import OurPartners from './components/OurPartners';
+import Technology from './components/Technology';
+import ContactUs from './components/ContactUs';
 // Routes
 const router = createBrowserRouter([
   {
@@ -17,6 +19,14 @@ const router = createBrowserRouter([
   {
     path: '/ourPartners',
     element: <OurPartners />,
+  },
+  {
+    path: '/technology',
+    element: <Technology />,
+  },
+  {
+    path: '/contact-us',
+    element: <ContactUs />,
   },
 ]);
 const App = () => {

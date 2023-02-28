@@ -53,19 +53,30 @@ const Header = () => {
                   <div>
                     <AiTwotoneSetting />
                   </div>
-                  <span>Technology</span>
+                  <span>
+                    <Link to={'/technology'}>Technology</Link>
+                  </span>
                 </div>
                 <div className="home">
                   <div>
                     <BiCategory />
                   </div>
-                  <span>E-Catelog</span>
+                  <span>
+                    <a
+                      href="https://jjrnetwork.com/catalog2023/"
+                      target={'blank'}
+                    >
+                      E-Catelog
+                    </a>
+                  </span>
                 </div>
                 <div className="home">
                   <div>
                     <RiContactsFill />
                   </div>
-                  <span>Contact</span>
+                  <span>
+                    <Link to={'/contact-us'}>Contact</Link>
+                  </span>
                 </div>{' '}
                 <div className="home">
                   <div>
