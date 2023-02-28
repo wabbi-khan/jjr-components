@@ -378,6 +378,7 @@ body {
   width: 300px !important;
   height: 250px !important;
   flex-basis: 30%;
+  cursor: pointer;
 }
 
 .card__img {
@@ -409,6 +410,59 @@ body {
   text-transform: uppercase;
   text-align: center;
   color: #282828;
+}
+
+/* ============================ */
+
+.card--xcl {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  color: #000;
+  box-shadow: 3px 3px 10px 2px #56565677;
+  width: 300px !important;
+  height: 250px !important;
+  flex-basis: 30%;
+  border: 7px solid #fff;
+  cursor: pointer;
+}
+
+.card__img--xcl {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-position: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.card--xcl:hover .card__img--xcl {
+  transform: scale(1.1);
+}
+
+.card--xcl:hover .card__footer--xcl {
+  bottom: 10px;
+}
+
+.card__footer--xcl {
+  padding: 0 1.5rem;
+  position: absolute;
+  bottom: 40%;
+  left: 0;
+  width: 100%;
+  display: grid;
+  height: auto;
+  padding: 10px 0;
+  align-content: center;
+  transition: all 0.2s ease-in-out;
+  background: hsla(0, 0%, 100%, 0.657);
+}
+
+.card__footer--xcl span {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000;
+  text-align: center;
 }
 
 /* contact us css */
@@ -619,7 +673,8 @@ body {
   .main-card-set {
     padding: 0 10px;
   }
-  .main-card-set .card {
+  .main-card-set .card,
+  .card--xcl {
     flex-basis: 100%;
   }
   .contactUsForm {

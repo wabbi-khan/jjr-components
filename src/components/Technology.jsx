@@ -19,16 +19,16 @@ const Technology = () => {
       <div className="eventCard">
         <div class="main-card-set">
           {technology.map((item, index) => (
-            <a href="/" class="card" key={index}>
+            <div class="card--xcl">
               <img
                 src={item?.techImg}
-                alt="Technology images"
-                class="card__img"
+                alt="balloon with an emoji face"
+                class="card__img--xcl"
               />
-              <span class="card__footer">
+              <span class="card__footer--xcl">
                 <span>{item?.techName}</span>
               </span>
-            </a>
+            </div>
           ))}
         </div>
         <CopyRight additionalClass={'copyRight'} />

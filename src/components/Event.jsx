@@ -19,7 +19,7 @@ const Event = ({ eventImg, eventName }) => {
       <div className="eventCard">
         <div class="main-card-set">
           {eventProduction.map((item, index) => (
-            <a href="/" class="card" key={index}>
+            <div class="card" key={index}>
               <img
                 src={item?.eventImg}
                 alt="Event production images"
@@ -28,7 +28,7 @@ const Event = ({ eventImg, eventName }) => {
               <span class="card__footer">
                 <span>{item?.eventName}</span>
               </span>
-            </a>
+            </div>
           ))}
         </div>
         <CopyRight additionalClass={'copyRight'} />
