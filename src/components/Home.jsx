@@ -10,18 +10,18 @@ import CopyRight from './CopyRight';
 import audio1 from '../audioPlay/1.wav';
 const Home = () => {
   // ======audio=========
-  const [playing, setPlaying] = useState(true);
+  const [playing, setPlaying] = useState(false);
   const player = new Audio(audio1);
   useEffect(() => {
-    playing ? player.pause() : player.play();
+    playing ? player.play() : player.pause();
 
     // This is cleanup of the effect
     return () => player.pause();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [playing]);
 
   function togglePlay() {
-    // Using the callback version of `setState` so you always
-    // toggle based on the latest state
+    // playing ? player.pause() : player.play();
     setPlaying((s) => !s);
   }
   // ==========================
@@ -63,9 +63,9 @@ const Home = () => {
           {/* <HiSpeakerWave style={{ cursor: 'pointer' }} /> */}
           <div onClick={() => togglePlay()}>
             {playing ? (
-              <HiSpeakerXMark style={{ cursor: 'pointer' }} />
-            ) : (
               <HiSpeakerWave style={{ cursor: 'pointer' }} />
+            ) : (
+              <HiSpeakerXMark style={{ cursor: 'pointer' }} />
             )}
           </div>
         </div>
