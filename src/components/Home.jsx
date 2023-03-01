@@ -1,11 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Slider from './Slider';
 import { dataWorld } from '../data/data';
 import { MdClose } from 'react-icons/md';
 import Header from './Header';
 import { HiSpeakerWave, HiSpeakerXMark } from 'react-icons/hi2';
 import CopyRight from './CopyRight';
-import audio1 from '../audioPlay/1.wav';
+// import audio1 from '../audioPlay/1.wav';
+import audio1 from '../audioPlay/hello.m4a';
 const Home = () => {
   // ======audio=========
   const [playing, setPlaying] = useState(false);
@@ -18,6 +19,25 @@ const Home = () => {
   function togglePlay() {
     setPlaying((s) => !s);
   }
+  // ====== it is working on firefox audio play automatic when ever page reload
+  // const [isPlaying, setIsPlaying] = useState(false);
+
+  // useEffect(() => {
+  //   const audio = document.getElementById('myAudio');
+
+  //   if (isPlaying) {
+  //     audio.pause();
+  //   } else {
+  //     audio.play();
+  //   }
+  // }, [isPlaying]);
+
+  // useEffect(() => {
+  //   const audio = document.getElementById('myAudio');
+  //   audio.play();
+  // }, []);
+  // ======================
+
   // ==========================
   const [active, setActive] = useState();
   const [model, setModel] = useState();
@@ -54,6 +74,17 @@ const Home = () => {
       </div>
       <div className="features">
         <div className="soundIcon">
+          {/* <div>
+            <audio id="myAudio" autoPlay={true} src={audio1} /> 
+            <div onClick={() => setIsPlaying(!isPlaying)}>
+              {isPlaying ? (
+                <HiSpeakerXMark style={{ cursor: 'pointer' }} />
+              ) : (
+                <HiSpeakerWave style={{ cursor: 'pointer' }} />
+              )}
+            </div>
+            
+          </div> */}
           <div onClick={() => togglePlay()}>
             {playing ? (
               <HiSpeakerWave style={{ cursor: 'pointer' }} />
