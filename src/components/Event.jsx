@@ -3,8 +3,8 @@ import Header from './Header';
 // import image1 from '../assets/Screenshot (29).png';
 import { eventProduction } from '../data/data';
 import CopyRight from './CopyRight';
-
-const Event = ({ eventImg, eventName }) => {
+import { motion } from 'framer-motion';
+const Event = () => {
   return (
     <section>
       <Header />
@@ -19,7 +19,7 @@ const Event = ({ eventImg, eventName }) => {
       <div className="eventCard">
         <div class="main-card-set">
           {eventProduction.map((item, index) => (
-            <div class="card" key={index}>
+            <motion.div whileHover={{ y: -10 }} class="card" key={index}>
               <img
                 src={item?.eventImg}
                 alt="Event production images"
@@ -28,7 +28,7 @@ const Event = ({ eventImg, eventName }) => {
               <span class="card__footer">
                 <span>{item?.eventName}</span>
               </span>
-            </div>
+            </motion.div>
           ))}
         </div>
         <CopyRight additionalClass={'copyRight'} />
