@@ -142,6 +142,7 @@ export const partnersLogo = [
   {
     id: 17,
     logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498255/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo1_e09u61.png',
+    width: 'logo1',
   },
   {
     id: 18,

@@ -23,7 +23,7 @@ const OurPartners = () => {
       </div> */}
       <div className="logoSection">
         {partnersLogo.map((item, index) => (
-          <div className={`logoBg ${item.class}`} key={index}>
+          <div className={`logoBg ${item.width}`} key={index}>
             <img src={item.logo} alt="our partners logo" />
           </div>
         ))}

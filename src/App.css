@@ -9,7 +9,12 @@
 }
 
 body {
-  background-color: #e7e5df;
+  /* background-color: #e7e5df; */
+  background: linear-gradient(
+    180.3deg,
+    rgb(221, 221, 221) 5.5%,
+    rgb(176, 176, 176) 90.2%
+  );
   font-family: 'Poppins', sans-serif;
 }
 
@@ -104,6 +109,8 @@ body {
 }
 
 .cover::before {
+  /* width: 90px; */
+  height: 300px;
   content: '';
   position: absolute;
   background: rgba(255, 255, 255, 0.3);
@@ -144,7 +151,7 @@ body {
   cursor: pointer;
   border-radius: 5px;
   filter: grayscale(100%);
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .allItems {
@@ -679,6 +686,11 @@ body {
   }
   .contactUsForm {
     padding: 0 10px;
+  }
+  .right-side .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 

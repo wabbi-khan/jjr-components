@@ -5,8 +5,6 @@ import { MdClose } from 'react-icons/md';
 import Header from './Header';
 import { HiSpeakerWave, HiSpeakerXMark } from 'react-icons/hi2';
 import CopyRight from './CopyRight';
-
-// import { Howl, Howler } from 'howler';
 import audio1 from '../audioPlay/1.wav';
 const Home = () => {
   // ======audio=========
@@ -14,14 +12,10 @@ const Home = () => {
   const player = new Audio(audio1);
   useEffect(() => {
     playing ? player.play() : player.pause();
-
-    // This is cleanup of the effect
     return () => player.pause();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [playing]);
 
   function togglePlay() {
-    // playing ? player.pause() : player.play();
     setPlaying((s) => !s);
   }
   // ==========================
@@ -60,7 +54,6 @@ const Home = () => {
       </div>
       <div className="features">
         <div className="soundIcon">
-          {/* <HiSpeakerWave style={{ cursor: 'pointer' }} /> */}
           <div onClick={() => togglePlay()}>
             {playing ? (
               <HiSpeakerWave style={{ cursor: 'pointer' }} />

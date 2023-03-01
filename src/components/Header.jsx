@@ -15,7 +15,9 @@ const Header = () => {
     <div className="header">
       <div className="headerIcon"></div>
       <div className="headernName">
-        <img src={Logo} alt="Logo" />
+        <Link to={'/'}>
+          <img src={Logo} alt="Logo" />
+        </Link>
       </div>
       <div className="navIcon">
         <HiOutlineBars3CenterLeft onClick={() => setIsShow(!isShow)} />
