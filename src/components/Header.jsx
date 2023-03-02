@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { HiOutlineBars3CenterLeft } from 'react-icons/hi2';
-import { MdClose } from 'react-icons/md';
+import { MdClose, MdReviews } from 'react-icons/md';
 import { motion } from 'framer-motion';
 import { AiFillHome, AiTwotoneSetting } from 'react-icons/ai';
-import { BsCalendar2EventFill } from 'react-icons/bs';
+import { BsCalendar2EventFill, BsBookmarkFill } from 'react-icons/bs';
 import { RiContactsFill } from 'react-icons/ri';
 import { BiCategory } from 'react-icons/bi';
 import { FaUsers } from 'react-icons/fa';
@@ -74,18 +74,34 @@ const Header = () => {
                 </div>
                 <div className="home">
                   <div>
+                    <BsBookmarkFill />
+                  </div>
+                  <span>
+                    <Link to={'/about-us'}>About us</Link>
+                  </span>
+                </div>
+                <div className="home">
+                  <div>
                     <RiContactsFill />
                   </div>
                   <span>
                     <Link to={'/contact-us'}>Contact</Link>
                   </span>
-                </div>{' '}
+                </div>
                 <div className="home">
                   <div>
                     <FaUsers />
                   </div>
                   <span>
                     <Link to={'/OurPartners'}>Our Partners</Link>
+                  </span>
+                </div>
+                <div className="home">
+                  <div>
+                    <MdReviews />
+                  </div>
+                  <span>
+                    <Link to={'/testimonials'}>Testimonials</Link>
                   </span>
                 </div>
               </div>

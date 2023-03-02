@@ -6,6 +6,8 @@ import Event from './components/Event';
 import OurPartners from './components/OurPartners';
 import Technology from './components/Technology';
 import ContactUs from './components/ContactUs';
+import AboutUs from './components/AboutUs';
+import Testimonials from './components/Testimonials';
 // Routes
 const router = createBrowserRouter([
   {
@@ -27,6 +29,14 @@ const router = createBrowserRouter([
   {
     path: '/contact-us',
     element: <ContactUs />,
+  },
+  {
+    path: '/about-us',
+    element: <AboutUs />,
+  },
+  {
+    path: '/testimonials',
+    element: <Testimonials />,
   },
 ]);
 const App = () => {
