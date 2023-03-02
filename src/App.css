@@ -604,7 +604,6 @@ body {
 
 /* =================== testimonials ==================== */
 
-/* 
 .testi {
   padding: 0 50px;
   width: 100%;
@@ -614,184 +613,11 @@ body {
   align-items: center;
 }
 
-.sliderBox {
-  background-color: #eaeaea;
-  margin-top: 5rem;
-  width: 80%;
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-}
+/* @media query */
 
-.avatar {
-  position: absolute;
-  top: 11rem;
-}
-
-.avatar img {
-  top: 0;
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
-}
-
-.picName {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: -3.5rem;
-}
-
-.picName .sliderName {
-  font-weight: bold;
-  font-size: 30px;
-  text-transform: uppercase;
-}
-
-.sliderPara {
-  width: 80%;
-  text-align: center;
-  font-size: 18px;
-} */
-
-.testi {
-  padding: 0 50px;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.eachdiv {
-  padding: 1rem 2rem;
-  border-radius: 0.8rem;
-  box-shadow: 5px 5px 20px #6d6b6b6b;
-  color: white;
-}
-
-.div1 {
-  width: 80%;
-  height: 450px;
-  background: #733fc8;
-  background-image: url(https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/bg-pattern-quotation.svg);
-  background-repeat: no-repeat;
-  background-position-x: 50rem;
-}
-
-.userdetails {
-  display: flex;
-}
-
-.imgbox {
-  margin-right: 1rem;
-}
-
-.imgbox img {
-  border-radius: 50%;
-  width: 4rem;
-  border: 2px solid #cec5c5;
-}
-
-.detbox {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.detbox p {
-  margin: 0;
-}
-
-.detbox .name {
-  color: hsl(0, 0%, 81%);
-  font-size: 0.9rem;
-  margin-bottom: 0.1rem;
-  font-weight: 600;
-}
-
-.detbox .name.dark {
-  /* color: #49505a; */
-  color: red;
-}
-
-.detbox .designation {
-  color: hsl(0, 0%, 81%);
-  opacity: 50%;
-  font-size: 0.8rem;
-}
-
-.detbox .designation.dark {
-  color: #49505a;
-}
-
-.review h4 {
-  font-size: 1.4rem;
-  color: #f3deff;
-  font-weight: 600;
-  line-height: 1.5;
-  margin-bottom: 0.8rem;
-}
-
-.review.dark h4 {
-  color: #4b5258;
-}
-
-.review p {
-  font-size: 0.95rem;
-  color: #f3deff;
-  font-weight: 500;
-  opacity: 50%;
-  line-height: 1.5;
-}
-
-.review.dark p {
-  color: #0e0e0e;
-}
-
-.attribution {
-  font-size: 1rem;
-  line-height: 1.5;
-  position: fixed;
-  bottom: 1rem;
-  right: 1rem;
-  text-align: right;
-}
-
-.attribution a {
-  text-decoration: none;
-}
-
-@media only screen and (max-width: 1000px) {
-  .innerdiv {
-    transform: scale(0.7);
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .innerdiv {
-    transform: scale(0.6);
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .div1 {
-    background-position-x: 10rem;
-  }
-  .innerdiv {
-    display: flex;
-    flex-direction: column;
-    transform: scale(1);
-    margin: 2rem;
-    margin-bottom: 5rem;
-  }
-  .attribution {
-    position: relative;
+@media only screen and (max-width: 900px) {
+  .sidebar {
+    overflow-y: scroll;
   }
 }
 
@@ -827,14 +653,6 @@ body {
   .contact--form .content .right-side {
     width: 100%;
     margin-left: 0;
-  }
-}
-
-/* @media query */
-
-@media only screen and (max-width: 900px) {
-  .sidebar {
-    overflow-y: scroll;
   }
 }
 

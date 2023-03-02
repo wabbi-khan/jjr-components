@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header';
+import CopyRight from './CopyRight';
 
 const AboutUs = () => {
   return (
@@ -13,6 +14,8 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
+      <div className="aboutUs"></div>
+      <CopyRight additionalClass={'copyRight'} />
     </section>
   );
 };
