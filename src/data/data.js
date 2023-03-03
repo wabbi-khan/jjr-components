@@ -1,3 +1,65 @@
+// ========= Menus ==================
+// import { HiOutlineBars3CenterLeft } from 'react-icons/hi2';
+// import { motion } from 'framer-motion';
+import { MdReviews } from 'react-icons/md';
+import { AiFillHome, AiTwotoneSetting } from 'react-icons/ai';
+import { BsCalendar2EventFill, BsBookmarkFill } from 'react-icons/bs';
+import { RiContactsFill } from 'react-icons/ri';
+import { BiCategory } from 'react-icons/bi';
+import { FaUsers } from 'react-icons/fa';
+export const MenusData = [
+  {
+    id: 1,
+    name: 'Home',
+    icon: <AiFillHome />,
+    linkUrl: '/',
+  },
+  {
+    id: 2,
+    name: 'About us',
+    icon: <BsBookmarkFill />,
+    linkUrl: '/about-us',
+  },
+  {
+    id: 3,
+    name: 'Event Production',
+    icon: <BsCalendar2EventFill />,
+    linkUrl: '/events',
+  },
+  {
+    id: 4,
+    name: 'Technology',
+    icon: <AiTwotoneSetting />,
+    linkUrl: '/technology',
+  },
+  {
+    id: 5,
+    name: 'E-Catelog',
+    icon: <BiCategory />,
+    linkUrl: 'https://jjrnetwork.com/catalog2023/',
+    newTab: '_blank',
+  },
+  {
+    id: 6,
+    name: 'Our Partners',
+    icon: <FaUsers />,
+    linkUrl: '/OurPartners',
+  },
+  {
+    id: 7,
+    name: 'Testimonials',
+    icon: <MdReviews />,
+    linkUrl: '/testimonials',
+  },
+  {
+    id: 8,
+    name: 'Contact',
+    icon: <RiContactsFill />,
+    linkUrl: '/contact-us',
+  },
+];
+
+// ===================== Home page slider ================
 export const dataWorld = [
   {
     id: '1',
@@ -228,6 +290,42 @@ export const eventProduction = [
     eventImg:
       'https://res.cloudinary.com/xcltech/image/upload/v1677241379/jjr%20photos/global%20village/Screenshot_35_lzzhp8.png',
     eventName: 'Global Village',
+  },
+  {
+    id: 7,
+    eventImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677241383/jjr%20photos/mother%20of%20the%20nation/Screenshot_39_zyjjvf.png',
+    eventName: 'mother of the nation',
+  },
+  {
+    id: 8,
+    eventImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677241391/jjr%20photos/outdoor/Screenshot_37_tck2dd.png',
+    eventName: 'outdoor',
+  },
+  {
+    id: 9,
+    eventImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677241406/jjr%20photos/Promotional%20stand/promotional_stand_ip73cw.png',
+    eventName: 'Promotional stand',
+  },
+  {
+    id: 10,
+    eventImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677241407/jjr%20photos/Retail%20shop/Screenshot_30_keshux.png',
+    eventName: 'Retail shop',
+  },
+  {
+    id: 11,
+    eventImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677241409/jjr%20photos/saudi%20cup/Screenshot_28_csbglc.png',
+    eventName: 'saudi cup',
+  },
+  {
+    id: 12,
+    eventImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677241413/jjr%20photos/sok%20okaz/Screenshot_40_nltev9.png',
+    eventName: 'sok okaz',
   },
 ];
 

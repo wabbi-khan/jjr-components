@@ -26,8 +26,9 @@ body {
   position: relative;
 } */
 
-.whatsappIcon img {
-  width: 30px;
+.whatsappIcon svg {
+  /* width: 50px; */
+  font-size: 30px;
   /* position: absolute;
   bottom: 5rem;
   right: 0; */
@@ -1184,8 +1185,8 @@ body {
     text-align: center;
     font-size: 14px;
   }
-  .whatsappIcon img {
-    width: 25px;
+  .whatsappIcon svg {
+    font-size: 25px;
   }
 }
 

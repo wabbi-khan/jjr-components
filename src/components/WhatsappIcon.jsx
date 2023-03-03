@@ -1,9 +1,11 @@
 import React from 'react';
-import Whatsapp from '../assets/whatsapp.png';
+// import Whatsapp from '../assets/whatsapp.png';
+import { IoLogoWhatsapp } from 'react-icons/io';
 const WhatsappIcon = () => {
   return (
     <div className="whatsappIcon">
-      <img src={Whatsapp} alt="whatsapp icon" />
+      <IoLogoWhatsapp />
+      {/* <img src={Whatsapp} alt="whatsapp icon" /> */}
     </div>
   );
 };

@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
 import { HiOutlineBars3CenterLeft } from 'react-icons/hi2';
-import { MdClose, MdReviews } from 'react-icons/md';
+import { MdClose } from 'react-icons/md';
 import { motion } from 'framer-motion';
-import { AiFillHome, AiTwotoneSetting } from 'react-icons/ai';
-import { BsCalendar2EventFill, BsBookmarkFill } from 'react-icons/bs';
-import { RiContactsFill } from 'react-icons/ri';
-import { BiCategory } from 'react-icons/bi';
-import { FaUsers } from 'react-icons/fa';
+// import { AiFillHome, AiTwotoneSetting } from 'react-icons/ai';
+// import { BsCalendar2EventFill, BsBookmarkFill } from 'react-icons/bs';
+// import { RiContactsFill } from 'react-icons/ri';
+// import { BiCategory } from 'react-icons/bi';
+// import { FaUsers } from 'react-icons/fa';
 import Logo from '../assets/logo.png';
 import { Link } from 'react-router-dom';
+import { MenusData } from '../data/data';
 const Header = () => {
   const [isShow, setIsShow] = useState(false);
   return (
@@ -35,15 +36,17 @@ const Header = () => {
               </div>
 
               <div className="menus">
-                <div className="home">
-                  <div>
-                    <AiFillHome />
+                {MenusData.map((item, index) => (
+                  <div className="home" key={index}>
+                    <div>{item.icon}</div>
+                    <span>
+                      <Link to={item.linkUrl} target={item.newTab}>
+                        {item.name}
+                      </Link>
+                    </span>
                   </div>
-                  <span>
-                    <Link to={'/'}>Home</Link>
-                  </span>
-                </div>
-                <div className="home">
+                ))}
+                {/* <div className="home">
                   <div>
                     <BsCalendar2EventFill />
                   </div>
@@ -103,7 +106,7 @@ const Header = () => {
                   <span>
                     <Link to={'/testimonials'}>Testimonials</Link>
                   </span>
-                </div>
+                </div> */}
               </div>
             </motion.div>
           )}
