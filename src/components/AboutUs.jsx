@@ -7,6 +7,8 @@ import Img3 from '../assets/IM9p2tG5FVyf.png';
 import Img4 from '../assets/ChUPWrwRvbdZ.png';
 import Img5 from '../assets/DI81XriUmvs7.jpg';
 import { serviceCard } from '../data/data';
+import { TiWavesOutline } from 'react-icons/ti';
+
 const AboutUs = () => {
   return (
     <section>
@@ -38,8 +40,11 @@ const AboutUs = () => {
             <div className="col-lg-6">
               <div className="sc-about-content-style">
                 <div className="sc-heading-area">
-                  <span className="sub-title">
-                    <i className="icon-line"></i> About Company
+                  <span className="sub-title customHeading">
+                    <div className="icon-line">
+                      <TiWavesOutline />
+                    </div>
+                    <div className="aboutHeading"> About Company</div>
                   </span>
                   <h2 className="title">
                     Business Performance
@@ -108,8 +113,11 @@ const AboutUs = () => {
         <div class="row">
           <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
             <div class="sc-heading-area sc-mb-55 sc-md-mb-35 text-center">
-              <span class="sub-title">
-                <i class="icon-line"></i> Work Process
+              <span class="sub-title customHeading justify-content-center">
+                <div className="icon-line">
+                  <TiWavesOutline />
+                </div>{' '}
+                Work Process
               </span>
               <h2 class="title">
                 From Strategy to Delivery

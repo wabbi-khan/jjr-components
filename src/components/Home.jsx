@@ -7,6 +7,7 @@ import { HiSpeakerWave, HiSpeakerXMark } from 'react-icons/hi2';
 import CopyRight from './CopyRight';
 // import audio1 from '../audioPlay/1.wav';
 import audio1 from '../audioPlay/ambience_loop2.mp3';
+import WhatsappIcon from './WhatsappIcon';
 const Home = () => {
   // ======audio=========
   // const [playing, setPlaying] = useState(false);
@@ -93,12 +94,14 @@ const Home = () => {
             )}
           </div> */}
         </div>
-        <div>
+        <div className="ml-4">
           <h2>
             Feature <b> Work</b>
           </h2>
         </div>
-        <div></div>
+        <div className="mb-2">
+          <WhatsappIcon />
+        </div>
       </div>
       <CopyRight additionalClass={'copyRight'} />
     </>

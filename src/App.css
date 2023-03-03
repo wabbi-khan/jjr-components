@@ -20,6 +20,21 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+/* ============== Whatsapp icon =============== */
+
+/* .whatsappIcon {
+  position: relative;
+} */
+
+.whatsappIcon img {
+  width: 30px;
+  /* position: absolute;
+  bottom: 5rem;
+  right: 0; */
+}
+
+/* ============================================ */
+
 .spinner {
   display: flex;
   justify-content: center;
@@ -641,6 +656,11 @@ body {
   z-index: 9999;
 }
 
+.icon-line svg {
+  color: #e42032;
+  font-size: 30px;
+}
+
 .sc-about-content-style
   .sc-auother-style-box
   .sc-auother-content
@@ -660,14 +680,6 @@ body {
   position: absolute;
   right: 25px;
   top: 34px;
-}
-
-.sc-about-content-style .video-area i {
-  color: #03041c;
-  font-size: 52px;
-  transition: 0.4s;
-  -webkit-transition: 0.4s;
-  -moz-transition: 0.4s;
 }
 
 .sc-about-content-style .video-area i:hover {
@@ -707,8 +719,13 @@ body {
   font-size: 18px;
   line-height: 25px;
   color: #6e7075;
-  display: block;
   margin-bottom: 5px;
+}
+
+.customHeading {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .primary-color {
@@ -1166,6 +1183,9 @@ body {
   .testimonial-block .testimonial-block_content {
     text-align: center;
     font-size: 14px;
+  }
+  .whatsappIcon img {
+    width: 25px;
   }
 }
 
