@@ -270,3 +270,75 @@ export const technology = [
       'https://res.cloudinary.com/xcltech/image/upload/v1677582875/jjr%20photos/Technology%20images/MOTION_EXPERIENCES_hjpgkm.jpg',
   },
 ];
+
+// ================ Testimonials data =============
+export const tesiData = [
+  {
+    id: 1,
+    name: 'Elie Karam',
+    job: 'Uber',
+    review:
+      'On all the projects that we commissioned JJR Network they showed great dedication, commitment and punctual delivery timelines , they are a professional and resourceful production partner with a vast network of suppliers which can deliver to any given brief',
+    imgUrl:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677759307/jjr%20photos/testimonial%20pic/man_ehshr7.png',
+    active: 'active',
+  },
+  {
+    id: 2,
+    name: 'Catherine Yacoub',
+    job: 'Hilton',
+    review:
+      'Rapid, efficient, trustworthy, always available, and high quality work is something always to expect when working with JJR NETWORK.',
+    imgUrl:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677759307/jjr%20photos/testimonial%20pic/man_ehshr7.png',
+  },
+  {
+    id: 3,
+    name: 'Wael Karbala',
+    job: 'Wael Karbala',
+    review:
+      'We choose to work with JJR because simply they are reliable. They are skilled and professional in production. These guys are good',
+    imgUrl:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677759307/jjr%20photos/testimonial%20pic/man_ehshr7.png',
+  },
+];
+
+// ================ our services data =============
+export const serviceCard = [
+  {
+    id: 1,
+    icon: 'https://res.cloudinary.com/xcltech/image/upload/v1677760258/jjr%20photos/services%20card%20pics/manufacturing_jmsdko.png',
+    title: 'Production',
+    para: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptatum tenetur blanditiis ratione fugiat animi culpa earum officia similique quis.',
+  },
+  {
+    id: 2,
+    icon: 'https://res.cloudinary.com/xcltech/image/upload/v1677760258/jjr%20photos/services%20card%20pics/interaction_r25pu4.png',
+    title: '360 Degree Events',
+    para: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptatum tenetur blanditiis ratione fugiat animi culpa earum officia similique quis.',
+  },
+  {
+    id: 3,
+    icon: 'https://res.cloudinary.com/xcltech/image/upload/v1677760258/jjr%20photos/services%20card%20pics/unboxing_d6dxot.png',
+    title: 'Merchandising/BTL',
+    para: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptatum tenetur blanditiis ratione fugiat animi culpa earum officia similique quis.',
+  },
+  {
+    id: 4,
+    icon: 'https://res.cloudinary.com/xcltech/image/upload/v1677760258/jjr%20photos/services%20card%20pics/food_ksevrq.png',
+    title: 'Catering',
+    para: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptatum tenetur blanditiis ratione fugiat animi culpa earum officia similique quis.',
+  },
+  {
+    id: 5,
+    icon: 'https://res.cloudinary.com/xcltech/image/upload/v1677760258/jjr%20photos/services%20card%20pics/technology_scx2ty.png',
+    title: 'Technology',
+    para: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptatum tenetur blanditiis ratione fugiat animi culpa earum officia similique quis.',
+  },
+  {
+    id: 6,
+    icon: 'https://res.cloudinary.com/xcltech/image/upload/v1677760258/jjr%20photos/services%20card%20pics/design-thinking_agzycd.png',
+    title: 'Creative Decoration',
+    para: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptatum tenetur blanditiis ratione fugiat animi culpa earum officia similique quis.',
+  },
+];
