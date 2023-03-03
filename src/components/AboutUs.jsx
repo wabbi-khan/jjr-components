@@ -51,7 +51,7 @@ const AboutUs = () => {
                     <span className="primary-color italic"> improve </span>
                     Drastically
                   </h2>
-                  <p className="description">
+                  <p className="aboutPara">
                     Welcome to JJR NETWORK, a multi-faceted servicing company
                     providing our clients with state-of-the-art on ground
                     technology activations, events production, below the line
@@ -97,13 +97,13 @@ const AboutUs = () => {
                     </div>
                   </div>
                 </div>
-                <div className="slider-btn-area d-flex align-items-center">
+                {/* <div className="slider-btn-area d-flex align-items-center">
                   <div className="sc-slider-btn sc-mr-20">
                     <a className="sc-primary-btn" href="/">
                       Learn More
                     </a>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

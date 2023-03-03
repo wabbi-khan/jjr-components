@@ -632,7 +632,7 @@ body {
 }
 
 .sc-about-content-style .sc-heading-area .description {
-  font-weight: 400;
+  font-weight: 100;
   font-size: 20px;
   color: #000;
 }
@@ -742,6 +742,10 @@ body {
   font-weight: 400;
   font-size: 20px;
   color: #000;
+}
+
+.aboutPara {
+  line-height: 2rem;
 }
 
 .sc-heading-area .title {
