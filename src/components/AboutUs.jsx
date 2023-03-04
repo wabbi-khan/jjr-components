@@ -15,7 +15,9 @@ const AboutUs = () => {
       <Header />
       <div className="outPartnersHeading">
         <div className="heading-sec-new">
-          <h1>ABOUT US</h1>
+          <h1>
+            ABOUT <b>us</b>
+          </h1>
           <div className="border-sec-new">
             <strong></strong>
           </div>
@@ -44,7 +46,7 @@ const AboutUs = () => {
                     <div className="icon-line">
                       <TiWavesOutline />
                     </div>
-                    <div className="aboutHeading"> About Company</div>
+                    <div className="aboutHeading">Who We Are</div>
                   </span>
                   <h2 className="title">
                     Business Performance

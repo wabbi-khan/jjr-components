@@ -8,6 +8,8 @@ import Technology from './components/Technology';
 import ContactUs from './components/ContactUs';
 import AboutUs from './components/AboutUs';
 import Testimonials from './components/Testimonials';
+import Production from './components/Production';
+import Merchand from './components/Merchand';
 // Routes
 const router = createBrowserRouter([
   {
@@ -37,6 +39,14 @@ const router = createBrowserRouter([
   {
     path: '/testimonials',
     element: <Testimonials />,
+  },
+  {
+    path: '/production',
+    element: <Production />,
+  },
+  {
+    path: '/btl-merchand',
+    element: <Merchand />,
   },
 ]);
 const App = () => {

@@ -8,7 +8,9 @@ const ContactUs = () => {
       <Header />
       <div className="outPartnersHeading">
         <div className="heading-sec-new">
-          <h1>CONTACT US</h1>
+          <h1>
+            CONTACT <b>us</b>
+          </h1>
           <div className="border-sec-new">
             <strong></strong>
           </div>

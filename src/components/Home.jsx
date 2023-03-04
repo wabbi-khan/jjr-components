@@ -59,6 +59,16 @@ const Home = () => {
         <video src={temImgSrc} autoPlay muted controls />
         <MdClose className="closeIcon" onClick={() => setModel(false)} />
       </div>
+      <div className="outPartnersHeading">
+        <div className="heading-sec-new">
+          <h1>
+            FEATURE <b> Work</b>
+          </h1>
+          <div className="border-sec-new">
+            <strong></strong>
+          </div>
+        </div>
+      </div>
       <div className="allItems">
         {dataWorld.map((world, index) => (
           <Slider
@@ -95,9 +105,9 @@ const Home = () => {
           </div> */}
         </div>
         <div className="ml-4">
-          <h2>
+          {/* <h2>
             Feature <b> Work</b>
-          </h2>
+          </h2> */}
         </div>
         <div className="mb-2">
           <WhatsappIcon />

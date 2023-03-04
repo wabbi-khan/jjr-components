@@ -46,67 +46,6 @@ const Header = () => {
                     </span>
                   </div>
                 ))}
-                {/* <div className="home">
-                  <div>
-                    <BsCalendar2EventFill />
-                  </div>
-                  <span>
-                    <Link to={'/events'}> Event Production</Link>
-                  </span>
-                </div>
-                <div className="home">
-                  <div>
-                    <AiTwotoneSetting />
-                  </div>
-                  <span>
-                    <Link to={'/technology'}>Technology</Link>
-                  </span>
-                </div>
-                <div className="home">
-                  <div>
-                    <BiCategory />
-                  </div>
-                  <span>
-                    <a
-                      href="https://jjrnetwork.com/catalog2023/"
-                      target={'blank'}
-                    >
-                      E-Catelog
-                    </a>
-                  </span>
-                </div>
-                <div className="home">
-                  <div>
-                    <BsBookmarkFill />
-                  </div>
-                  <span>
-                    <Link to={'/about-us'}>About us</Link>
-                  </span>
-                </div>
-                <div className="home">
-                  <div>
-                    <RiContactsFill />
-                  </div>
-                  <span>
-                    <Link to={'/contact-us'}>Contact</Link>
-                  </span>
-                </div>
-                <div className="home">
-                  <div>
-                    <FaUsers />
-                  </div>
-                  <span>
-                    <Link to={'/OurPartners'}>Our Partners</Link>
-                  </span>
-                </div>
-                <div className="home">
-                  <div>
-                    <MdReviews />
-                  </div>
-                  <span>
-                    <Link to={'/testimonials'}>Testimonials</Link>
-                  </span>
-                </div> */}
               </div>
             </motion.div>
           )}

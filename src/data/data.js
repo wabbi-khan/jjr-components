@@ -7,6 +7,8 @@ import { BsCalendar2EventFill, BsBookmarkFill } from 'react-icons/bs';
 import { RiContactsFill } from 'react-icons/ri';
 import { BiCategory } from 'react-icons/bi';
 import { FaUsers } from 'react-icons/fa';
+import { MdOutlinePrecisionManufacturing } from 'react-icons/md'; //production icon
+import { GiChipsBag } from 'react-icons/gi';
 export const MenusData = [
   {
     id: 1,
@@ -22,40 +24,52 @@ export const MenusData = [
   },
   {
     id: 3,
-    name: 'Event Production',
+    name: 'Production',
+    icon: <MdOutlinePrecisionManufacturing />,
+    linkUrl: '/production',
+  },
+  {
+    id: 4,
+    name: 'Events Activation',
     icon: <BsCalendar2EventFill />,
     linkUrl: '/events',
   },
   {
-    id: 4,
+    id: 5,
     name: 'Technology',
     icon: <AiTwotoneSetting />,
     linkUrl: '/technology',
   },
   {
-    id: 5,
-    name: 'E-Catelog',
+    id: 6,
+    name: 'BTL / Merchandising',
+    icon: <GiChipsBag />,
+    linkUrl: '/btl-merchand',
+  },
+  {
+    id: 7,
+    name: 'Catalog',
     icon: <BiCategory />,
     linkUrl: 'https://jjrnetwork.com/catalog2023/',
     newTab: '_blank',
   },
   {
-    id: 6,
+    id: 8,
     name: 'Our Partners',
     icon: <FaUsers />,
-    linkUrl: '/OurPartners',
+    linkUrl: '/ourPartners',
   },
   {
-    id: 7,
-    name: 'Testimonials',
-    icon: <MdReviews />,
-    linkUrl: '/testimonials',
-  },
-  {
-    id: 8,
+    id: 9,
     name: 'Contact',
     icon: <RiContactsFill />,
     linkUrl: '/contact-us',
+  },
+  {
+    id: 9,
+    name: 'Testimonials',
+    icon: <MdReviews />,
+    linkUrl: '/testimonials',
   },
 ];
 
@@ -266,13 +280,7 @@ export const eventProduction = [
       'https://res.cloudinary.com/xcltech/image/upload/v1677241354/jjr%20photos/diriyah%20season/Screenshot_31_pjxs1c.png',
     eventName: 'Diriyah Season',
   },
-  {
-    id: 3,
-    eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677241396/jjr%20photos/pos%20material/Screenshot_38_khnz5k.png',
-    // 'https://res.cloudinary.com/xcltech/image/upload/v1677241365/jjr%20photos/dyson/Screenshot_32_nqfz0c.png',
-    eventName: 'pos material',
-  },
+
   {
     id: 4,
     eventImg:
@@ -324,8 +332,68 @@ export const eventProduction = [
   {
     id: 12,
     eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677241413/jjr%20photos/sok%20okaz/Screenshot_40_nltev9.png',
+      'https://res.cloudinary.com/xcltech/image/upload/v1677928123/jjr%20photos/other%20events%20pics/SOK_OKAZ_jrjpml.jpg',
     eventName: 'sok okaz',
+  },
+  {
+    id: 13,
+    eventImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677928130/jjr%20photos/other%20events%20pics/WORKSHOP_mrkogl.jpg',
+    eventName: 'WORKSHOP',
+  },
+  {
+    id: 14,
+    eventImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677928129/jjr%20photos/other%20events%20pics/MOVENPICK_r01buq.jpg',
+    eventName: 'MOVENPICK',
+  },
+  {
+    id: 15,
+    eventImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677928123/jjr%20photos/other%20events%20pics/MOVENPICK_PERMENENT_KIOSK_iejs1v.jpg',
+    eventName: 'MOVENPICK PERMENENT KIOSK',
+  },
+  {
+    id: 16,
+    eventImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677928121/jjr%20photos/other%20events%20pics/VOGUE_LOVES_FASHION_AVENUE_gdvcuc.jpg',
+    eventName: 'VOGUE LOVES FASHION AVENUE',
+  },
+  {
+    id: 17,
+    eventImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677928116/jjr%20photos/other%20events%20pics/BURJ_PKLAZA_UAE_sju909.jpg',
+    eventName: 'BURJ PKLAZA UAE',
+  },
+  {
+    id: 18,
+    eventImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677928113/jjr%20photos/other%20events%20pics/VOGUE_LOVES_FASHION_yyfopz.jpg',
+    eventName: 'VOGUE LOVES FASHION',
+  },
+  {
+    id: 19,
+    eventImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677928111/jjr%20photos/other%20events%20pics/PROMOTIONAL_STANDS_ubojaq.jpg',
+    eventName: 'PROMOTIONAL STANDS',
+  },
+  {
+    id: 20,
+    eventImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677928107/jjr%20photos/other%20events%20pics/OSN_GAMES_OF_THRONE_koom34.jpg',
+    eventName: 'OSN GAMES OF THRONE',
+  },
+  {
+    id: 21,
+    eventImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677928105/jjr%20photos/other%20events%20pics/UBER_KSA_w5dpkq.jpg',
+    eventName: 'UBER KSA',
+  },
+  {
+    id: 22,
+    eventImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677928096/jjr%20photos/other%20events%20pics/POS_MATERIAL_mvztot.jpg',
+    eventName: 'POS MATERIAL',
   },
 ];
 
