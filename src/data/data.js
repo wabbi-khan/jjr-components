@@ -281,18 +281,18 @@ export const eventProduction = [
     eventName: 'Diriyah Season',
   },
 
-  {
-    id: 4,
-    eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677241370/jjr%20photos/exhibition/ilko_iera3g.jpg',
-    eventName: 'Exhibition',
-  },
-  {
-    id: 5,
-    eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677241375/jjr%20photos/Games%20of%20throne/pic8_r8vcvj.jpg',
-    eventName: 'Games Of Throne',
-  },
+  // {
+  //   id: 4,
+  //   eventImg:
+  //     'https://res.cloudinary.com/xcltech/image/upload/v1677241370/jjr%20photos/exhibition/ilko_iera3g.jpg',
+  //   eventName: 'Exhibition',
+  // },
+  // {
+  //   id: 5,
+  //   eventImg:
+  //     'https://res.cloudinary.com/xcltech/image/upload/v1677241375/jjr%20photos/Games%20of%20throne/pic8_r8vcvj.jpg',
+  //   eventName: 'Games Of Throne',
+  // },
   {
     id: 6,
     eventImg:
@@ -311,12 +311,12 @@ export const eventProduction = [
       'https://res.cloudinary.com/xcltech/image/upload/v1677241391/jjr%20photos/outdoor/Screenshot_37_tck2dd.png',
     eventName: 'outdoor',
   },
-  {
-    id: 9,
-    eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677241406/jjr%20photos/Promotional%20stand/promotional_stand_ip73cw.png',
-    eventName: 'Promotional stand',
-  },
+  // {
+  //   id: 9,
+  //   eventImg:
+  //     'https://res.cloudinary.com/xcltech/image/upload/v1677241406/jjr%20photos/Promotional%20stand/promotional_stand_ip73cw.png',
+  //   eventName: 'Promotional stand',
+  // },
   {
     id: 10,
     eventImg:
@@ -347,12 +347,12 @@ export const eventProduction = [
       'https://res.cloudinary.com/xcltech/image/upload/v1677928129/jjr%20photos/other%20events%20pics/MOVENPICK_r01buq.jpg',
     eventName: 'MOVENPICK',
   },
-  {
-    id: 15,
-    eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677928123/jjr%20photos/other%20events%20pics/MOVENPICK_PERMENENT_KIOSK_iejs1v.jpg',
-    eventName: 'MOVENPICK PERMENENT KIOSK',
-  },
+  // {
+  //   id: 15,
+  //   eventImg:
+  //     'https://res.cloudinary.com/xcltech/image/upload/v1677928123/jjr%20photos/other%20events%20pics/MOVENPICK_PERMENENT_KIOSK_iejs1v.jpg',
+  //   eventName: 'MOVENPICK PERMENENT KIOSK',
+  // },
   {
     id: 16,
     eventImg:
@@ -371,30 +371,30 @@ export const eventProduction = [
       'https://res.cloudinary.com/xcltech/image/upload/v1677928113/jjr%20photos/other%20events%20pics/VOGUE_LOVES_FASHION_yyfopz.jpg',
     eventName: 'VOGUE LOVES FASHION',
   },
-  {
-    id: 19,
-    eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677928111/jjr%20photos/other%20events%20pics/PROMOTIONAL_STANDS_ubojaq.jpg',
-    eventName: 'PROMOTIONAL STANDS',
-  },
+  // {
+  //   id: 19,
+  //   eventImg:
+  //     'https://res.cloudinary.com/xcltech/image/upload/v1677928111/jjr%20photos/other%20events%20pics/PROMOTIONAL_STANDS_ubojaq.jpg',
+  //   eventName: 'PROMOTIONAL STANDS',
+  // },
   {
     id: 20,
     eventImg:
       'https://res.cloudinary.com/xcltech/image/upload/v1677928107/jjr%20photos/other%20events%20pics/OSN_GAMES_OF_THRONE_koom34.jpg',
     eventName: 'OSN GAMES OF THRONE',
   },
-  {
-    id: 21,
-    eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677928105/jjr%20photos/other%20events%20pics/UBER_KSA_w5dpkq.jpg',
-    eventName: 'UBER KSA',
-  },
-  {
-    id: 22,
-    eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677928096/jjr%20photos/other%20events%20pics/POS_MATERIAL_mvztot.jpg',
-    eventName: 'POS MATERIAL',
-  },
+  // {
+  //   id: 21,
+  //   eventImg:
+  //     'https://res.cloudinary.com/xcltech/image/upload/v1677928105/jjr%20photos/other%20events%20pics/UBER_KSA_w5dpkq.jpg',
+  //   eventName: 'UBER KSA',
+  // },
+  // {
+  //   id: 22,
+  //   eventImg:
+  //     'https://res.cloudinary.com/xcltech/image/upload/v1677928096/jjr%20photos/other%20events%20pics/POS_MATERIAL_mvztot.jpg',
+  //   eventName: 'POS MATERIAL',
+  // },
 ];
 
 // =============== Technology ===============
@@ -434,6 +434,42 @@ export const technology = [
     techName: 'MOTION EXPERIENCES',
     techImg:
       'https://res.cloudinary.com/xcltech/image/upload/v1677582875/jjr%20photos/Technology%20images/MOTION_EXPERIENCES_hjpgkm.jpg',
+  },
+  {
+    id: 7,
+    techName: 'cardmap',
+    techImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677932991/jjr%20photos/technology/cardmapr-nl-e9HUv3QnqGI-unsplash_xtxhdx.jpg',
+  },
+  {
+    id: 8,
+    techName: 'veit hammer',
+    techImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677932989/jjr%20photos/technology/veit-hammer-YAuMut3SIVE-unsplash_b5phtf.jpg',
+  },
+  {
+    id: 9,
+    techName: 'redmind studio',
+    techImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677932988/jjr%20photos/technology/redmind-studio-ZYt2ewyDh_4-unsplash_w7bhrj.jpg',
+  },
+  {
+    id: 10,
+    techName: 'mak E',
+    techImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677932971/jjr%20photos/technology/mak-E_UaH0K89Xg-unsplash_xepush.jpg',
+  },
+  {
+    id: 11,
+    techName: 'christina spinnen',
+    techImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677932954/jjr%20photos/technology/christina-spinnen-pz0TCcQFjsc-unsplash_sntjyw.jpg',
+  },
+  {
+    id: 12,
+    techName: 'marilia castelli',
+    techImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677932952/jjr%20photos/technology/marilia-castelli-BGYRcQDy4e8-unsplash_rar74r.jpg',
   },
 ];
 
