@@ -23,6 +23,12 @@ export const MenusData = [
     linkUrl: '/about-us',
   },
   {
+    id: 9,
+    name: 'Testimonials',
+    icon: <MdReviews />,
+    linkUrl: '/testimonials',
+  },
+  {
     id: 3,
     name: 'Production',
     icon: <MdOutlinePrecisionManufacturing />,
@@ -64,12 +70,6 @@ export const MenusData = [
     name: 'Contact',
     icon: <RiContactsFill />,
     linkUrl: '/contact-us',
-  },
-  {
-    id: 9,
-    name: 'Testimonials',
-    icon: <MdReviews />,
-    linkUrl: '/testimonials',
   },
 ];
 
