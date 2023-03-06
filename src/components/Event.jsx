@@ -1,10 +1,10 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
 import Header from './Header';
-// import image1 from '../assets/Screenshot (29).png';
-import { eventProduction } from '../data/data';
 import CopyRight from './CopyRight';
+import { eventData } from '../data/events';
 import { MdClose } from 'react-icons/md';
-import { motion } from 'framer-motion';
+
 const Event = () => {
   const [model, setModel] = useState();
   const [temImgSrc, setTemImgSrc] = useState('');
@@ -13,13 +13,11 @@ const Event = () => {
     setTemImgSrc(imgUrl);
     setModel(true);
   };
-
   return (
     <section>
       <Header />
       <div className={model ? 'model open' : 'model'}>
         <img src={temImgSrc} alt="temImgSrc" />
-        {/* <video src={temImgSrc} autoPlay muted controls /> */}
         <MdClose className="closeIcon" onClick={() => setModel(false)} />
       </div>
       <div className="outPartnersHeading">
@@ -33,23 +31,81 @@ const Event = () => {
         </div>
       </div>
       <div className="eventCard">
-        <div className="main-card-set pb-4">
-          {eventProduction.map((item, index) => (
-            <motion.div whileHover={{ y: -10 }} className="card" key={index}>
-              <img
-                onClick={() => getImg(item?.eventImg)}
-                src={item?.eventImg}
-                alt="Event production images"
-                className="card__img"
-              />
-              <span className="card__footer">
-                <span>{item?.eventName}</span>
-              </span>
-            </motion.div>
-          ))}
+        <div className="container">
+          <div className="row">
+            {eventData.map((item) => (
+              <div className="col-md-4">
+                <div
+                  id={item.id}
+                  className="carousel slide"
+                  data-ride="carousel"
+                >
+                  <div className="carousel-inner">
+                    <div className="carousel-item active">
+                      <a href="#" className="card">
+                        <img
+                          onClick={() => getImg(item?.techImg)}
+                          src={item.img1}
+                          alt="balloon with an emoji face"
+                          className="card__img"
+                        />
+                      </a>
+                    </div>
+                    <div className="carousel-item">
+                      <a href="#" className="card">
+                        <img
+                          onClick={() => getImg(item?.techImg)}
+                          src={item.img2}
+                          alt="balloon with an emoji face"
+                          className="card__img"
+                        />
+                      </a>
+                    </div>
+                    <div className="carousel-item">
+                      <a href="#" className="card">
+                        <img
+                          onClick={() => getImg(item?.techImg)}
+                          src={item.img3}
+                          alt="balloon with an emoji face"
+                          className="card__img"
+                        />
+                      </a>
+                    </div>
+                    <span className="card__footer">
+                      <span>{item.eventName}</span>
+                    </span>
+                  </div>
+                  <a
+                    className="carousel-control-prev"
+                    href={`#${item.id}`}
+                    role="button"
+                    data-slide="prev"
+                  >
+                    <span
+                      className="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span className="sr-only">Previous</span>
+                  </a>
+                  <a
+                    className="carousel-control-next"
+                    href={`#${item.id}`}
+                    role="button"
+                    data-slide="next"
+                  >
+                    <span
+                      className="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span className="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
-        <CopyRight additionalClass={'copyRight'} />
       </div>
+      <CopyRight additionalClass={'copyRight'} />
     </section>
   );
 };

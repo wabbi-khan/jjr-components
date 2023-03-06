@@ -277,22 +277,28 @@ export const eventProduction = [
   {
     id: 2,
     eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677241354/jjr%20photos/diriyah%20season/Screenshot_31_pjxs1c.png',
+      'https://res.cloudinary.com/xcltech/image/upload/v1678095211/jjr%20photos/diriyah%20season/Picture10_uqypmr.jpg',
+    eventName: 'Diriyah Season',
+  },
+  {
+    id: 2,
+    eventImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1678095212/jjr%20photos/diriyah%20season/Picture8_ytvixm.jpg',
+    eventName: 'Diriyah Season',
+  },
+  {
+    id: 2,
+    eventImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1678095212/jjr%20photos/diriyah%20season/Picture6_nd3hpg.jpg',
+    eventName: 'Diriyah Season',
+  },
+  {
+    id: 2,
+    eventImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1678095211/jjr%20photos/diriyah%20season/Picture9_lm9ild.jpg',
     eventName: 'Diriyah Season',
   },
 
-  // {
-  //   id: 4,
-  //   eventImg:
-  //     'https://res.cloudinary.com/xcltech/image/upload/v1677241370/jjr%20photos/exhibition/ilko_iera3g.jpg',
-  //   eventName: 'Exhibition',
-  // },
-  // {
-  //   id: 5,
-  //   eventImg:
-  //     'https://res.cloudinary.com/xcltech/image/upload/v1677241375/jjr%20photos/Games%20of%20throne/pic8_r8vcvj.jpg',
-  //   eventName: 'Games Of Throne',
-  // },
   {
     id: 6,
     eventImg:
@@ -311,12 +317,7 @@ export const eventProduction = [
       'https://res.cloudinary.com/xcltech/image/upload/v1677241391/jjr%20photos/outdoor/Screenshot_37_tck2dd.png',
     eventName: 'outdoor',
   },
-  // {
-  //   id: 9,
-  //   eventImg:
-  //     'https://res.cloudinary.com/xcltech/image/upload/v1677241406/jjr%20photos/Promotional%20stand/promotional_stand_ip73cw.png',
-  //   eventName: 'Promotional stand',
-  // },
+
   {
     id: 10,
     eventImg:
@@ -326,7 +327,25 @@ export const eventProduction = [
   {
     id: 11,
     eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677241409/jjr%20photos/saudi%20cup/Screenshot_28_csbglc.png',
+      'https://res.cloudinary.com/xcltech/image/upload/v1678094857/jjr%20photos/saudi%20cup/Picture4_bewtrk.jpg',
+    eventName: 'saudi cup',
+  },
+  {
+    id: 11,
+    eventImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1678094857/jjr%20photos/saudi%20cup/Picture5_wp8i9p.jpg',
+    eventName: 'saudi cup',
+  },
+  {
+    id: 11,
+    eventImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1678094857/jjr%20photos/saudi%20cup/Picture2_uhywag.jpg',
+    eventName: 'saudi cup',
+  },
+  {
+    id: 11,
+    eventImg:
+      'https://res.cloudinary.com/xcltech/image/upload/v1678094857/jjr%20photos/saudi%20cup/Picture3_ax3kbv.jpg',
     eventName: 'saudi cup',
   },
   {
@@ -347,12 +366,7 @@ export const eventProduction = [
       'https://res.cloudinary.com/xcltech/image/upload/v1677928129/jjr%20photos/other%20events%20pics/MOVENPICK_r01buq.jpg',
     eventName: 'MOVENPICK',
   },
-  // {
-  //   id: 15,
-  //   eventImg:
-  //     'https://res.cloudinary.com/xcltech/image/upload/v1677928123/jjr%20photos/other%20events%20pics/MOVENPICK_PERMENENT_KIOSK_iejs1v.jpg',
-  //   eventName: 'MOVENPICK PERMENENT KIOSK',
-  // },
+
   {
     id: 16,
     eventImg:
@@ -383,18 +397,6 @@ export const eventProduction = [
       'https://res.cloudinary.com/xcltech/image/upload/v1677928107/jjr%20photos/other%20events%20pics/OSN_GAMES_OF_THRONE_koom34.jpg',
     eventName: 'OSN GAMES OF THRONE',
   },
-  // {
-  //   id: 21,
-  //   eventImg:
-  //     'https://res.cloudinary.com/xcltech/image/upload/v1677928105/jjr%20photos/other%20events%20pics/UBER_KSA_w5dpkq.jpg',
-  //   eventName: 'UBER KSA',
-  // },
-  // {
-  //   id: 22,
-  //   eventImg:
-  //     'https://res.cloudinary.com/xcltech/image/upload/v1677928096/jjr%20photos/other%20events%20pics/POS_MATERIAL_mvztot.jpg',
-  //   eventName: 'POS MATERIAL',
-  // },
 ];
 
 // =============== Technology ===============
