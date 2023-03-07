@@ -22,7 +22,7 @@ const Production = () => {
       </div>
       <div className="outPartnersHeading">
         <div className="heading-sec-new">
-          <h1>technology</h1>
+          <h1>production</h1>
           <div className="border-sec-new">
             <strong></strong>
           </div>
