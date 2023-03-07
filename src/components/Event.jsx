@@ -42,19 +42,19 @@ const Event = () => {
                 >
                   <div className="carousel-inner">
                     <div className="carousel-item active">
-                      <a href="#" className="card">
+                      <a className="card">
                         <img
-                          onClick={() => getImg(item?.techImg)}
-                          src={item.img1}
+                          onClick={() => getImg(item?.img1)}
+                          src={item?.img1}
                           alt="balloon with an emoji face"
                           className="card__img"
                         />
                       </a>
                     </div>
                     <div className="carousel-item">
-                      <a href="#" className="card">
+                      <a className="card">
                         <img
-                          onClick={() => getImg(item?.techImg)}
+                          onClick={() => getImg(item?.img2)}
                           src={item.img2}
                           alt="balloon with an emoji face"
                           className="card__img"
@@ -62,9 +62,9 @@ const Event = () => {
                       </a>
                     </div>
                     <div className="carousel-item">
-                      <a href="#" className="card">
+                      <a className="card">
                         <img
-                          onClick={() => getImg(item?.techImg)}
+                          onClick={() => getImg(item?.img3)}
                           src={item.img3}
                           alt="balloon with an emoji face"
                           className="card__img"
