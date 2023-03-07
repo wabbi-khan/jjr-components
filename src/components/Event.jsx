@@ -46,7 +46,7 @@ const Event = () => {
                         <img
                           onClick={() => getImg(item?.img1)}
                           src={item?.img1}
-                          alt="balloon with an emoji face"
+                          alt="Event Activation images"
                           className="card__img"
                         />
                       </a>
@@ -55,8 +55,8 @@ const Event = () => {
                       <a className="card">
                         <img
                           onClick={() => getImg(item?.img2)}
-                          src={item.img2}
-                          alt="balloon with an emoji face"
+                          src={item?.img2}
+                          alt="Event Activation images"
                           className="card__img"
                         />
                       </a>
@@ -65,14 +65,14 @@ const Event = () => {
                       <a className="card">
                         <img
                           onClick={() => getImg(item?.img3)}
-                          src={item.img3}
-                          alt="balloon with an emoji face"
+                          src={item?.img3}
+                          alt="Event Activation images"
                           className="card__img"
                         />
                       </a>
                     </div>
                     <span className="card__footer">
-                      <span>{item.eventName}</span>
+                      <span>{item?.eventName}</span>
                     </span>
                   </div>
                   <a
