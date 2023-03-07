@@ -37,7 +37,7 @@ const Header = () => {
 
               <div className="menus">
                 {MenusData.map((item, index) => (
-                  <div className="home" key={index}>
+                  <div className={`home ${item.class}`} key={index}>
                     <div>{item.icon}</div>
                     <span>
                       <Link to={item.linkUrl} target={item.newTab}>

@@ -98,15 +98,14 @@ body {
 .home {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
-  font-family: 'Poppins', sans-serif;
+  gap: 1.8rem;
   font-weight: 300;
   color: white;
-  /* font-size: 25px; */
 }
 
 .home span {
   font-size: 16px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .home span a {
@@ -117,6 +116,52 @@ body {
 .home svg {
   font-size: 20px;
   color: white !important;
+}
+
+/* ==== Icons size ======= */
+
+.homeIcon svg {
+  font-size: 22px;
+}
+
+.about svg {
+  font-size: 17px;
+}
+
+.testimo svg {
+  font-size: 20px;
+}
+
+.production svg {
+  font-size: 24px;
+}
+
+.eventactivation svg {
+  font-size: 16px;
+}
+
+.eventactivation span {
+  /* margin-left: 2px; */
+}
+
+.tech svg {
+  font-size: 21px;
+}
+
+.btl svg {
+  font-size: 22px;
+}
+
+.catalog svg {
+  font-size: 22px;
+}
+
+.ourPartner svg {
+  font-size: 22px;
+}
+
+.contact svg {
+  font-size: 21px;
 }
 
 /* ===========  HEAER END ======= */
@@ -389,10 +434,6 @@ body {
 
 .logoBg img {
   width: 100px;
-}
-
-.logo1 img {
-  width: 70px;
 }
 
 /* ============== Event Cards ================= */
