@@ -28,6 +28,16 @@ const Production = () => {
           </div>
         </div>
       </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12 text-center">
+            <span className="proPoints py-4">
+              stands, kiosks, fit-outs, signages, POS Materials, Creative
+              Styrofoam
+            </span>
+          </div>
+        </div>
+      </div>
       <div className="eventCard">
         <div className="container">
           <div className="row">

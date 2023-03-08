@@ -1,132 +1,52 @@
-// export const productionData = [
-//   {
-//     id: 1,
-//     eventImg:
-//       'https://res.cloudinary.com/xcltech/image/upload/v1677241370/jjr%20photos/exhibition/ilko_iera3g.jpg',
-//     eventName: 'Exhibition',
-//   },
-//   {
-//     id: 2,
-//     eventImg:
-//       'https://res.cloudinary.com/xcltech/image/upload/v1677241375/jjr%20photos/Games%20of%20throne/pic8_r8vcvj.jpg',
-//     eventName: 'Games Of Throne',
-//   },
-//   {
-//     id: 3,
-//     eventImg:
-//       'https://res.cloudinary.com/xcltech/image/upload/v1677241406/jjr%20photos/Promotional%20stand/promotional_stand_ip73cw.png',
-//     eventName: 'Promotional stand',
-//   },
-//   {
-//     id: 4,
-//     eventImg:
-//       'https://res.cloudinary.com/xcltech/image/upload/v1677928129/jjr%20photos/other%20events%20pics/MOVENPICK_r01buq.jpg',
-//     eventName: 'MOVENPICK',
-//   },
-//   {
-//     id: 5,
-//     eventImg:
-//       'https://res.cloudinary.com/xcltech/image/upload/v1677928123/jjr%20photos/other%20events%20pics/MOVENPICK_PERMENENT_KIOSK_iejs1v.jpg',
-//     eventName: 'MOVENPICK PERMENENT KIOSK',
-//   },
-//   {
-//     id: 6,
-//     eventImg:
-//       'https://res.cloudinary.com/xcltech/image/upload/v1677928111/jjr%20photos/other%20events%20pics/PROMOTIONAL_STANDS_ubojaq.jpg',
-//     eventName: 'PROMOTIONAL STANDS',
-//   },
-//   {
-//     id: 7,
-//     eventImg:
-//       'https://res.cloudinary.com/xcltech/image/upload/v1677928105/jjr%20photos/other%20events%20pics/UBER_KSA_w5dpkq.jpg',
-//     eventName: 'UBER KSA',
-//   },
-//   {
-//     id: 8,
-//     eventImg:
-//       'https://res.cloudinary.com/xcltech/image/upload/v1677928096/jjr%20photos/other%20events%20pics/POS_MATERIAL_mvztot.jpg',
-//     eventName: 'POS MATERIAL',
-//   },
-//   {
-//     id: 9,
-//     eventImg:
-//       'https://res.cloudinary.com/xcltech/image/upload/v1677241370/jjr%20photos/exhibition/aroma_q3afgi.jpg',
-//     eventName: 'Exhibition',
-//   },
-//   {
-//     id: 10,
-//     eventImg:
-//       'https://res.cloudinary.com/xcltech/image/upload/v1677932935/jjr%20photos/styrofoam%20execution/john-carlo-tubelleza-IUsdVfdQSX8-unsplash_df1i72.jpg',
-//     eventName: 'john carlo tubelleza',
-//   },
-//   {
-//     id: 11,
-//     eventImg:
-//       'https://res.cloudinary.com/xcltech/image/upload/v1677932931/jjr%20photos/styrofoam%20execution/nicole-williamson-WJnhpGUvrt4-unsplash_aoyjba.jpg',
-//     eventName: 'nicole williamson',
-//   },
-//   {
-//     id: 12,
-//     eventImg:
-//       'https://res.cloudinary.com/xcltech/image/upload/v1677932927/jjr%20photos/styrofoam%20execution/chayanan-klanketwit-r8huRq48fw8-unsplash_ehzjyb.jpg',
-//     eventName: 'chayanan klanketwit',
-//   },
-//   {
-//     id: 13,
-//     eventImg:
-//       'https://res.cloudinary.com/xcltech/image/upload/v1677241404/jjr%20photos/Promotional%20stand/promotional_stand2_vzndwe.png',
-//     eventName: 'promotional stand',
-//   },
-//   {
-//     id: 14,
-//     eventImg:
-//       'https://res.cloudinary.com/xcltech/image/upload/v1677241365/jjr%20photos/dyson/Screenshot_32_nqfz0c.png',
-//     eventName: 'dyson',
-//   },
-//   {
-//     id: 15,
-//     eventImg:
-//       'https://res.cloudinary.com/xcltech/image/upload/v1677241417/jjr%20photos/vogue%20loves%20fashion/Screenshot_36_zhy68u.png',
-//     eventName: 'vogue loves fashion',
-//   },
-// ];
-
 export const productionAllData = [
   {
-    id: 'carouselExampleControls5',
-    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678097111/jjr%20photos/exhibition/Picture55_q57oyi.png',
-    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678097110/jjr%20photos/exhibition/Picture56_vegryg.png',
-    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678097110/jjr%20photos/exhibition/Picture53_xhne6d.png',
-    eventName: 'exhibition',
+    id: 'carouselExampleControls13',
+    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678094857/jjr%20photos/saudi%20cup/Picture4_bewtrk.jpg',
+    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678094857/jjr%20photos/saudi%20cup/Picture5_wp8i9p.jpg',
+    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678094857/jjr%20photos/saudi%20cup/Picture2_uhywag.jpg',
+    eventName: 'saudi cup',
   },
   {
-    id: 'carouselExampleControls32',
-    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678096696/jjr%20photos/Promotional%20stand/Picture40_drqfk1.jpg',
-    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678096695/jjr%20photos/Promotional%20stand/Picture38_bbmopa.jpg',
-    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678096694/jjr%20photos/Promotional%20stand/Picture37_m2tvrv.jpg',
-    eventName: 'Promotional stand',
-  },
-
-  {
-    id: 'carouselExampleControls7',
-    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678096594/jjr%20photos/monenpick%20permanent/Picture35_faq0yx.jpg',
-    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678096594/jjr%20photos/monenpick%20permanent/Picture36_q8agr3.jpg',
-    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678096594/jjr%20photos/monenpick%20permanent/Picture35_faq0yx.jpg',
-    eventName: 'monenpick permanent',
+    id: 'carouselExampleControls3',
+    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678095212/jjr%20photos/diriyah%20season/Picture8_ytvixm.jpg',
+    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678095211/jjr%20photos/diriyah%20season/Picture9_lm9ild.jpg',
+    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678095211/jjr%20photos/diriyah%20season/Picture10_uqypmr.jpg',
+    eventName: 'diriyah season-ksa',
   },
   {
-    id: 'carouselExampleControls16',
-    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678096752/jjr%20photos/uber%20ksa/Picture42_hypivq.png',
-    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678096756/jjr%20photos/uber%20ksa/Picture43_mplran.png',
-    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678096752/jjr%20photos/uber%20ksa/Picture42_hypivq.png',
-    eventName: 'uber ksa',
+    id: 'carouselExampleControls',
+    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678095767/jjr%20photos/Al-mirkaz%20Ramadan%20Tent/Picture11_um4hcq.jpg',
+    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1677241311/jjr%20photos/Al-mirkaz%20Ramadan%20Tent/ramadan_tent_idh7jb.png',
+    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678095767/jjr%20photos/Al-mirkaz%20Ramadan%20Tent/Picture11_um4hcq.jpg',
+    eventName: 'Al-mirkaz Ramadan Tent',
   },
   {
-    id: 'carouselExampleControls31',
-    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1677241396/jjr%20photos/pos%20material/Screenshot_38_khnz5k.png',
-    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678185302/jjr%20photos/pos%20material/Picture4_fs1iq1.jpg',
-    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678185302/jjr%20photos/pos%20material/Picture3_hsbtmd.jpg',
-    eventName: 'pos material',
+    id: 'carouselExampleControls14',
+    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678095829/jjr%20photos/sok%20okaz/Picture13_ofoa8f.jpg',
+    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678095829/jjr%20photos/sok%20okaz/Picture12_oq6cmh.jpg',
+    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1677241413/jjr%20photos/sok%20okaz/Screenshot_40_nltev9.png',
+    eventName: 'souk okaz',
+  },
+  {
+    id: 'carouselExampleControls6',
+    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678095864/jjr%20photos/global%20village/Picture14_s19psu.jpg',
+    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678095863/jjr%20photos/global%20village/Picture15_dntj2g.jpg',
+    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1677241379/jjr%20photos/global%20village/Screenshot_35_lzzhp8.png',
+    eventName: 'global village',
+  },
+  {
+    id: 'carouselExampleControls2',
+    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678096024/jjr%20photos/burj%20plaza/Picture17_z4fbkp.jpg',
+    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678096024/jjr%20photos/burj%20plaza/Picture16_j2jhzo.jpg',
+    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678096024/jjr%20photos/burj%20plaza/Picture18_zgkzbc.jpg',
+    eventName: 'burj plaza',
+  },
+  {
+    id: 'carouselExampleControls12',
+    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678096126/jjr%20photos/Retail%20shop/Picture21_mmloco.jpg',
+    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1677241407/jjr%20photos/Retail%20shop/Screenshot_30_keshux.png',
+    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678096126/jjr%20photos/Retail%20shop/Picture19_vwzytg.jpg',
+    eventName: 'Retail shop',
   },
   {
     id: 'carouselExampleControls4',
@@ -136,18 +56,25 @@ export const productionAllData = [
     eventName: 'dyson',
   },
   {
-    id: 'carouselExampleControls17',
-    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678096941/jjr%20photos/vogue%20loves%20fashion/Picture47_mcy6fd.png',
-    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678096940/jjr%20photos/vogue%20loves%20fashion/Picture48_lfvgm8.png',
-    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678096939/jjr%20photos/vogue%20loves%20fashion/Picture49_vjcpoi.png',
-    eventName: 'vogue loves fashion',
+    id: 'carouselExampleControls8',
+    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678096475/jjr%20photos/mother%20of%20the%20nation/Picture34_boik23.jpg',
+    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678096475/jjr%20photos/mother%20of%20the%20nation/Picture33_y60wyd.jpg',
+    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1677241383/jjr%20photos/mother%20of%20the%20nation/Screenshot_39_zyjjvf.png',
+    eventName: 'mother of the nation',
   },
   {
-    id: 'carouselExampleControls9',
-    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678096427/jjr%20photos/noor%20riyadh/Picture28_rjtsvz.jpg',
-    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678096427/jjr%20photos/noor%20riyadh/Picture30_hk1bst.jpg',
-    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678096427/jjr%20photos/noor%20riyadh/Picture29_jssrbt.jpg',
-    eventName: 'noor riyadh',
+    id: 'carouselExampleControls7',
+    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678096594/jjr%20photos/monenpick%20permanent/Picture35_faq0yx.jpg',
+    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678096594/jjr%20photos/monenpick%20permanent/Picture36_q8agr3.jpg',
+    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678096594/jjr%20photos/monenpick%20permanent/Picture35_faq0yx.jpg',
+    eventName: 'movenpick permanent kiosk',
+  },
+  {
+    id: 'carouselExampleControls32',
+    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678096696/jjr%20photos/Promotional%20stand/Picture40_drqfk1.jpg',
+    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678096695/jjr%20photos/Promotional%20stand/Picture38_bbmopa.jpg',
+    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678096694/jjr%20photos/Promotional%20stand/Picture37_m2tvrv.jpg',
+    eventName: 'Promotional stand',
   },
   {
     id: 'carouselExampleControls10',
@@ -157,52 +84,52 @@ export const productionAllData = [
     eventName: 'osn game of throne dfc',
   },
   {
-    id: 'carouselExampleControls15',
-    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1677932935/jjr%20photos/styrofoam%20execution/john-carlo-tubelleza-IUsdVfdQSX8-unsplash_df1i72.jpg',
-    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1677932931/jjr%20photos/styrofoam%20execution/nicole-williamson-WJnhpGUvrt4-unsplash_aoyjba.jpg',
-    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1677932927/jjr%20photos/styrofoam%20execution/chayanan-klanketwit-r8huRq48fw8-unsplash_ehzjyb.jpg',
-    eventName: 'styrofoam execution',
+    id: 'carouselExampleControls17',
+    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678096941/jjr%20photos/vogue%20loves%20fashion/Picture47_mcy6fd.png',
+    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678096940/jjr%20photos/vogue%20loves%20fashion/Picture48_lfvgm8.png',
+    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678096939/jjr%20photos/vogue%20loves%20fashion/Picture49_vjcpoi.png',
+    eventName: 'vogue loves fashion',
   },
   {
-    id: 'carouselExampleControls33',
-    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678185356/jjr%20photos/styrofoam%20execution/Picture92_frcizb.jpg',
-    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678185356/jjr%20photos/styrofoam%20execution/Picture91_goonki.jpg',
-    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678185356/jjr%20photos/styrofoam%20execution/Picture94_uc26xy.jpg',
-    eventName: 'styrofoam execution',
+    id: 'carouselExampleControls5',
+    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678097111/jjr%20photos/exhibition/Picture55_q57oyi.png',
+    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678097110/jjr%20photos/exhibition/Picture56_vegryg.png',
+    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678097110/jjr%20photos/exhibition/Picture53_xhne6d.png',
+    eventName: 'exhibition',
   },
   {
-    id: 'carouselExampleControls34',
-    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678185380/jjr%20photos/STYROFOAM%20EXECUTION%201/Picture96_hkbabw.jpg',
-    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678185380/jjr%20photos/STYROFOAM%20EXECUTION%201/Picture95_zc0jtl.jpg',
-    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678185380/jjr%20photos/STYROFOAM%20EXECUTION%201/Picture96_hkbabw.jpg',
-    eventName: 'STYROFOAM EXECUTION 1',
+    id: 'carouselExampleControls31',
+    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1677241396/jjr%20photos/pos%20material/Screenshot_38_khnz5k.png',
+    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678185302/jjr%20photos/pos%20material/Picture4_fs1iq1.jpg',
+    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678185302/jjr%20photos/pos%20material/Picture3_hsbtmd.jpg',
+    eventName: 'pos material',
   },
   {
-    id: 'carouselExampleControls35',
-    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678185411/jjr%20photos/STYROFOAM%20EXECUTION%202/Picture100_nlzb9w.jpg',
-    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678185411/jjr%20photos/STYROFOAM%20EXECUTION%202/Picture97_sgebv1.jpg',
-    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678185411/jjr%20photos/STYROFOAM%20EXECUTION%202/Picture99_l1o5dj.jpg',
-    eventName: 'STYROFOAM EXECUTION 2',
+    id: 'carouselExampleControls16',
+    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678096752/jjr%20photos/uber%20ksa/Picture42_hypivq.png',
+    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678096756/jjr%20photos/uber%20ksa/Picture43_mplran.png',
+    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678096752/jjr%20photos/uber%20ksa/Picture42_hypivq.png',
+    eventName: 'uber ksa',
   },
   {
-    id: 'carouselExampleControls28',
-    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678185237/jjr%20photos/Netflix%20Sweet%20Girl%20-%20KSA/Picture27_d2wvah.jpg',
-    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678185237/jjr%20photos/Netflix%20Sweet%20Girl%20-%20KSA/Picture29_jbas8n.jpg',
-    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678185237/jjr%20photos/Netflix%20Sweet%20Girl%20-%20KSA/Picture28_ppqxzq.jpg',
-    eventName: 'Netflix Sweet Girl - KSA',
+    id: 'carouselExampleControls111',
+    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678184916/jjr%20photos/outdoor/Picture6_ntppye.jpg',
+    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678184916/jjr%20photos/outdoor/Picture5_sovbeb.jpg',
+    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678184916/jjr%20photos/outdoor/Picture7_l8mz7t.jpg',
+    eventName: 'outdoor',
   },
   {
-    id: 'carouselExampleControls25',
-    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678185197/jjr%20photos/NETFLIX%20Casa%20De%20Papel%20Different%20Seasons/Picture43_jzueka.jpg',
-    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678185197/jjr%20photos/NETFLIX%20Casa%20De%20Papel%20Different%20Seasons/Picture42_jh3mql.jpg',
-    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678185197/jjr%20photos/NETFLIX%20Casa%20De%20Papel%20Different%20Seasons/Picture41_jra8mh.jpg',
-    eventName: 'NETFLIX Casa De Papel Different Seasons',
+    id: 'carouselExampleControls112',
+    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678266842/jjr%20photos/sharjah_event_uc6gd0.jpg',
+    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678266842/jjr%20photos/sharjah_event_uc6gd0.jpg',
+    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678266842/jjr%20photos/sharjah_event_uc6gd0.jpg',
+    eventName: 'Sharjah event',
   },
   {
-    id: 'carouselExampleControls24',
-    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678185177/jjr%20photos/Netflix%20Army%20of%20the%20dead%20-%20KSA/Picture32_ab9muh.jpg',
-    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678185177/jjr%20photos/Netflix%20Army%20of%20the%20dead%20-%20KSA/Picture30_lt3mpa.jpg',
-    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678185177/jjr%20photos/Netflix%20Army%20of%20the%20dead%20-%20KSA/Picture31_fbkifi.jpg',
-    eventName: 'Netflix Army of the dead - KSA',
+    id: 'carouselExampleControls113',
+    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678266915/jjr%20photos/emirates_cyibkw.jpg',
+    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678266915/jjr%20photos/emirates_cyibkw.jpg',
+    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678266915/jjr%20photos/emirates_cyibkw.jpg',
+    eventName: 'emirates',
   },
 ];

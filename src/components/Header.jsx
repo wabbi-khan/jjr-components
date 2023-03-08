@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { HiOutlineBars3CenterLeft } from 'react-icons/hi2';
 import { MdClose } from 'react-icons/md';
 import { motion } from 'framer-motion';
-// import { AiFillHome, AiTwotoneSetting } from 'react-icons/ai';
+import { AiFillHome, AiTwotoneSetting } from 'react-icons/ai';
 // import { BsCalendar2EventFill, BsBookmarkFill } from 'react-icons/bs';
 // import { RiContactsFill } from 'react-icons/ri';
 // import { BiCategory } from 'react-icons/bi';
@@ -34,10 +34,23 @@ const Header = () => {
                 <span>Menu</span>
                 <MdClose onClick={() => setIsShow(!isShow)} />
               </div>
-
-              <div className="menus">
+              <table style={{ width: '100%' }}>
+                {MenusData.map((item) => (
+                  <tr className="py-5">
+                    <td className={`icons ${item.class}`}>{item.icon}</td>
+                    <td>
+                      <span>
+                        <Link to={item.linkUrl} target={item.newTab}>
+                          {item.name}
+                        </Link>
+                      </span>
+                    </td>
+                  </tr>
+                ))}
+              </table>
+              {/* <div className="menus">
                 {MenusData.map((item, index) => (
-                  <div className={`home ${item.class}`} key={index}>
+                  <div className={`home ${item.className}`} key={index}>
                     <div>{item.icon}</div>
                     <span>
                       <Link to={item.linkUrl} target={item.newTab}>
@@ -46,7 +59,7 @@ const Header = () => {
                     </span>
                   </div>
                 ))}
-              </div>
+              </div> */}
             </motion.div>
           )}
         </div>
