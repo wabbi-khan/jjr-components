@@ -10,6 +10,7 @@ import AboutUs from './components/AboutUs';
 import Testimonials from './components/Testimonials';
 import Production from './components/Production';
 import Merchand from './components/Merchand';
+import AllVideos from './components/AllVideos';
 
 // Routes
 const router = createBrowserRouter([
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
   {
     path: '/btl-merchand',
     element: <Merchand />,
+  },
+  {
+    path: '/all-videos',
+    element: <AllVideos />,
   },
 ]);
 const App = () => {

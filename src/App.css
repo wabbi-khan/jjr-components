@@ -105,7 +105,7 @@ td span a:hover {
 }
 
 td {
-  padding-bottom: 12px;
+  padding-bottom: 10px;
 }
 
 .icons {
@@ -120,15 +120,15 @@ td {
   gap: 0.5rem;
 }
 
-.home {
+/* .home {
   display: flex;
   align-items: center;
   gap: 1.8rem;
   font-weight: 300;
   color: white;
-}
+} */
 
-.home span {
+/* .home span {
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
 }
@@ -136,12 +136,12 @@ td {
 .home span a {
   text-decoration: none;
   color: white;
-}
+} */
 
-.home svg {
+/* .home svg {
   font-size: 20px;
   color: white !important;
-}
+} */
 
 /* ==== Icons size ======= */
 
@@ -339,7 +339,7 @@ td {
   border-radius: 15px 0px 0px 0px;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .sidebar svg {
@@ -1292,6 +1292,9 @@ td {
   }
   .title {
     text-align: center;
+  }
+  td {
+    padding-bottom: 14px;
   }
 }
 

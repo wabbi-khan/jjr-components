@@ -9,6 +9,7 @@ import { BiCategory } from 'react-icons/bi';
 import { FaUsers } from 'react-icons/fa';
 import { MdOutlinePrecisionManufacturing } from 'react-icons/md'; //production icon
 import { GiChipsBag } from 'react-icons/gi';
+import { FaVideo } from 'react-icons/fa';
 export const MenusData = [
   {
     id: 1,
@@ -79,6 +80,13 @@ export const MenusData = [
     name: 'Contact',
     icon: <RiContactsFill />,
     linkUrl: '/contact-us',
+    class: 'contact',
+  },
+  {
+    id: 10,
+    name: 'All Videos',
+    icon: <FaVideo />,
+    linkUrl: '/all-videos',
     class: 'contact',
   },
 ];
