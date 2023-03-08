@@ -38,6 +38,13 @@ const AboutUs = () => {
                   </div>
                 </div>
               </div>
+              <div className="jjrAboutImg">
+                <img
+                  src="https://res.cloudinary.com/xcltech/image/upload/v1678273566/jjr%20photos/Picture2_ds7glx.png"
+                  className="img-fluid"
+                  alt=""
+                />
+              </div>
             </div>
             <div className="col-lg-6">
               <div className="sc-about-content-style">
@@ -58,6 +65,22 @@ const AboutUs = () => {
                     providing our clients with state-of-the-art on ground
                     technology activations, events production, below the line
                     promotional items and innovative branding.
+                  </p>{' '}
+                  <p className="aboutPara">
+                    JJR NEWTORK displays a balance between traditional servicing
+                    and product customization. With simultaneous access to Asia
+                    & Europe and our own in-house production warehouse, We
+                    provide riveting, tailored BTL, and on-ground activity
+                    solutions that will make you stand out from your
+                    competition.
+                  </p>
+                  <p className="aboutPara">
+                    Our passion, creativity and attention to detail will give
+                    your brand that special twist that will make you stand out
+                    from the crowd all while preserving your core brand values.
+                    We take pride in our high client retention rate as this is
+                    the ultimate attestation of JJR NETWORK’s client servicing
+                    proficiency.
                   </p>
                 </div>
                 <div className="sc-auother-style-box sc-mb-30">
@@ -111,14 +134,14 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <div className="container py-4 mt-5">
+      <div className="container py-4 ">
         <div class="row">
           <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
             <div class="sc-heading-area sc-mb-55 sc-md-mb-35 text-center">
               <span class="sub-title customHeading justify-content-center">
                 <div className="icon-line">
                   <TiWavesOutline />
-                </div>{' '}
+                </div>
                 Work Process
               </span>
               <h2 class="title">

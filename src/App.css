@@ -711,7 +711,7 @@ td {
 
 .sc-about-group-image .sc-group {
   position: absolute;
-  bottom: -45px;
+  bottom: -100px;
   right: 0;
   width: 60%;
 }
@@ -829,15 +829,20 @@ td {
   color: #000;
 }
 
-.aboutPara {
-  line-height: 2rem;
+.aboutPara,
+.des {
+  padding: 0 5px;
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  line-height: 1.6rem;
 }
 
 .sc-heading-area .title {
   display: block;
   margin-bottom: 25px;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 40px;
 }
 
 .sc-slider-section .sc-slider-content .sc-slider-btn .sc-primary-btn {
@@ -922,7 +927,7 @@ td {
   }
   .sc-group {
     width: 70%;
-    left: 50px;
+    left: 70px;
   }
   .sc-about-content-style {
     margin-top: 100px;
@@ -1281,6 +1286,12 @@ td {
   }
   .proPoints {
     font-size: 13px;
+  }
+  .customHeading {
+    justify-content: center;
+  }
+  .title {
+    text-align: center;
   }
 }
 
