@@ -80,7 +80,7 @@ export const allVideosData = [
       'https://res.cloudinary.com/xcltech/video/upload/v1678351144/jjr%20photos/technology/Media6_l4d84q.mp4',
     video3:
       'https://res.cloudinary.com/xcltech/video/upload/v1678351160/jjr%20photos/technology/Media10_rgnkcq.mp4',
-    eventName: 'technology',
+    eventName: 'INTERACTIVE VENDING MACHINE',
   },
   {
     id: 'carouselExampleControls9',
@@ -90,7 +90,7 @@ export const allVideosData = [
       'https://res.cloudinary.com/xcltech/video/upload/v1678351241/jjr%20photos/Technology%201/Media7_jwvvot.mp4',
     video3:
       'https://res.cloudinary.com/xcltech/video/upload/v1678351269/jjr%20photos/Technology%201/Media8_nq027v.mp4',
-    eventName: 'Technology 1',
+    eventName: 'TWITTER TREE',
   },
   {
     id: 'carouselExampleControls10',
@@ -100,7 +100,7 @@ export const allVideosData = [
       'https://res.cloudinary.com/xcltech/video/upload/v1678351334/jjr%20photos/Technology%202/Media10_mxnmo2.mp4',
     video3:
       'https://res.cloudinary.com/xcltech/video/upload/v1678351348/jjr%20photos/Technology%202/Media9_uzypxv.mp4',
-    eventName: 'Technology 2',
+    eventName: 'DIGITAL GRAFITTI',
   },
   {
     id: 'carouselExampleControls11',
@@ -110,7 +110,7 @@ export const allVideosData = [
       'https://res.cloudinary.com/xcltech/video/upload/v1678351201/jjr%20photos/Technology%203/Media11_apo9fx.mp4',
     video3:
       'https://res.cloudinary.com/xcltech/video/upload/v1678351213/jjr%20photos/Technology%203/Media12_ycqsfn.mp4',
-    eventName: 'Technology 3',
+    eventName: 'say hello',
   },
   {
     id: 'carouselExampleControls12',
@@ -120,7 +120,7 @@ export const allVideosData = [
       'https://res.cloudinary.com/xcltech/video/upload/v1678351421/jjr%20photos/Technology%204/Media13_otcmli.mp4',
     video3:
       'https://res.cloudinary.com/xcltech/video/upload/v1678351421/jjr%20photos/Technology%204/Media13_otcmli.mp4',
-    eventName: 'Technology 4',
+    eventName: 'VIRTUAL TRAVELLER',
   },
   {
     id: 'carouselExampleControls13',
@@ -130,7 +130,7 @@ export const allVideosData = [
       'https://res.cloudinary.com/xcltech/video/upload/v1678351443/jjr%20photos/Technology%205/Media14_zqivid.mp4',
     video3:
       'https://res.cloudinary.com/xcltech/video/upload/v1678351443/jjr%20photos/Technology%205/Media14_zqivid.mp4',
-    eventName: 'Technology 5',
+    eventName: 'MOTION EXPERIENCES',
   },
   //   {
   //     id: 'carouselExampleControls14',
