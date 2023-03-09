@@ -1300,6 +1300,19 @@ td {
   td {
     padding-bottom: 14px;
   }
+  .testimonial-block_user_info h2 {
+    font-size: 22px;
+  }
+  .testimonial-block_user_info h4 {
+    font-size: 16px !important;
+    font-weight: 300;
+  }
+}
+
+.testimonial-block_user_info h4 {
+  font-size: 20px;
+  color: gray;
+  font-weight: 400;
 }
 
 /* =================================================== */
@@ -1308,4 +1321,9 @@ td {
 .carousel-control-next {
   height: 30%;
   margin-top: 5rem;
+}
+
+.prev-Icon,
+.next-Icon {
+  margin-top: 7rem;
 }
