@@ -153,6 +153,10 @@ td {
   font-size: 17px;
 }
 
+.videoIcon svg {
+  font-size: 19px;
+}
+
 .testimo svg {
   font-size: 20px;
 }
@@ -1299,3 +1303,9 @@ td {
 }
 
 /* =================================================== */
+
+.carousel-control-prev,
+.carousel-control-next {
+  height: 30%;
+  margin-top: 5rem;
+}

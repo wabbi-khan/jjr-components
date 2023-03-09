@@ -26,6 +26,13 @@ export const MenusData = [
     class: 'about',
   },
   {
+    id: 10,
+    name: 'Feature Work',
+    icon: <FaVideo />,
+    linkUrl: '/all-videos',
+    class: 'videoIcon',
+  },
+  {
     id: 9,
     name: 'Testimonials',
     icon: <MdReviews />,
@@ -80,13 +87,6 @@ export const MenusData = [
     name: 'Contact',
     icon: <RiContactsFill />,
     linkUrl: '/contact-us',
-    class: 'contact',
-  },
-  {
-    id: 10,
-    name: 'All Videos',
-    icon: <FaVideo />,
-    linkUrl: '/all-videos',
     class: 'contact',
   },
 ];
