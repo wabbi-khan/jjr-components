@@ -431,7 +431,7 @@ td {
   }
 }
 
-.logoSection {
+/* .logoSection {
   padding: 0 50px;
   width: 100%;
   height: 100%;
@@ -442,23 +442,44 @@ td {
   flex-wrap: wrap;
   text-align: center;
   margin: auto;
-}
+} */
 
 .logoBg {
-  background-color: #eaeaea;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
-  border: 1px solid gray;
+  /* background-color: #eaeaea; */
+  width: 100%;
+  /* height: 100px; */
+  /* padding: 10px; */
+  /* border: 1px solid gray; */
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 5px;
-  flex-basis: 20%;
+  /* border-radius: 5px; */
+  /* flex-basis: 20%; */
 }
 
 .logoBg img {
   width: 100px;
+}
+
+.logoWidth img {
+  width: 120px;
+}
+
+.logoWidthLast img {
+  /* width: 80px; */
+  height: 80px;
+}
+
+.logoWidthSecLast img {
+  width: 120px;
+}
+
+.logoZain img {
+  width: 80px;
+}
+
+.logoPanda img {
+  width: 120px;
 }
 
 /* ============== Event Cards ================= */
@@ -1255,7 +1276,17 @@ td {
     padding: 0 10px;
   }
   .logoBg {
-    flex-basis: 45% !important;
+    /* width: 50px; */
+    /* flex-basis: 20% !important; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .customClass {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .main-card-set {
     padding: 0 10px;

@@ -171,7 +171,6 @@ export const partnersLogo = [
   {
     id: 1,
     logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498257/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo32_l9uoaa.png',
-    // class: 'logo1',
   },
   {
     id: 2,
@@ -180,6 +179,7 @@ export const partnersLogo = [
   {
     id: 3,
     logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498257/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo13_fqn8nq.png',
+    class: 'logoWidth',
   },
   {
     id: 4,
@@ -236,7 +236,7 @@ export const partnersLogo = [
   {
     id: 17,
     logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498255/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo1_e09u61.png',
-    width: 'logo1',
+    class: 'logoZain',
   },
   {
     id: 18,
@@ -253,6 +253,7 @@ export const partnersLogo = [
   {
     id: 21,
     logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498254/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo24_wfzxaa.png',
+    class: 'logoWidthSecLast',
   },
   {
     id: 22,
@@ -281,6 +282,37 @@ export const partnersLogo = [
   {
     id: 28,
     logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498252/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo17_ujbvr5.png',
+  },
+  {
+    id: 29,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498256/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo3_opc8zs.png',
+  },
+  {
+    id: 30,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498255/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo33_aev9pv.png',
+  },
+  {
+    id: 31,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498255/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo26_p3cy6k.png',
+  },
+  {
+    id: 32,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498253/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo15_kqttsw.png',
+  },
+  {
+    id: 33,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498253/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo18_tyowi6.png',
+    class: 'logoWidthSecLast',
+  },
+  {
+    id: 34,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498252/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo19_fpyfda.png',
+    class: 'logoWidthSecLast',
+  },
+  {
+    id: 35,
+    logo: 'https://res.cloudinary.com/xcltech/image/upload/v1677498252/jjr%20photos/our%20partners%20logo%20jjr%20networ/logo14_hqyyle.png',
+    class: 'logoWidthLast',
   },
 ];
 
