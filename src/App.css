@@ -833,11 +833,11 @@ td {
   margin-bottom: 5px;
 }
 
-.customHeading {
+/* .customHeading {
   display: flex;
   align-items: center;
   gap: 1rem;
-}
+} */
 
 .primary-color {
   color: #e42032;
@@ -1282,12 +1282,12 @@ td {
     justify-content: center;
     align-items: center; */
   }
-  .customClass {
+  /* .customClass {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+  } */
   .main-card-set {
     padding: 0 10px;
   }

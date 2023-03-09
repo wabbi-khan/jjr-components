@@ -19,7 +19,7 @@ const OurPartners = () => {
 
       <div className="logoSection">
         {partnersLogo.map((item, index) => (
-          //<div className="col-md-3 col-xs-6 py-3 d-flex justify-content-center align-items-center">
+          //<div className="col-md-3 col-xs-6 py-3 d-flex justify-content-center align-items-center customClass">
           <div className={`logoBg ${item.class}`} key={index}>
             <img src={item.logo} alt="our partners logo" />
           </div>
