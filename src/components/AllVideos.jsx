@@ -23,7 +23,9 @@ const AllVideos = () => {
       </div> */}
       <div className="outPartnersHeading">
         <div className="heading-sec-new">
-          <h1>All Event videos</h1>
+          <h1>
+            All Feature <b>work</b>
+          </h1>
           <div className="border-sec-new">
             <strong></strong>
           </div>
