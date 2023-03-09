@@ -285,220 +285,15 @@ export const partnersLogo = [
 ];
 
 // ================== Event Production ================
-export const eventProduction = [
-  {
-    id: 1,
-    eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677241311/jjr%20photos/Al-mirkaz%20Ramadan%20Tent/ramadan_tent_idh7jb.png',
-    eventName: 'Al-mirkaz Ramadan Tent',
-  },
-  {
-    id: 2,
-    eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1678095211/jjr%20photos/diriyah%20season/Picture10_uqypmr.jpg',
-    eventName: 'Diriyah Season',
-  },
-  {
-    id: 2,
-    eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1678095212/jjr%20photos/diriyah%20season/Picture8_ytvixm.jpg',
-    eventName: 'Diriyah Season',
-  },
-  {
-    id: 2,
-    eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1678095212/jjr%20photos/diriyah%20season/Picture6_nd3hpg.jpg',
-    eventName: 'Diriyah Season',
-  },
-  {
-    id: 2,
-    eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1678095211/jjr%20photos/diriyah%20season/Picture9_lm9ild.jpg',
-    eventName: 'Diriyah Season',
-  },
-
-  {
-    id: 6,
-    eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677241379/jjr%20photos/global%20village/Screenshot_35_lzzhp8.png',
-    eventName: 'Global Village',
-  },
-  {
-    id: 7,
-    eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677241383/jjr%20photos/mother%20of%20the%20nation/Screenshot_39_zyjjvf.png',
-    eventName: 'mother of the nation',
-  },
-  {
-    id: 8,
-    eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677241391/jjr%20photos/outdoor/Screenshot_37_tck2dd.png',
-    eventName: 'outdoor',
-  },
-
-  {
-    id: 10,
-    eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677241407/jjr%20photos/Retail%20shop/Screenshot_30_keshux.png',
-    eventName: 'Retail shop',
-  },
-  {
-    id: 11,
-    eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1678094857/jjr%20photos/saudi%20cup/Picture4_bewtrk.jpg',
-    eventName: 'saudi cup',
-  },
-  {
-    id: 11,
-    eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1678094857/jjr%20photos/saudi%20cup/Picture5_wp8i9p.jpg',
-    eventName: 'saudi cup',
-  },
-  {
-    id: 11,
-    eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1678094857/jjr%20photos/saudi%20cup/Picture2_uhywag.jpg',
-    eventName: 'saudi cup',
-  },
-  {
-    id: 11,
-    eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1678094857/jjr%20photos/saudi%20cup/Picture3_ax3kbv.jpg',
-    eventName: 'saudi cup',
-  },
-  {
-    id: 12,
-    eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677928123/jjr%20photos/other%20events%20pics/SOK_OKAZ_jrjpml.jpg',
-    eventName: 'sok okaz',
-  },
-  {
-    id: 13,
-    eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677928130/jjr%20photos/other%20events%20pics/WORKSHOP_mrkogl.jpg',
-    eventName: 'WORKSHOP',
-  },
-  {
-    id: 14,
-    eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677928129/jjr%20photos/other%20events%20pics/MOVENPICK_r01buq.jpg',
-    eventName: 'MOVENPICK',
-  },
-
-  {
-    id: 16,
-    eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677928121/jjr%20photos/other%20events%20pics/VOGUE_LOVES_FASHION_AVENUE_gdvcuc.jpg',
-    eventName: 'VOGUE LOVES FASHION AVENUE',
-  },
-  {
-    id: 17,
-    eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677928116/jjr%20photos/other%20events%20pics/BURJ_PKLAZA_UAE_sju909.jpg',
-    eventName: 'BURJ PKLAZA UAE',
-  },
-  {
-    id: 18,
-    eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677928113/jjr%20photos/other%20events%20pics/VOGUE_LOVES_FASHION_yyfopz.jpg',
-    eventName: 'VOGUE LOVES FASHION',
-  },
-  // {
-  //   id: 19,
-  //   eventImg:
-  //     'https://res.cloudinary.com/xcltech/image/upload/v1677928111/jjr%20photos/other%20events%20pics/PROMOTIONAL_STANDS_ubojaq.jpg',
-  //   eventName: 'PROMOTIONAL STANDS',
-  // },
-  {
-    id: 20,
-    eventImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677928107/jjr%20photos/other%20events%20pics/OSN_GAMES_OF_THRONE_koom34.jpg',
-    eventName: 'OSN GAMES OF THRONE',
-  },
-];
 
 // =============== Technology ===============
-export const technology = [
-  {
-    id: 1,
-    techName: 'BLOWER PHOTOBOOTH',
-    techImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677582875/jjr%20photos/Technology%20images/BLOWER_PHOTOBOOTH_zizmfz.jpg',
-  },
-  {
-    id: 2,
-    techName: 'DIGITAL POST- IT',
-    techImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677582876/jjr%20photos/Technology%20images/DIGITAL_POST-_IT_zmewqk.jpg',
-  },
-  {
-    id: 3,
-    techName: 'DIGITAL SLINGSHOT',
-    techImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677582876/jjr%20photos/Technology%20images/DIGITAL_SLINGSHOT_ux9uhc.png',
-  },
-  {
-    id: 4,
-    techName: 'INTERACTIVE VENDING MACHINE',
-    techImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677582875/jjr%20photos/Technology%20images/INTERACTIVE_WALL_o0kzsr.png',
-  },
-  {
-    id: 5,
-    techName: 'INTERACTIVE WALL',
-    techImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677582875/jjr%20photos/Technology%20images/INTERACTIVE_VENDING_MACHINE_sxqbyr.png',
-  },
-  {
-    id: 6,
-    techName: 'MOTION EXPERIENCES',
-    techImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677582875/jjr%20photos/Technology%20images/MOTION_EXPERIENCES_hjpgkm.jpg',
-  },
-  {
-    id: 7,
-    techName: 'cardmap',
-    techImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677932991/jjr%20photos/technology/cardmapr-nl-e9HUv3QnqGI-unsplash_xtxhdx.jpg',
-  },
-  {
-    id: 8,
-    techName: 'veit hammer',
-    techImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677932989/jjr%20photos/technology/veit-hammer-YAuMut3SIVE-unsplash_b5phtf.jpg',
-  },
-  {
-    id: 9,
-    techName: 'redmind studio',
-    techImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677932988/jjr%20photos/technology/redmind-studio-ZYt2ewyDh_4-unsplash_w7bhrj.jpg',
-  },
-  {
-    id: 10,
-    techName: 'mak E',
-    techImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677932971/jjr%20photos/technology/mak-E_UaH0K89Xg-unsplash_xepush.jpg',
-  },
-  {
-    id: 11,
-    techName: 'christina spinnen',
-    techImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677932954/jjr%20photos/technology/christina-spinnen-pz0TCcQFjsc-unsplash_sntjyw.jpg',
-  },
-  {
-    id: 12,
-    techName: 'marilia castelli',
-    techImg:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677932952/jjr%20photos/technology/marilia-castelli-BGYRcQDy4e8-unsplash_rar74r.jpg',
-  },
-];
 
 // ================ Testimonials data =============
 export const tesiData = [
   {
     id: 1,
     name: 'Elie Karam',
-    job: 'Uber',
+    job: 'Dubai TV',
     review:
       'On all the projects that we commissioned JJR Network they showed great dedication, commitment and punctual delivery timelines , they are a professional and resourceful production partner with a vast network of suppliers which can deliver to any given brief',
     imgUrl:
@@ -517,12 +312,47 @@ export const tesiData = [
   {
     id: 3,
     name: 'Wael Karbala',
-    job: 'Wael Karbala',
+    job: 'National Bonds',
     review:
       'We choose to work with JJR because simply they are reliable. They are skilled and professional in production. These guys are good',
     imgUrl:
       'https://res.cloudinary.com/xcltech/image/upload/v1677759307/jjr%20photos/testimonial%20pic/man_ehshr7.png',
   },
+  {
+    id: 4,
+    name: 'Ziad Moghabghab',
+    job: 'Uber',
+    review:
+      'Over my years of working with JJR, they have never shown anything less than the highest quality of work whether it was from a business relationship perspective or from high quality deliverables.The one thing I cherish the most is the fact that they always go farther than the extra mile to meet requests even in the shortest of timelines and in the toughest of times.',
+    imgUrl:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677759307/jjr%20photos/testimonial%20pic/man_ehshr7.png',
+  },
+  {
+    id: 5,
+    name: 'Yasmina Ali Hassan',
+    job: 'Amazon',
+    review:
+      'In business, it’s important to find people you can count on. JJR is one of those reliable partners. Thanks for all your hard work!',
+    imgUrl:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677759307/jjr%20photos/testimonial%20pic/man_ehshr7.png',
+  },
+
+  {
+    id: 6,
+    name: 'Hadi Bashir',
+    job: 'Microsoft',
+    review: 'Always providing the best quality and service. Keep it up!					',
+    imgUrl:
+      'https://res.cloudinary.com/xcltech/image/upload/v1677759307/jjr%20photos/testimonial%20pic/man_ehshr7.png',
+  },
+  // {
+  //   id: 8,
+  //   name: '',
+  //   job: ' ',
+  //   review: '',
+  //   imgUrl:
+  //     'https://res.cloudinary.com/xcltech/image/upload/v1677759307/jjr%20photos/testimonial%20pic/man_ehshr7.png',
+  // },
 ];
 
 // ================ our services data =============
