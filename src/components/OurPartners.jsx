@@ -17,19 +17,15 @@ const OurPartners = () => {
         </div>
       </div>
 
-      {/* <div className="logoSection"> */}
-      <div className="container">
-        <div className="row">
-          {partnersLogo.map((item, index) => (
-            <div className="col-md-3 py-3 d-flex justify-content-center align-items-center customClass">
-              <div className={`logoBg ${item.class}`} key={index}>
-                <img src={item.logo} alt="our partners logo" />
-              </div>
-            </div>
-          ))}
-        </div>
+      <div className="logoSection">
+        {partnersLogo.map((item, index) => (
+          //<div className="col-md-3 col-xs-6 py-3 d-flex justify-content-center align-items-center">
+          <div className={`logoBg ${item.class}`} key={index}>
+            <img src={item.logo} alt="our partners logo" />
+          </div>
+          //</div>
+        ))}
       </div>
-      {/* </div> */}
       <CopyRight additionalClass={'copyRight'} />
     </section>
   );

@@ -431,7 +431,7 @@ td {
   }
 }
 
-/* .logoSection {
+.logoSection {
   padding: 0 50px;
   width: 100%;
   height: 100%;
@@ -442,19 +442,19 @@ td {
   flex-wrap: wrap;
   text-align: center;
   margin: auto;
-} */
+}
 
 .logoBg {
-  /* background-color: #eaeaea; */
+  background-color: #eaeaea;
   width: 100%;
-  /* height: 100px; */
-  /* padding: 10px; */
-  /* border: 1px solid gray; */
+  height: 100px;
+  padding: 10px;
+  border: 1px solid gray;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border-radius: 5px; */
-  /* flex-basis: 20%; */
+  border-radius: 5px;
+  flex-basis: 20%;
 }
 
 .logoBg img {
@@ -1277,10 +1277,10 @@ td {
   }
   .logoBg {
     /* width: 50px; */
-    /* flex-basis: 20% !important; */
-    display: flex;
+    flex-basis: 20% !important;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
   }
   .customClass {
     width: 50%;
