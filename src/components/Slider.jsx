@@ -12,7 +12,7 @@ const Slider = ({
   handleClick2,
   handleClick3,
   // autoPlay,
-  pic,
+  imgUrl,
 }) => {
   return (
     <motion.div
@@ -29,7 +29,7 @@ const Slider = ({
         onMouseEnter={(event) => event.target.play(id)}
         onMouseOut={(event) => event.target.pause(id)}
       />
-      <img src={pic} alt="images" />
+      <img src={imgUrl} alt="images" />
     </motion.div>
   );
 };

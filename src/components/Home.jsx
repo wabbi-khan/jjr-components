@@ -76,10 +76,10 @@ const Home = () => {
             {...world}
             index={index}
             active={active}
-            video={world?.imgUrl}
-            // deactive={deactive}
+            video={world?.videoUrl}
+            imgUrl={world.imgUrl}
             handleClick={setActive}
-            handleClick2={() => getImg(world?.imgUrl)}
+            handleClick2={() => getImg(world?.videoUrl)}
             handleClick3={() => setActive(false)}
           />
         ))}

@@ -70,3 +70,51 @@ export const techData = [
   //     techName: '',
   //   },
 ];
+
+export const techVideo = [
+  {
+    id: 'carouselExampleControls',
+    video: 'https://www.dailymotion.com/embed/video/x7w1gkb',
+    videoName: 'Retro Camera',
+  },
+  {
+    id: 'carouselExampleControls1',
+    video: 'https://www.dailymotion.com/embed/video/x7w1gfc',
+    videoName: 'Live Hologram HCT Annual Forum',
+  },
+  {
+    id: 'carouselExampleControls2',
+    video: 'https://www.dailymotion.com/embed/video/x7w1gb4',
+    videoName: 'Touch Screen',
+  },
+  {
+    id: 'carouselExampleControls3',
+    video: 'https://www.dailymotion.com/embed/video/x7w1g9s',
+    videoName: 'Transparent Screen Showcase',
+  },
+  {
+    id: 'carouselExampleControls4',
+    video: 'https://www.dailymotion.com/embed/video/x7w1g7v',
+    videoName: 'Sliding Screen',
+  },
+  {
+    id: 'carouselExampleControls5',
+    video: 'https://www.dailymotion.com/embed/video/x7w1g75',
+    videoName: 'Hologram 3 Sided',
+  },
+  {
+    id: 'carouselExampleControls6',
+    video: 'https://www.dailymotion.com/embed/video/x7w1g6g',
+    videoName: 'Fan Hologram',
+  },
+  {
+    id: 'carouselExampleControls7',
+    video: 'https://www.dailymotion.com/embed/video/x7w1g36',
+    videoName: 'Artificial Intelligence Hologram',
+  },
+  // {
+  //   id: 'carouselExampleControls8',
+  //   video: '',
+  //   videoName: '',
+  // },
+];

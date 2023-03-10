@@ -95,73 +95,83 @@ export const MenusData = [
 export const dataWorld = [
   {
     id: '1',
-    imgUrl:
-      'https://res.cloudinary.com/xcltech/video/upload/v1677322585/ppt%20videos%20for%20jjr/Media4_n2owol.mp4',
+    videoUrl:
+      'https://res.cloudinary.com/xcltech/video/upload/v1678436922/jjr%20photos/all%20jjr%20video/Media8_fahcwh.mp4',
 
-    pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677322584/ppt%20videos%20for%20jjr/thumb_4_j3mtib.png',
+    imgUrl:
+      'https://res.cloudinary.com/xcltech/image/upload/v1678444484/jjr%20photos/all%20jjr%20video/media_8_z8wmzw.png',
   },
   {
     id: '2',
-    imgUrl:
-      'https://res.cloudinary.com/xcltech/video/upload/v1677322646/ppt%20videos%20for%20jjr/Media6_wws7ya.mp4',
+    videoUrl:
+      'https://res.cloudinary.com/xcltech/video/upload/v1678437197/jjr%20photos/all%20jjr%20video/Media14_axzjpf.mp4',
 
-    pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677322642/ppt%20videos%20for%20jjr/thumb_6_aqxq2l.png',
+    imgUrl:
+      'https://res.cloudinary.com/xcltech/image/upload/v1678444483/jjr%20photos/all%20jjr%20video/media_14_fq7jjp.png',
   },
   {
     id: '3',
-    imgUrl:
-      'https://res.cloudinary.com/xcltech/video/upload/v1677322757/ppt%20videos%20for%20jjr/Media7_nr8jjy.mp4',
+    videoUrl:
+      'https://res.cloudinary.com/xcltech/video/upload/v1678437060/jjr%20photos/all%20jjr%20video/Media12_pfzjbc.mp4',
 
-    pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677322749/ppt%20videos%20for%20jjr/thumb_7_pu6uyf.png',
+    imgUrl:
+      'https://res.cloudinary.com/xcltech/image/upload/v1678444482/jjr%20photos/all%20jjr%20video/media12_qkscqy.png',
   },
   {
     id: '4',
-    imgUrl:
-      'https://res.cloudinary.com/xcltech/video/upload/v1677322794/ppt%20videos%20for%20jjr/Media8_hr3xsc.mp4',
+    videoUrl:
+      'https://res.cloudinary.com/xcltech/video/upload/v1678436718/jjr%20photos/all%20jjr%20video/Media8_equqzw.mp4',
 
-    pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677322788/ppt%20videos%20for%20jjr/thumb_8_xm2iqx.png',
+    imgUrl:
+      'https://res.cloudinary.com/xcltech/image/upload/v1678444481/jjr%20photos/all%20jjr%20video/Media8_equqzw_arqq0x.png',
   },
   {
     id: '5',
-    imgUrl:
-      'https://res.cloudinary.com/xcltech/video/upload/v1677322834/ppt%20videos%20for%20jjr/Media9_ba8gko.mp4',
+    videoUrl:
+      'https://res.cloudinary.com/xcltech/video/upload/v1678437034/jjr%20photos/all%20jjr%20video/Media11_jpuhij.mp4',
 
-    pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677322824/ppt%20videos%20for%20jjr/thumb_9_frbw2j.png',
+    imgUrl:
+      'https://res.cloudinary.com/xcltech/image/upload/v1678444481/jjr%20photos/all%20jjr%20video/media11_hubodg.png',
   },
   {
     id: '6',
-    imgUrl:
-      'https://res.cloudinary.com/xcltech/video/upload/v1677322866/ppt%20videos%20for%20jjr/Media11_gi84yh.mp4',
+    videoUrl:
+      'https://res.cloudinary.com/xcltech/video/upload/v1678436810/jjr%20photos/all%20jjr%20video/Media5_axl9t6.mp4',
 
-    pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677322865/ppt%20videos%20for%20jjr/thumb_11_ulyf3h.png',
+    imgUrl:
+      'https://res.cloudinary.com/xcltech/image/upload/v1678444480/jjr%20photos/all%20jjr%20video/Media5_gorxzs_t9ehap.png',
   },
   {
     id: '7',
-    imgUrl:
-      'https://res.cloudinary.com/xcltech/video/upload/v1677322935/ppt%20videos%20for%20jjr/Media12_ki8z4s.mp4',
+    videoUrl:
+      'https://res.cloudinary.com/xcltech/video/upload/v1678436747/jjr%20photos/all%20jjr%20video/Media6_xoas2g.mov',
 
-    pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677322904/ppt%20videos%20for%20jjr/thumb_12_hez0fs.png',
+    imgUrl:
+      'https://res.cloudinary.com/xcltech/image/upload/v1678444480/jjr%20photos/all%20jjr%20video/Media6_xoas2g_ee20r1.png',
   },
   {
     id: '8',
-    imgUrl:
-      'https://res.cloudinary.com/xcltech/video/upload/v1677322961/ppt%20videos%20for%20jjr/Media14_qyfel1.mp4',
+    videoUrl:
+      'https://res.cloudinary.com/xcltech/video/upload/v1678436737/jjr%20photos/all%20jjr%20video/page_34_grhtj0.mp4',
 
-    pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677322939/ppt%20videos%20for%20jjr/thumb_14_twat0z.png',
+    imgUrl:
+      'https://res.cloudinary.com/xcltech/image/upload/v1678444477/jjr%20photos/all%20jjr%20video/page_34_grhtj0_n3734k.png',
   },
   {
     id: '9',
-    imgUrl:
-      'https://res.cloudinary.com/xcltech/video/upload/v1677323183/ppt%20videos%20for%20jjr/Media15_jbhkja.mp4',
+    videoUrl:
+      'https://res.cloudinary.com/xcltech/video/upload/v1678436837/jjr%20photos/all%20jjr%20video/fastest_ntwqht.mp4',
 
-    pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677323144/ppt%20videos%20for%20jjr/thumb_15_iq19uc.png',
+    imgUrl:
+      'https://res.cloudinary.com/xcltech/image/upload/v1678444477/jjr%20photos/all%20jjr%20video/fastest_ntwqht_i5i4zi.png',
   },
   {
     id: '10',
-    imgUrl:
-      'https://res.cloudinary.com/xcltech/video/upload/v1677323260/ppt%20videos%20for%20jjr/Media16_qp98gh.mp4',
+    videoUrl:
+      'https://res.cloudinary.com/xcltech/video/upload/v1678436979/jjr%20photos/all%20jjr%20video/Media10_uf2mg2.mp4',
 
-    pic: 'https://res.cloudinary.com/xcltech/image/upload/v1677323226/ppt%20videos%20for%20jjr/thumb_16_o8seis.png',
+    imgUrl:
+      'https://res.cloudinary.com/xcltech/image/upload/v1678444479/jjr%20photos/all%20jjr%20video/media_10_jocznb.png',
   },
 ];
 

@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Header from './Header';
 import CopyRight from './CopyRight';
-import { techData } from '../data/technology';
+import { techData, techVideo } from '../data/technology';
 import { MdClose } from 'react-icons/md';
 
 const Technology = () => {
@@ -100,9 +100,34 @@ const Technology = () => {
                 </div>
               </div>
             ))}
+            {techVideo.map((item) => (
+              <div className="col-md-4">
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <a className="card">
+                      <iframe
+                        frameborder="0"
+                        type="text/html"
+                        src={item.video}
+                        width="100%"
+                        height="85%"
+                        allowfullscreen
+                        title="Dailymotion Video Player"
+                      >
+                        {' '}
+                      </iframe>
+                    </a>
+                  </div>
+                  <span className="card__footer">
+                    <span>{item.videoName}</span>
+                  </span>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
+
       <CopyRight additionalClass={'copyRight'} />
     </section>
   );
