@@ -466,7 +466,6 @@ td {
 }
 
 .logoWidthLast img {
-  /* width: 80px; */
   height: 80px;
 }
 
@@ -833,11 +832,11 @@ td {
   margin-bottom: 5px;
 }
 
-/* .customHeading {
+.customHeading {
   display: flex;
   align-items: center;
   gap: 1rem;
-} */
+}
 
 .primary-color {
   color: #e42032;
@@ -1281,6 +1280,9 @@ td {
     /* display: flex;
     justify-content: center;
     align-items: center; */
+  }
+  .logoBg img {
+    width: 100px;
   }
   /* .customClass {
     width: 50%;
