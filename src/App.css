@@ -343,7 +343,7 @@ td {
   border-radius: 15px 0px 0px 0px;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .sidebar svg {

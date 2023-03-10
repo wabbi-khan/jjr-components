@@ -2,11 +2,6 @@ import React, { useState } from 'react';
 import { HiOutlineBars3CenterLeft } from 'react-icons/hi2';
 import { MdClose } from 'react-icons/md';
 import { motion } from 'framer-motion';
-import { AiFillHome, AiTwotoneSetting } from 'react-icons/ai';
-// import { BsCalendar2EventFill, BsBookmarkFill } from 'react-icons/bs';
-// import { RiContactsFill } from 'react-icons/ri';
-// import { BiCategory } from 'react-icons/bi';
-// import { FaUsers } from 'react-icons/fa';
 import Logo from '../assets/logo.png';
 import { Link } from 'react-router-dom';
 import { MenusData } from '../data/data';
@@ -48,18 +43,6 @@ const Header = () => {
                   </tr>
                 ))}
               </table>
-              {/* <div className="menus">
-                {MenusData.map((item, index) => (
-                  <div className={`home ${item.className}`} key={index}>
-                    <div>{item.icon}</div>
-                    <span>
-                      <Link to={item.linkUrl} target={item.newTab}>
-                        {item.name}
-                      </Link>
-                    </span>
-                  </div>
-                ))}
-              </div> */}
             </motion.div>
           )}
         </div>
