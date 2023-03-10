@@ -27,7 +27,7 @@ export const MenusData = [
   },
   {
     id: 10,
-    name: 'Feature Work',
+    name: 'Our Work',
     icon: <FaVideo />,
     linkUrl: '/all-videos',
     class: 'videoIcon',

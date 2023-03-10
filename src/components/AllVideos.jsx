@@ -24,7 +24,7 @@ const AllVideos = () => {
       <div className="outPartnersHeading">
         <div className="heading-sec-new">
           <h1>
-            All Feature <b>work</b>
+            our <b>work</b>
           </h1>
           <div className="border-sec-new">
             <strong></strong>
