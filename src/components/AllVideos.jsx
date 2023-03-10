@@ -1,26 +1,13 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useState } from 'react';
+import React from 'react';
 import Header from './Header';
 import CopyRight from './CopyRight';
-// import { techData } from '../data/technology';
 import { allVideosData } from '../data/allVideos';
-// import { MdClose } from 'react-icons/md';
 
 const AllVideos = () => {
-  // const [model, setModel] = useState();
-  // const [temImgSrc, setTemImgSrc] = useState('');
-  // const getImg = (imgUrl) => {
-  //   console.log(imgUrl);
-  //   setTemImgSrc(imgUrl);
-  //   setModel(true);
-  // };
   return (
     <section>
       <Header />
-      {/* <div className={model ? 'model open' : 'model'}>
-        <img src={temImgSrc} alt="temImgSrc" />
-        <MdClose className="closeIcon" onClick={() => setModel(false)} />
-      </div> */}
       <div className="outPartnersHeading">
         <div className="heading-sec-new">
           <h1>

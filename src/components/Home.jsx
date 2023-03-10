@@ -9,18 +9,7 @@ import CopyRight from './CopyRight';
 import audio1 from '../audioPlay/ambience_loop2.mp3';
 import WhatsappIcon from './WhatsappIcon';
 const Home = () => {
-  // ======audio=========
-  // const [playing, setPlaying] = useState(false);
-  // const player = new Audio(audio1);
-  // useEffect(() => {
-  //   playing ? player.play() : player.pause();
-  //   return () => player.pause();
-  // }, [playing]);
-
-  // function togglePlay() {
-  //   setPlaying((s) => !s);
-  // }
-  // ====== it is working on firefox audio play automatic when ever page reload
+  // ====== audio play when evere the home page load
   const [isPlaying, setIsPlaying] = useState(false);
 
   useEffect(() => {
@@ -96,19 +85,8 @@ const Home = () => {
               )}
             </div>
           </div>
-          {/* <div onClick={() => togglePlay()}>
-            {playing ? (
-              <HiSpeakerWave style={{ cursor: 'pointer' }} />
-            ) : (
-              <HiSpeakerXMark style={{ cursor: 'pointer' }} />
-            )}
-          </div> */}
         </div>
-        <div className="ml-4">
-          {/* <h2>
-            Feature <b> Work</b>
-          </h2> */}
-        </div>
+        <div className="ml-4"></div>
         <div className="mb-2">
           <WhatsappIcon />
         </div>

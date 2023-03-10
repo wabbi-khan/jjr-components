@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from './Header';
 import CopyRight from './CopyRight';
-// import Img1 from '../assets/GKyZBZXafr9t.jpg';
 import { tesiData } from '../data/data';
 const Testimonials = () => {
   return (

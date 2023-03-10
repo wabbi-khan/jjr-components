@@ -122,13 +122,6 @@ const AboutUs = () => {
                     </div>
                   </div>
                 </div>
-                {/* <div className="slider-btn-area d-flex align-items-center">
-                  <div className="sc-slider-btn sc-mr-20">
-                    <a className="sc-primary-btn" href="/">
-                      Learn More
-                    </a>
-                  </div>
-                </div> */}
               </div>
             </div>
           </div>

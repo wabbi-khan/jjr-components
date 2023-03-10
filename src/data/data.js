@@ -1,6 +1,4 @@
 // ========= Menus ==================
-// import { HiOutlineBars3CenterLeft } from 'react-icons/hi2';
-// import { motion } from 'framer-motion';
 import { MdReviews } from 'react-icons/md';
 import { AiFillHome, AiTwotoneSetting } from 'react-icons/ai';
 import { BsCalendar2EventFill, BsBookmarkFill } from 'react-icons/bs';

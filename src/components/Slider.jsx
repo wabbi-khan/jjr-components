@@ -1,17 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
-// import IMG from '../assets/billi.jpg';
 const Slider = ({
   id,
-  // imgUrl,
   active,
-  // deactive,
   video,
   handleClick,
   handleClick2,
   handleClick3,
-  // autoPlay,
   imgUrl,
 }) => {
   return (

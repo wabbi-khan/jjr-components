@@ -37,7 +37,6 @@ const ContactUs = () => {
                 <i className="fas fa-envelope"></i>
                 <div className="topic">Email</div>
                 <div className="text-one">info@jjrnetwork.com</div>
-                {/* <div className="text-two">info.codinglab@gmail.com</div> */}
               </div>
             </div>
             <div className="right-side">
