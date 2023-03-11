@@ -245,6 +245,7 @@ td {
 }
 
 .allItems {
+  margin-top: -3rem;
   width: 100%;
   height: auto;
   display: flex;
@@ -363,8 +364,12 @@ td {
   font-size: 14px;
 }
 
+.footerMobView {
+  display: none;
+}
+
 .features {
-  padding: 50px 50px 0px 50px;
+  padding: 20px 50px 0px 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1340,15 +1345,21 @@ td {
     font-size: 16px !important;
     font-weight: 300;
   }
+  .footerMobView {
+    display: block;
+  }
+  .footerDesktopView {
+    display: none;
+  }
 }
+
+/* =================================================== */
 
 .testimonial-block_user_info h4 {
   font-size: 20px;
   color: gray;
   font-weight: 400;
 }
-
-/* =================================================== */
 
 .carousel-control-prev,
 .carousel-control-next {

@@ -86,12 +86,18 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="ml-4"></div>
+        <div className="ml-4">
+          <div className="footerDesktopView">
+            <CopyRight additionalClass={'copyRight'} />
+          </div>
+        </div>
         <div className="mb-2">
           <WhatsappIcon />
         </div>
       </div>
-      <CopyRight additionalClass={'copyRight'} />
+      <div className="footerMobView">
+        <CopyRight additionalClass={'copyRight'} />
+      </div>
     </>
   );
 };
