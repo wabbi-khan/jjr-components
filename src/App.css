@@ -210,7 +210,7 @@ td {
 }
 
 .cover::before {
-    /* width: 90px; */
+    width: 90px;
     height: 300px;
     content: '';
     position: absolute;
@@ -237,7 +237,7 @@ td {
     transition: all 0.5s ease-in-out !important;
     -webkit-transition: all 0.5s ease-in-out !important;
     border-radius: 5px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .whenHover video:hover {
