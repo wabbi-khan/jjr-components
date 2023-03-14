@@ -67,7 +67,7 @@ const App = () => {
   }, []);
   return (
     <div>
-      {loading ? (
+      {/* {loading ? (
         <ScaleLoader
           color="#de0000"
           loading={loading}
@@ -82,11 +82,11 @@ const App = () => {
             fontSize: '30rem',
           }}
         />
-      ) : (
+      ) : ( */}
         <main>
           <RouterProvider router={router}></RouterProvider>
         </main>
-      )}
+      {/* )} */}
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Slider from './Slider';
 import { dataWorld } from '../data/data';
 import { MdClose } from 'react-icons/md';
@@ -9,6 +9,16 @@ import CopyRight from './CopyRight';
 import audio1 from '../audioPlay/ambience_loop2.mp3';
 import WhatsappIcon from './WhatsappIcon';
 const Home = () => {
+  // ======= for stope the video
+
+  const videoRef = useRef(null);
+
+  const handleVideoClose = () => {
+    videoRef.current.pause();
+    videoRef.current.currentTime = 0;
+    videoRef.current.src = '';
+    setModel(false);
+  };
   // ====== audio play when evere the home page load
   const [isPlaying, setIsPlaying] = useState(false);
 
@@ -34,7 +44,6 @@ const Home = () => {
   const [model, setModel] = useState();
   const [temImgSrc, setTemImgSrc] = useState('');
   const getImg = (imgUrl) => {
-    console.log(imgUrl);
     setTemImgSrc(imgUrl);
     setModel(true);
   };
@@ -43,10 +52,20 @@ const Home = () => {
     <>
       <Header />
       {/* =========== Slider =================== */}
-      <div className={model ? 'model open' : 'model'}>
-        {/* <img src={temImgSrc} alt="temImgSrc" /> */}
-        <video src={temImgSrc} autoPlay muted controls />
-        <MdClose className="closeIcon" onClick={() => setModel(false)} />
+      {/* <img src={temImgSrc} alt="temImgSrc" /> */}
+      <div
+        className={model ? 'model open' : 'model'}
+        // onClick={handleVideoClose}
+      >
+        <video ref={videoRef} src={temImgSrc} autoPlay controls />
+        <MdClose
+          className="closeIcon"
+          onClick={() => {
+            setModel(false);
+            setIsPlaying(false);
+            handleVideoClose();
+          }}
+        />
       </div>
       <div className="outPartnersHeading">
         <div className="heading-sec-new">
@@ -58,7 +77,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="allItems">
+      <div className="allItems" onClick={() => setIsPlaying(true)}>
         {dataWorld.map((world, index) => (
           <Slider
             key={world?.id}
