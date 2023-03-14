@@ -6,7 +6,7 @@ import Header from './Header';
 import { HiSpeakerWave, HiSpeakerXMark } from 'react-icons/hi2';
 import CopyRight from './CopyRight';
 // import audio1 from '../audioPlay/1.wav';
-import audio1 from '../audioPlay/ambience_loop2.mp3';
+import audio1 from '../audioPlay/loopAudio.mp3';
 import WhatsappIcon from './WhatsappIcon';
 const Home = () => {
   // ======= for stope the video
@@ -77,7 +77,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="allItems" onClick={() => setIsPlaying(true)}>
+      <div className="allItems">
         {dataWorld.map((world, index) => (
           <Slider
             key={world?.id}
@@ -87,8 +87,9 @@ const Home = () => {
             video={world?.videoUrl}
             imgUrl={world.imgUrl}
             handleClick={setActive}
-            handleClick2={() => getImg(world?.videoUrl)}
+            displayFullVideo={() => getImg(world?.videoUrl)}
             handleClick3={() => setActive(false)}
+            stopBackgroundAudio={() => setIsPlaying(true)}
           />
         ))}
       </div>

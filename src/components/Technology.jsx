@@ -44,7 +44,7 @@ const Technology = () => {
                         <img
                           onClick={() => getImg(item?.img1)}
                           src={item?.img1}
-                          alt="Event Activation images"
+                          alt="Technologies images"
                           className="card__img"
                         />
                       </a>
@@ -54,7 +54,7 @@ const Technology = () => {
                         <img
                           onClick={() => getImg(item?.img2)}
                           src={item?.img2}
-                          alt="Event Activation images"
+                          alt="Technologies images"
                           className="card__img"
                         />
                       </a>
@@ -64,7 +64,7 @@ const Technology = () => {
                         <img
                           onClick={() => getImg(item?.img3)}
                           src={item?.img3}
-                          alt="Event Activation images"
+                          alt="Technologies images"
                           className="card__img"
                         />
                       </a>
@@ -100,7 +100,7 @@ const Technology = () => {
                 </div>
               </div>
             ))}
-            {techVideo.map((item) => (
+            {/* {techVideo.map((item) => (
               <div className="col-md-4">
                 <div className="carousel-inner">
                   <div className="carousel-item active">
@@ -123,7 +123,7 @@ const Technology = () => {
                   </span>
                 </div>
               </div>
-            ))}
+            ))} */}
           </div>
         </div>
       </div>

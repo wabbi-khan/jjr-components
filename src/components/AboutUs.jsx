@@ -56,9 +56,11 @@ const AboutUs = () => {
                     <div className="aboutHeading">Who We Are</div>
                   </span>
                   <h2 className="title">
-                    Business Performance
+                    Quality is the Best{' '}
+                    <span className="primary-color italic">Business</span> Plan
+                    {/* Business Performance
                     <span className="primary-color italic"> improve </span>
-                    Drastically
+                    Drastically */}
                   </h2>
                   <p className="aboutPara">
                     Welcome to JJR NETWORK, a multi-faceted servicing company
@@ -128,32 +130,32 @@ const AboutUs = () => {
         </div>
       </div>
       <div className="container py-4 ">
-        <div class="row">
-          <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
-            <div class="sc-heading-area sc-mb-55 sc-md-mb-35 text-center">
-              <span class="sub-title customHeading justify-content-center">
+        <div className="row">
+          <div className="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
+            <div className="sc-heading-area sc-mb-55 sc-md-mb-35 text-center">
+              {/* <span className="sub-title customHeading justify-content-center">
                 <div className="icon-line">
                   <TiWavesOutline />
                 </div>
                 Work Process
-              </span>
-              <h2 class="title">
-                From Strategy to Delivery
-                <span class="primary-color italic"> Services </span>Every Time
+              </span> */}
+              <h2 className="title">
+                Our
+                <span className="primary-color italic"> Services </span>
               </h2>
             </div>
           </div>
         </div>
-        <div class="row">
+        <div className="row">
           {serviceCard.map((item, index) => (
-            <div class="col-lg-4 col-md-4 mt-5 sm-mb-20" key={index}>
-              <div class="addon-services">
-                <div class="services-icon">
+            <div className="col-lg-4 col-md-4 mt-5 sm-mb-20" key={index}>
+              <div className="addon-services">
+                <div className="services-icon">
                   <img src={item?.icon} alt="images" />
                 </div>
-                <div class="services-text">
-                  <h2 class="title">{item.title}</h2>
-                  <p class="services-txt">{item.para}</p>
+                <div className="services-text">
+                  <h2 className="title">{item.title}</h2>
+                  <p className="services-txt">{item.para}</p>
                 </div>
               </div>
             </div>
