@@ -8,7 +8,7 @@ export const merchandData = [
   },
   {
     id: 'carouselExampleControls2',
-    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678367696/jjr%20photos/new%20merchandise%20images/images_3_exxmus.jpg',
+    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678874760/jjr%20photos/MERCHANDISING/61w9SWKbmVL._AC_SL1000__rs1qlv.jpg',
     img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678367696/jjr%20photos/new%20merchandise%20images/istockphoto-525137893-612x612_bt1leo.jpg',
     img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678796826/jjr%20photos/Dct7hgAXkAEIYoD_uju9jf.jpg',
     eventName: 'MERCHANDISING',
