@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Header from './Header';
 import CopyRight from './CopyRight';
-import { techData, techVideo } from '../data/technology';
+import { techData } from '../data/technology';
 import { MdClose } from 'react-icons/md';
 
 const Technology = () => {
@@ -37,6 +37,7 @@ const Technology = () => {
                   id={item.id}
                   className="carousel slide"
                   data-ride="carousel"
+                  data-interval="false"
                 >
                   <div className="carousel-inner">
                     <div className="carousel-item active">
