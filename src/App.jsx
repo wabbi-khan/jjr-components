@@ -13,7 +13,7 @@ import Merchand from './components/Merchand';
 import AllVideos from './components/AllVideos';
 // import Spinner from './components/Spinner';
 import { ScaleLoader } from 'react-spinners';
-
+import Logo from './assets/logo.png';
 // Routes
 const router = createBrowserRouter([
   {
@@ -63,30 +63,39 @@ const App = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 5000);
+    }, 7000);
   }, []);
   return (
     <div>
-      {/* {loading ? (
-        <ScaleLoader
-          color="#de0000"
-          loading={loading}
-          // size={150}
-          width={10}
-          height={50}
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            height: '100vh',
-            fontSize: '30rem',
-          }}
-        />
-      ) : ( */}
+      {loading ? (
+        <div className="spinner">
+          <div>
+            <img src={Logo} alt="logo" />
+          </div>
+          <div>
+            <ScaleLoader
+              color="#de0000"
+              loading={loading}
+              // size={150}
+              width={10}
+              height={50}
+              style={
+                {
+                  // display: 'flex',
+                  // justifyContent: 'center',
+                  // alignItems: 'center',
+                  // height: '100vh',
+                  // fontSize: '30rem',
+                }
+              }
+            />
+          </div>
+        </div>
+      ) : (
         <main>
           <RouterProvider router={router}></RouterProvider>
         </main>
-      {/* )} */}
+      )}
     </div>
   );
 };
