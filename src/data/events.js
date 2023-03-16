@@ -94,4 +94,11 @@ export const eventData = [
     img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678185690/jjr%20photos/Zain%20KSA/Picture44_dpz4c8.jpg',
     eventName: 'Zain KSA',
   },
+  {
+    id: 'carouselExampleControls38',
+    img1: '',
+    img2: '',
+    img3: '',
+    eventName: 'gray man netflix',
+  },
 ];

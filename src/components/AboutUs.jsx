@@ -76,46 +76,72 @@ const AboutUs = () => {
                     solutions that will make you stand out from your
                     competition.
                   </p>
+                  <div className="sc-auother-style-box sc-mb-30 ">
+                    <div className="sc-auother-style d-flex align-items-center">
+                      <div className="sc-auother-image sc-mr-20">
+                        <img
+                          src="https://res.cloudinary.com/xcltech/image/upload/v1678963676/jjr%20photos/Founder%20images/founder_bykmkn.jpg"
+                          alt="Auother"
+                        />
+                      </div>
+                      <div className="sc-auother-content">
+                        <div className="sc-auother-text">
+                          Johnny Rizkallah <br />
+                          <span>Founder</span>
+                        </div>
+                        <p
+                          className="des position-relative"
+                          style={{ zIndex: '1' }}
+                        >
+                          We believe that success is achieved through hard work,
+                          dedication, consistency, and innovation. We are
+                          committed to providing our clients with the highest
+                          quality of products and services, and always striving
+                          to find new and better ways to meet their needs.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="sc-shape-icon">
+                      <img src={Img4} alt="Icon" />
+                    </div>
+                  </div>
                   <p className="aboutPara">
                     Our passion, creativity and attention to detail will give
                     your brand that special twist that will make you stand out
                     from the crowd all while preserving your core brand values.
                     We take pride in our high client retention rate as this is
                     the ultimate attestation of JJR NETWORK’s client servicing
-                    proficiency.
+                    profic iency.
                   </p>
-                </div>
-                <div className="sc-auother-style-box sc-mb-30">
-                  <div className="sc-auother-style d-flex align-items-center">
-                    <div className="sc-auother-image sc-mr-20">
-                      <img
-                        src="https://res.cloudinary.com/xcltech/image/upload/v1678963676/jjr%20photos/Founder%20images/founder_bykmkn.jpg"
-                        alt="Auother"
-                      />
-                    </div>
-                    <div className="sc-auother-content">
-                      <div className="sc-auother-text">
-                        Johnny Rizkallah <br />
-                        <span>Founder</span>
+                  <div className="sc-auother-style-box sc-mb-30">
+                    <div className="sc-auother-style d-flex align-items-center">
+                      <div className="sc-auother-image sc-mr-20 ladyIcon">
+                        <img
+                          src="https://res.cloudinary.com/xcltech/image/upload/v1678963792/jjr%20photos/Founder%20images/woman_xj2j6i.png"
+                          alt="Auother"
+                        />
                       </div>
-                      <p
-                        className="des position-relative"
-                        style={{ zIndex: '1' }}
-                      >
-                        We believe that success is achieved through hard work,
-                        dedication, consistency, and innovation. We are
-                        committed to providing our clients with the highest
-                        quality of products and services, and always striving to
-                        find new and better ways to meet their needs.
-                      </p>
+                      <div className="sc-auother-content">
+                        <div className="sc-auother-text">
+                          Jennifer Moaccadie Rizkallah <br />
+                          <span>Co-Founder</span>
+                        </div>
+                        <p
+                          className="des position-relative"
+                          style={{ zIndex: '1' }}
+                        >
+                          Through perseverance and passion grew JJR NETWORK to
+                          where it is today. However, the core essence of this
+                          company will always be and remain a family business.
+                          Loyalty being our constant value is reciprocally
+                          returned by our clients… And that is priceless.
+                        </p>
+                      </div>
                     </div>
-                  </div>
-                  <div className="sc-shape-icon">
-                    <img src={Img4} alt="Icon" />
                   </div>
                 </div>
 
-                <div className="row sc-mb-30 py-3">
+                {/* <div className="row sc-mb-30 py-3">
                   <div className="col-lg-8">
                     <div className="sc-description">
                       <p className="des">
@@ -131,36 +157,7 @@ const AboutUs = () => {
                       <img src={Img5} alt="About" />
                     </div>
                   </div>
-                </div>
-                <div className="sc-auother-style-box sc-mb-30">
-                  <div className="sc-auother-style d-flex align-items-center">
-                    <div className="sc-auother-image sc-mr-20 ladyIcon">
-                      <img
-                        src="https://res.cloudinary.com/xcltech/image/upload/v1678963792/jjr%20photos/Founder%20images/woman_xj2j6i.png"
-                        alt="Auother"
-                      />
-                    </div>
-                    <div className="sc-auother-content">
-                      <div className="sc-auother-text">
-                        Jennifer Moaccadie Rizkallah <br />
-                        <span>Co-Founder</span>
-                      </div>
-                      <p
-                        className="des position-relative"
-                        style={{ zIndex: '1' }}
-                      >
-                        Through perseverance and passion grew JJR NETWORK to
-                        where it is today. However, the core essence of this
-                        company will always be and remain a family business.
-                        Loyalty being our constant value is reciprocally
-                        returned by our clients… And that is priceless.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="sc-shape-icon">
-                    <img src={Img4} alt="Icon" />
-                  </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

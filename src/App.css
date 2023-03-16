@@ -751,9 +751,9 @@ td {
   width: 60%;
 }
 
-.jjrAboutImg img {
-  height: 85vh;
-}
+/* .jjrAboutImg img {
+  height: auto;
+} */
 
 .sc-about-content-style .sc-heading-area .description {
   font-weight: 100;

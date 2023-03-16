@@ -132,6 +132,16 @@ export const allVideosData = [
       'https://res.cloudinary.com/xcltech/video/upload/v1678351443/jjr%20photos/Technology%205/Media14_zqivid.mp4',
     eventName: 'MOTION EXPERIENCES',
   },
+  {
+    id: 'carouselExampleControls14',
+    video1:
+      'https://res.cloudinary.com/xcltech/video/upload/v1678966088/jjr%20photos/all%20jjr%20video/WhatsApp_Video_2023-03-16_at_4.18.31_PM_nhw2hv.mp4',
+    video2:
+      'https://res.cloudinary.com/xcltech/video/upload/v1678966079/jjr%20photos/all%20jjr%20video/WhatsApp_Video_2023-03-16_at_4.17.22_PM_jzach1.mp4',
+    video3:
+      'https://res.cloudinary.com/xcltech/video/upload/v1678965977/jjr%20photos/all%20jjr%20video/WhatsApp_Video_2023-03-16_at_4.17.53_PM_y1qjtf.mp4',
+    eventName: 'gray man netflix',
+  },
   //   {
   //     id: 'carouselExampleControls14',
   //     video1: '',
