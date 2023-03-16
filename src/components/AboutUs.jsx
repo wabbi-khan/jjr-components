@@ -42,7 +42,7 @@ const AboutUs = () => {
                 <img
                   src="https://res.cloudinary.com/xcltech/image/upload/v1678273566/jjr%20photos/Picture2_ds7glx.png"
                   className="img-fluid"
-                  alt=""
+                  alt="jjrAboutImg"
                 />
               </div>
             </div>
@@ -88,18 +88,25 @@ const AboutUs = () => {
                 <div className="sc-auother-style-box sc-mb-30">
                   <div className="sc-auother-style d-flex align-items-center">
                     <div className="sc-auother-image sc-mr-20">
-                      <img src={Img3} alt="Auother" />
+                      <img
+                        src="https://res.cloudinary.com/xcltech/image/upload/v1678963676/jjr%20photos/Founder%20images/founder_bykmkn.jpg"
+                        alt="Auother"
+                      />
                     </div>
                     <div className="sc-auother-content">
                       <div className="sc-auother-text">
-                        Forman Cobid, <span>Founder</span>
+                        Johnny Rizkallah <br />
+                        <span>Founder</span>
                       </div>
                       <p
                         className="des position-relative"
                         style={{ zIndex: '1' }}
                       >
-                        Grass face saw beginning meat fod creeping eaven
-                        dominion intercom created behold
+                        We believe that success is achieved through hard work,
+                        dedication, consistency, and innovation. We are
+                        committed to providing our clients with the highest
+                        quality of products and services, and always striving to
+                        find new and better ways to meet their needs.
                       </p>
                     </div>
                   </div>
@@ -107,7 +114,8 @@ const AboutUs = () => {
                     <img src={Img4} alt="Icon" />
                   </div>
                 </div>
-                <div className="row sc-mb-30 mt-5">
+
+                <div className="row sc-mb-30 py-3">
                   <div className="col-lg-8">
                     <div className="sc-description">
                       <p className="des">
@@ -122,6 +130,35 @@ const AboutUs = () => {
                     <div className="sc-ab-image text-end text-md-start">
                       <img src={Img5} alt="About" />
                     </div>
+                  </div>
+                </div>
+                <div className="sc-auother-style-box sc-mb-30">
+                  <div className="sc-auother-style d-flex align-items-center">
+                    <div className="sc-auother-image sc-mr-20 ladyIcon">
+                      <img
+                        src="https://res.cloudinary.com/xcltech/image/upload/v1678963792/jjr%20photos/Founder%20images/woman_xj2j6i.png"
+                        alt="Auother"
+                      />
+                    </div>
+                    <div className="sc-auother-content">
+                      <div className="sc-auother-text">
+                        Jennifer Moaccadie Rizkallah <br />
+                        <span>Co-Founder</span>
+                      </div>
+                      <p
+                        className="des position-relative"
+                        style={{ zIndex: '1' }}
+                      >
+                        Through perseverance and passion grew JJR NETWORK to
+                        where it is today. However, the core essence of this
+                        company will always be and remain a family business.
+                        Loyalty being our constant value is reciprocally
+                        returned by our clients… And that is priceless.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="sc-shape-icon">
+                    <img src={Img4} alt="Icon" />
                   </div>
                 </div>
               </div>
@@ -148,7 +185,7 @@ const AboutUs = () => {
         </div>
         <div className="row">
           {serviceCard.map((item, index) => (
-            <div className="col-lg-4 col-md-4 mt-5 sm-mb-20" key={index}>
+            <div className="col-lg-4 col-md-6 mt-5 sm-mb-20" key={index}>
               <div className="addon-services">
                 <div className="services-icon">
                   <img src={item?.icon} alt="images" />

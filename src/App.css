@@ -746,9 +746,13 @@ td {
 
 .sc-about-group-image .sc-group {
   position: absolute;
-  bottom: -100px;
+  bottom: -200px;
   right: 0;
   width: 60%;
+}
+
+.jjrAboutImg img {
+  height: 85vh;
 }
 
 .sc-about-content-style .sc-heading-area .description {
@@ -774,7 +778,12 @@ td {
   color: #03041c;
   font-family: 'Inter Tight', sans-serif;
   transition: 0.4s;
-  z-index: 9999;
+  z-index: 99999;
+}
+
+.sc-auother-content .des {
+  font-size: 13px;
+  line-height: 17px;
 }
 
 .icon-line svg {
@@ -794,7 +803,15 @@ td {
 
 .sc-about-content-style .sc-auother-style-box .sc-auother-image img {
   width: 140px;
+  height: 100px;
+  object-fit: cover;
   padding: 0px 20px;
+  border-radius: 50%;
+}
+
+.ladyIcon img {
+  width: 130px !important;
+  height: 100px !important;
 }
 
 .sc-about-content-style .sc-auother-style-box .sc-shape-icon {
@@ -1359,6 +1376,20 @@ td {
   }
   .footerDesktopView {
     display: none;
+  }
+  .sc-auother-style {
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+  }
+  .sc-about-group-image .sc-group {
+    bottom: -120px;
+  }
+  .jjrAboutImg img {
+    height: 35vh;
+  }
+  .sc-auother-text {
+    text-align: center;
   }
 }
 
