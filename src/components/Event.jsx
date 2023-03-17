@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Header from './Header';
 import CopyRight from './CopyRight';
-import { eventData } from '../data/events';
+import { eventData } from '../data/data';
 import { MdClose } from 'react-icons/md';
 
 const Event = () => {

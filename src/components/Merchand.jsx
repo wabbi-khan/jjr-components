@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Header from './Header';
 import CopyRight from './CopyRight';
-import { merchandData } from '../data/merhcand';
+import { merchandData } from '../data/data';
 import { MdClose } from 'react-icons/md';
 
 const Merchand = () => {

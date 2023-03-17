@@ -752,7 +752,7 @@ td {
 }
 
 .jjrAboutImg img {
-  min-height: 600px;
+  min-height: 550px;
 }
 
 .sc-about-content-style .sc-heading-area .description {
@@ -897,13 +897,9 @@ td {
 
 .sc-heading-area .title {
   display: block;
-  /* margin-bottom: 25px; */
+  margin-bottom: 15px;
   font-weight: 700;
   font-size: 40px;
-  text-align: justify;
-  text-justify: inter-word;
-  hyphens: auto;
-  -webkit-hyphens: auto;
 }
 
 .sc-slider-section .sc-slider-content .sc-slider-btn .sc-primary-btn {
@@ -1399,6 +1395,15 @@ td {
   }
   .sc-auother-text {
     text-align: center;
+  }
+  .aboutPara {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .addon-services .services-text .services-txt {
+    font-size: 13px;
   }
 }
 

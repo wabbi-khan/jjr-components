@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Header from './Header';
 import CopyRight from './CopyRight';
-import { productionAllData } from '../data/production';
+import { productionAllData } from '../data/data';
 import { MdClose } from 'react-icons/md';
 
 const Production = () => {

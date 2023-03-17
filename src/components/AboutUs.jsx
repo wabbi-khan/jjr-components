@@ -55,13 +55,13 @@ const AboutUs = () => {
                     </div>
                     <div className="aboutHeading">Who We Are</div>
                   </span>
-                  <p className="title">
+                  <h2 className="title">
                     From Strategy to Delivery
                     <span className="primary-color italic"> Quality </span>
                     is the Best
                     <span className="primary-color italic"> Business </span>
                     Plan
-                  </p>
+                  </h2>
                   <p className="aboutPara">
                     Welcome to JJR NETWORK, a multi-faceted servicing company
                     providing our clients with state-of-the-art on ground

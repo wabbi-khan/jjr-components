@@ -2,7 +2,7 @@
 import React from 'react';
 import Header from './Header';
 import CopyRight from './CopyRight';
-import { allVideosData } from '../data/allVideos';
+import { allVideosData } from '../data/data';
 
 const AllVideos = () => {
   return (
