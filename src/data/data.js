@@ -429,9 +429,9 @@ export const eventData = [
   },
   {
     id: 'carouselExampleControls38',
-    img1: '',
-    img2: '',
-    img3: '',
+    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1679050831/jjr%20photos/gray%20man%20netflix/1-2_uuioye.png',
+    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1679050831/jjr%20photos/gray%20man%20netflix/1-1_wvoghd.png',
+    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1679050831/jjr%20photos/gray%20man%20netflix/2-1_nubvc1.png',
     eventName: 'gray man netflix',
   },
 ];
