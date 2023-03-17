@@ -55,13 +55,13 @@ const AboutUs = () => {
                     </div>
                     <div className="aboutHeading">Who We Are</div>
                   </span>
-                  <h2 className="title">
-                    Quality is the Best{' '}
-                    <span className="primary-color italic">Business</span> Plan
-                    {/* Business Performance
-                    <span className="primary-color italic"> improve </span>
-                    Drastically */}
-                  </h2>
+                  <p className="title">
+                    From Strategy to Delivery
+                    <span className="primary-color italic"> Quality </span>
+                    is the Best
+                    <span className="primary-color italic"> Business </span>
+                    Plan
+                  </p>
                   <p className="aboutPara">
                     Welcome to JJR NETWORK, a multi-faceted servicing company
                     providing our clients with state-of-the-art on ground
@@ -105,7 +105,7 @@ const AboutUs = () => {
                       <img src={Img4} alt="Icon" />
                     </div>
                   </div>
-                  <p className="aboutPara">
+                  <p className="aboutPara mt-2">
                     Our passion, creativity and attention to detail will give
                     your brand that special twist that will make you stand out
                     from the crowd all while preserving your core brand values.
@@ -113,7 +113,24 @@ const AboutUs = () => {
                     the ultimate attestation of JJR NETWORK’s client servicing
                     profic iency.
                   </p>
-                  <div className="sc-auother-style-box sc-mb-30">
+                  <div className="row sc-mb-30">
+                    <div className="col-lg-8">
+                      <div className="sc-description">
+                        <p className="des">
+                          In order to satisfy and exceed our esteemed clients
+                          expectations we, at JJR NETWORK, are committed to
+                          ensure the latest advanced technologies needed to turn
+                          your campaign into a success.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="col-lg-4">
+                      <div className="sc-ab-image text-end text-md-start">
+                        <img src={Img5} alt="About" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="sc-auother-style-box sc-mb-30 mt-2">
                     <div className="sc-auother-style d-flex align-items-center">
                       <div className="sc-auother-image sc-mr-20 ladyIcon">
                         <img
@@ -140,24 +157,6 @@ const AboutUs = () => {
                     </div>
                   </div>
                 </div>
-
-                {/* <div className="row sc-mb-30 py-3">
-                  <div className="col-lg-8">
-                    <div className="sc-description">
-                      <p className="des">
-                        In order to satisfy and exceed our esteemed clients
-                        expectations we, at JJR NETWORK, are committed to ensure
-                        the latest advanced technologies needed to turn your
-                        campaign into a success.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="col-lg-4">
-                    <div className="sc-ab-image text-end text-md-start">
-                      <img src={Img5} alt="About" />
-                    </div>
-                  </div>
-                </div> */}
               </div>
             </div>
           </div>
