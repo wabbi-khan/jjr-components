@@ -370,6 +370,11 @@ td {
   font-size: 14px;
 }
 
+.copyRight span a {
+  color: black;
+  text-decoration: underline;
+}
+
 .footerMobView {
   display: none;
 }
