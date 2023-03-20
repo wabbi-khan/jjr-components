@@ -251,14 +251,15 @@ td {
 }
 
 .allItems {
-  margin-top: -3rem;
+  margin-top: -2rem;
   width: 100%;
-  height: auto;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
   overflow-x: auto;
+  overflow-y: hidden;
 }
 
 .allItems div:nth-child(2),
@@ -361,7 +362,7 @@ td {
 
 .copyRight {
   width: 100%;
-  padding: 20px 0px;
+  padding: 10px 0px;
   font-size: 16px;
   text-align: center;
 }
