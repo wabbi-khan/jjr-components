@@ -1407,6 +1407,12 @@ td {
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  .jjrAboutImg img {
+    height: 740px;
+  }
+}
+
 @media only screen and (max-width: 320px) {
   .addon-services .services-text .services-txt {
     font-size: 13px;

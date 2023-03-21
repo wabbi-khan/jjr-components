@@ -356,9 +356,9 @@ export const eventData = [
 
   {
     id: 'carouselExampleControls18',
-    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678873878/jjr%20photos/Dubai%20International%20Finanacial%20Center%20-%20Art%20Nights/Picture9_hzis4t.png',
-    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678873883/jjr%20photos/Dubai%20International%20Finanacial%20Center%20-%20Art%20Nights/Picture8_yfeony.png',
-    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678873880/jjr%20photos/Dubai%20International%20Finanacial%20Center%20-%20Art%20Nights/Picture10_nyngdg.png',
+    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1679395620/jjr%20photos/Dubai%20International%20Finanacial%20Center%20-%20Art%20Nights/IMG_0002_davdx6.jpg',
+    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1679395626/jjr%20photos/Dubai%20International%20Finanacial%20Center%20-%20Art%20Nights/IMG_9960_gk3wul.jpg',
+    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1679395617/jjr%20photos/Dubai%20International%20Finanacial%20Center%20-%20Art%20Nights/IMG_9957_nrwvqy.jpg',
     eventName: 'Dubai International Financial Center - Art Nights',
   },
   {
@@ -983,9 +983,9 @@ export const productionAllData = [
   },
   {
     id: 'carouselExampleControls112',
-    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678266842/jjr%20photos/sharjah_event_uc6gd0.jpg',
-    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678266842/jjr%20photos/sharjah_event_uc6gd0.jpg',
-    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678266842/jjr%20photos/sharjah_event_uc6gd0.jpg',
+    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1679395939/jjr%20photos/Sharjah%20Event/845a3282-2a55-4658-ac1d-aee4931c5570_xcwamd.jpg',
+    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1679395939/jjr%20photos/Sharjah%20Event/65c482e6-afa3-494d-a05a-0a1c6f23d1f8_d1vltu.jpg',
+    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1679395939/jjr%20photos/Sharjah%20Event/d4515e4a-f90f-4024-80d8-4c38b883ae25_of4k1y.jpg',
     eventName: 'Sharjah event',
   },
   {
@@ -994,6 +994,20 @@ export const productionAllData = [
     img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678266915/jjr%20photos/emirates_cyibkw.jpg',
     img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678266915/jjr%20photos/emirates_cyibkw.jpg',
     eventName: 'emirates',
+  },
+  {
+    id: 'carouselExampleControls114',
+    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1679396080/jjr%20photos/TikTok/50359126-00bc-47ed-8d3d-8207e2d27015_rv3suu.jpg',
+    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1679396083/jjr%20photos/TikTok/ad6e86fc-e535-4134-9719-5aaf2e482e81_ppqa9c.jpg',
+    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1679396080/jjr%20photos/TikTok/50359126-00bc-47ed-8d3d-8207e2d27015_rv3suu.jpg',
+    eventName: 'tiktok',
+  },
+  {
+    id: 'carouselExampleControls115',
+    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1679396373/jjr%20photos/red%20bull/PHOTO-2022-01-24-12-55-44_1_ajtkiw.jpg',
+    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1679396350/jjr%20photos/red%20bull/PHOTO-2022-04-15-07-20-27_3_zu0ky7.jpg',
+    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1679396384/jjr%20photos/red%20bull/PHOTO-2022-04-07-09-26-28_3_nt66zb.jpg',
+    eventName: 'Red Bull Mobile',
   },
 ];
 
