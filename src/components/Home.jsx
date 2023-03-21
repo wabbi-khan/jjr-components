@@ -5,8 +5,7 @@ import { MdClose } from 'react-icons/md';
 import Header from './Header';
 import { HiSpeakerWave, HiSpeakerXMark } from 'react-icons/hi2';
 import CopyRight from './CopyRight';
-// import audio1 from '../audioPlay/1.wav';
-import audio1 from '../audioPlay/birdMusic.mp3';
+// import audio1 from '../audioPlay/birdMusic.mp3';
 import WhatsappIcon from './WhatsappIcon';
 const Home = () => {
   // ======= for stope the video
@@ -96,7 +95,14 @@ const Home = () => {
       <div className="features">
         <div className="soundIcon">
           <div>
-            <audio id="myAudio" autoPlay={true} loop={true} src={audio1} />
+            <audio
+              id="myAudio"
+              autoPlay={true}
+              loop={true}
+              src={
+                'https://res.cloudinary.com/xcltech/video/upload/v1679401348/jjr%20photos/audio/audio5_zsqsef.mp3'
+              }
+            />
             <div onClick={() => setIsPlaying(!isPlaying)}>
               {isPlaying ? (
                 <HiSpeakerXMark style={{ cursor: 'pointer' }} />
