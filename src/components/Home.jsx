@@ -6,7 +6,7 @@ import Header from './Header';
 import { HiSpeakerWave, HiSpeakerXMark } from 'react-icons/hi2';
 import CopyRight from './CopyRight';
 // import audio1 from '../audioPlay/1.wav';
-import audio1 from '../audioPlay/audio5.mp3';
+import audio1 from '../audioPlay/birdMusic.mp3';
 import WhatsappIcon from './WhatsappIcon';
 const Home = () => {
   // ======= for stope the video
