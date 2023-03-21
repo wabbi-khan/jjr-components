@@ -876,13 +876,13 @@ export const productionAllData = [
     img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678096242/jjr%20photos/dyson/Picture22_mrxpbs.jpg',
     eventName: 'dyson',
   },
-  {
-    id: 'carouselExampleControls9',
-    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1679047027/jjr%20photos/noor%20riyadh/Picture1_rszdvk.png',
-    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1679047026/jjr%20photos/noor%20riyadh/Picture4_v5npc2.png',
-    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1679047025/jjr%20photos/noor%20riyadh/Picture3_gll7dr.png',
-    eventName: 'noor riyadh',
-  },
+  // {
+  //   id: 'carouselExampleControls9',
+  //   img1: 'https://res.cloudinary.com/xcltech/image/upload/v1679047027/jjr%20photos/noor%20riyadh/Picture1_rszdvk.png',
+  //   img2: 'https://res.cloudinary.com/xcltech/image/upload/v1679047026/jjr%20photos/noor%20riyadh/Picture4_v5npc2.png',
+  //   img3: 'https://res.cloudinary.com/xcltech/image/upload/v1679047025/jjr%20photos/noor%20riyadh/Picture3_gll7dr.png',
+  //   eventName: 'noor riyadh',
+  // },
   {
     id: 'carouselExampleControls30',
     img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678096822/jjr%20photos/osn%20game%20of%20throne%20dfc/Picture46_c0skgg.png',
@@ -1048,5 +1048,43 @@ export const serviceCard = [
     icon: 'https://res.cloudinary.com/xcltech/image/upload/v1677760258/jjr%20photos/services%20card%20pics/design-thinking_agzycd.png',
     title: 'Creative Decoration',
     para: 'Creating 3D sculptures or wall art by cutting Styrofoam into desired and customizable shapes. Styrofoam decorations for events can be painted, coated or covered with other materials to achieve a desired look and feel. They are durable and can withstand a variety of weather conditions making them suitable for indoor and outdoor events. ',
+  },
+];
+
+export const noorRiyadh = [
+  {
+    id: 'carouselExampleControls9',
+    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1679397079/jjr%20photos/noor%20riyadh/All%20New%20Noor%20Riyadh%20Pics/RED_8081_bajluq.jpg',
+    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1679397072/jjr%20photos/noor%20riyadh/All%20New%20Noor%20Riyadh%20Pics/RED_8090_rif7g8.jpg',
+    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1679397073/jjr%20photos/noor%20riyadh/All%20New%20Noor%20Riyadh%20Pics/RED_8720_e6rruk.jpg',
+    img4: 'https://res.cloudinary.com/xcltech/image/upload/v1679397070/jjr%20photos/noor%20riyadh/All%20New%20Noor%20Riyadh%20Pics/RED_8076_f9ncno.jpg',
+    img5: 'https://res.cloudinary.com/xcltech/image/upload/v1679397063/jjr%20photos/noor%20riyadh/All%20New%20Noor%20Riyadh%20Pics/IMG_4805_lmeqdy.jpg',
+    img6: 'https://res.cloudinary.com/xcltech/image/upload/v1679397063/jjr%20photos/noor%20riyadh/All%20New%20Noor%20Riyadh%20Pics/RED_8072_sysiyw.jpg',
+    img7: 'https://res.cloudinary.com/xcltech/image/upload/v1679397062/jjr%20photos/noor%20riyadh/All%20New%20Noor%20Riyadh%20Pics/RED_8058_j5yhvc.jpg',
+    img8: 'https://res.cloudinary.com/xcltech/image/upload/v1679397048/jjr%20photos/noor%20riyadh/All%20New%20Noor%20Riyadh%20Pics/RED_8568_ysaeyj.jpg',
+    img9: 'https://res.cloudinary.com/xcltech/image/upload/v1679397043/jjr%20photos/noor%20riyadh/All%20New%20Noor%20Riyadh%20Pics/606A9591_yxcdhj.jpg',
+    img10:
+      'https://res.cloudinary.com/xcltech/image/upload/v1679397042/jjr%20photos/noor%20riyadh/All%20New%20Noor%20Riyadh%20Pics/IMG_4794_pgur4a.jpg',
+    img11:
+      'https://res.cloudinary.com/xcltech/image/upload/v1679397027/jjr%20photos/noor%20riyadh/All%20New%20Noor%20Riyadh%20Pics/IMG_4793_oqgajt.jpg',
+    img12:
+      'https://res.cloudinary.com/xcltech/image/upload/v1679397027/jjr%20photos/noor%20riyadh/All%20New%20Noor%20Riyadh%20Pics/IMG_4810_wz9wlq.jpg',
+    img13:
+      'https://res.cloudinary.com/xcltech/image/upload/v1679397025/jjr%20photos/noor%20riyadh/All%20New%20Noor%20Riyadh%20Pics/IMG_4770_nncl1i.jpg',
+    img14:
+      'https://res.cloudinary.com/xcltech/image/upload/v1679397025/jjr%20photos/noor%20riyadh/All%20New%20Noor%20Riyadh%20Pics/IMG_4802_yjmrvf.jpg',
+    img15:
+      'https://res.cloudinary.com/xcltech/image/upload/v1679397023/jjr%20photos/noor%20riyadh/All%20New%20Noor%20Riyadh%20Pics/IMG_8626_eiueks.jpg',
+    img16:
+      'https://res.cloudinary.com/xcltech/image/upload/v1679397016/jjr%20photos/noor%20riyadh/All%20New%20Noor%20Riyadh%20Pics/IMG_4804_gq7v9y.jpg',
+    img17:
+      'https://res.cloudinary.com/xcltech/image/upload/v1679397010/jjr%20photos/noor%20riyadh/All%20New%20Noor%20Riyadh%20Pics/31f5e8ad-6a58-4968-b5dd-5f9addf86d74_mb76kz.jpg',
+    img18:
+      'https://res.cloudinary.com/xcltech/image/upload/v1679397009/jjr%20photos/noor%20riyadh/All%20New%20Noor%20Riyadh%20Pics/IMG_4812_lj7ysh.jpg',
+    img19:
+      'https://res.cloudinary.com/xcltech/image/upload/v1679397009/jjr%20photos/noor%20riyadh/All%20New%20Noor%20Riyadh%20Pics/IMG_4808_rslptp.jpg',
+    img20:
+      'https://res.cloudinary.com/xcltech/image/upload/v1679397008/jjr%20photos/noor%20riyadh/All%20New%20Noor%20Riyadh%20Pics/7c4dfa17-f9fa-4023-9ecf-7a1e0cd4a834_nzpubl.jpg',
+    eventName: 'noor riyadh',
   },
 ];
