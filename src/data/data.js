@@ -18,7 +18,7 @@ export const MenusData = [
   },
   {
     id: 2,
-    name: 'About us',
+    name: 'About Us',
     icon: <BsBookmarkFill />,
     linkUrl: '/about-us',
     class: 'about',
@@ -46,7 +46,7 @@ export const MenusData = [
   },
   {
     id: 4,
-    name: 'Events Activation',
+    name: 'Event Activation',
     icon: <BsCalendar2EventFill />,
     linkUrl: '/events',
     class: 'eventactivation',
@@ -805,7 +805,7 @@ export const tesiData = [
     review:
       'In business, it’s important to find people you can count on. JJR is one of those reliable partners. Thanks for all your hard work!',
     imgUrl:
-      'https://res.cloudinary.com/xcltech/image/upload/v1677759307/jjr%20photos/testimonial%20pic/man_ehshr7.png',
+      'https://res.cloudinary.com/xcltech/image/upload/v1679492530/jjr%20photos/testimonial%20pic/woman_1_z4ql02.png',
   },
 
   {
@@ -820,6 +820,13 @@ export const tesiData = [
 
 // ================ Production data =============
 export const productionAllData = [
+  {
+    id: 'carouselExampleControls35',
+    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678185411/jjr%20photos/STYROFOAM%20EXECUTION%202/Picture100_nlzb9w.jpg',
+    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678185411/jjr%20photos/STYROFOAM%20EXECUTION%202/Picture98_dzerow.jpg',
+    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1679478494/jjr%20photos/STYROFOAM%20EXECUTION%202/Picture4_qh9toz.png',
+    eventName: 'STYROFOAM HARD COATING FIBER GLASS',
+  },
   {
     id: 'carouselExampleControls13',
     img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678094857/jjr%20photos/saudi%20cup/Picture4_bewtrk.jpg',
@@ -883,13 +890,13 @@ export const productionAllData = [
   //   img3: 'https://res.cloudinary.com/xcltech/image/upload/v1679047025/jjr%20photos/noor%20riyadh/Picture3_gll7dr.png',
   //   eventName: 'noor riyadh',
   // },
-  {
-    id: 'carouselExampleControls30',
-    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678096822/jjr%20photos/osn%20game%20of%20throne%20dfc/Picture46_c0skgg.png',
-    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678096821/jjr%20photos/osn%20game%20of%20throne%20dfc/Picture44_l0hf9u.png',
-    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678096820/jjr%20photos/osn%20game%20of%20throne%20dfc/Picture45_q2wxbt.png',
-    eventName: 'osn game of throne dfc',
-  },
+  // {
+  //   id: 'carouselExampleControls30',
+  //   img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678096822/jjr%20photos/osn%20game%20of%20throne%20dfc/Picture46_c0skgg.png',
+  //   img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678096821/jjr%20photos/osn%20game%20of%20throne%20dfc/Picture44_l0hf9u.png',
+  //   img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678096820/jjr%20photos/osn%20game%20of%20throne%20dfc/Picture45_q2wxbt.png',
+  //   eventName: 'osn game of throne dfc',
+  // },
   {
     id: 'carouselExampleControls8',
     img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678096475/jjr%20photos/mother%20of%20the%20nation/Picture34_boik23.jpg',
@@ -909,14 +916,14 @@ export const productionAllData = [
     img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678096696/jjr%20photos/Promotional%20stand/Picture40_drqfk1.jpg',
     img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678096695/jjr%20photos/Promotional%20stand/Picture38_bbmopa.jpg',
     img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678096694/jjr%20photos/Promotional%20stand/Picture37_m2tvrv.jpg',
-    eventName: 'Promotional stand',
+    eventName: 'Promotional stands',
   },
   {
     id: 'carouselExampleControls10',
     img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678096822/jjr%20photos/osn%20game%20of%20throne%20dfc/Picture46_c0skgg.png',
     img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678096821/jjr%20photos/osn%20game%20of%20throne%20dfc/Picture44_l0hf9u.png',
     img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678096820/jjr%20photos/osn%20game%20of%20throne%20dfc/Picture45_q2wxbt.png',
-    eventName: 'osn game of throne dfc',
+    eventName: 'osn game of thrones dfc',
   },
   {
     id: 'carouselExampleControls17',
@@ -932,40 +939,34 @@ export const productionAllData = [
     img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678097110/jjr%20photos/exhibition/Picture53_xhne6d.png',
     eventName: 'exhibition',
   },
-  {
-    id: 'carouselExampleControls15',
-    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1679305881/jjr%20photos/styrofoam%20execution/WhatsApp_Image_2023-03-20_at_2.44.25_PM_tjibnq.jpg',
-    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1679305881/jjr%20photos/styrofoam%20execution/WhatsApp_Image_2023-03-20_at_2.45.06_PM_x06qia.jpg',
-    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1679305881/jjr%20photos/styrofoam%20execution/WhatsApp_Image_2023-03-20_at_2.44.51_PM_kc7d0x.jpg',
-    eventName: 'styrofoam execution',
-  },
-  {
-    id: 'carouselExampleControls33',
-    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678185356/jjr%20photos/styrofoam%20execution/Picture92_frcizb.jpg',
-    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678185356/jjr%20photos/styrofoam%20execution/Picture91_goonki.jpg',
-    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678185356/jjr%20photos/styrofoam%20execution/Picture94_uc26xy.jpg',
-    eventName: 'STYROFOAM',
-  },
-  {
-    id: 'carouselExampleControls34',
-    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678185380/jjr%20photos/STYROFOAM%20EXECUTION%201/Picture96_hkbabw.jpg',
-    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678185380/jjr%20photos/STYROFOAM%20EXECUTION%201/Picture95_zc0jtl.jpg',
-    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678185380/jjr%20photos/STYROFOAM%20EXECUTION%201/Picture96_hkbabw.jpg',
-    eventName: 'SPECIAL HALLOWEEN EXECUTION WHITE DUBAI',
-  },
-  {
-    id: 'carouselExampleControls35',
-    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678185411/jjr%20photos/STYROFOAM%20EXECUTION%202/Picture100_nlzb9w.jpg',
-    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678185411/jjr%20photos/STYROFOAM%20EXECUTION%202/Picture97_sgebv1.jpg',
-    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678185411/jjr%20photos/STYROFOAM%20EXECUTION%202/Picture99_l1o5dj.jpg',
-    eventName: 'STYROFOAM HARD COATING FIBER GLASS',
-  },
+  // {
+  //   id: 'carouselExampleControls15',
+  //   img1: 'https://res.cloudinary.com/xcltech/image/upload/v1679305881/jjr%20photos/styrofoam%20execution/WhatsApp_Image_2023-03-20_at_2.44.25_PM_tjibnq.jpg',
+  //   img2: 'https://res.cloudinary.com/xcltech/image/upload/v1679305881/jjr%20photos/styrofoam%20execution/WhatsApp_Image_2023-03-20_at_2.45.06_PM_x06qia.jpg',
+  //   img3: 'https://res.cloudinary.com/xcltech/image/upload/v1679305881/jjr%20photos/styrofoam%20execution/WhatsApp_Image_2023-03-20_at_2.44.51_PM_kc7d0x.jpg',
+  //   eventName: 'styrofoam execution',
+  // },
+  // {
+  //   id: 'carouselExampleControls33',
+  //   img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678185356/jjr%20photos/styrofoam%20execution/Picture92_frcizb.jpg',
+  //   img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678185356/jjr%20photos/styrofoam%20execution/Picture91_goonki.jpg',
+  //   img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678185356/jjr%20photos/styrofoam%20execution/Picture94_uc26xy.jpg',
+  //   eventName: 'STYROFOAM',
+  // },
+  // {
+  //   id: 'carouselExampleControls34',
+  //   img1: 'https://res.cloudinary.com/xcltech/image/upload/v1678185380/jjr%20photos/STYROFOAM%20EXECUTION%201/Picture96_hkbabw.jpg',
+  //   img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678185380/jjr%20photos/STYROFOAM%20EXECUTION%201/Picture95_zc0jtl.jpg',
+  //   img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678185380/jjr%20photos/STYROFOAM%20EXECUTION%201/Picture96_hkbabw.jpg',
+  //   eventName: 'SPECIAL HALLOWEEN EXECUTION WHITE DUBAI',
+  // },
+
   {
     id: 'carouselExampleControls31',
     img1: 'https://res.cloudinary.com/xcltech/image/upload/v1677241396/jjr%20photos/pos%20material/Screenshot_38_khnz5k.png',
-    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1678185302/jjr%20photos/pos%20material/Picture4_fs1iq1.jpg',
+    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1679479085/jjr%20photos/pos%20material/Picture6_xrkqzx.png',
     img3: 'https://res.cloudinary.com/xcltech/image/upload/v1678185302/jjr%20photos/pos%20material/Picture3_hsbtmd.jpg',
-    eventName: 'pos material',
+    eventName: 'pos materials',
   },
   {
     id: 'carouselExampleControls16',
@@ -1074,7 +1075,7 @@ export const noorRiyadh = [
     img14:
       'https://res.cloudinary.com/xcltech/image/upload/v1679397025/jjr%20photos/noor%20riyadh/All%20New%20Noor%20Riyadh%20Pics/IMG_4802_yjmrvf.jpg',
     img15:
-      'https://res.cloudinary.com/xcltech/image/upload/v1679397023/jjr%20photos/noor%20riyadh/All%20New%20Noor%20Riyadh%20Pics/IMG_8626_eiueks.jpg',
+      'https://res.cloudinary.com/xcltech/image/upload/v1679397004/jjr%20photos/noor%20riyadh/All%20New%20Noor%20Riyadh%20Pics/67823faf-677f-43eb-b119-519c48bffd94_yce5w9.jpg',
     img16:
       'https://res.cloudinary.com/xcltech/image/upload/v1679397016/jjr%20photos/noor%20riyadh/All%20New%20Noor%20Riyadh%20Pics/IMG_4804_gq7v9y.jpg',
     img17:
@@ -1086,5 +1087,21 @@ export const noorRiyadh = [
     img20:
       'https://res.cloudinary.com/xcltech/image/upload/v1679397008/jjr%20photos/noor%20riyadh/All%20New%20Noor%20Riyadh%20Pics/7c4dfa17-f9fa-4023-9ecf-7a1e0cd4a834_nzpubl.jpg',
     eventName: 'noor riyadh',
+  },
+];
+
+export const styrofoamExecution = [
+  {
+    id: 'carouselExampleControls15',
+    img1: 'https://res.cloudinary.com/xcltech/image/upload/v1679305881/jjr%20photos/styrofoam%20execution/WhatsApp_Image_2023-03-20_at_2.44.25_PM_tjibnq.jpg',
+    img2: 'https://res.cloudinary.com/xcltech/image/upload/v1679305881/jjr%20photos/styrofoam%20execution/WhatsApp_Image_2023-03-20_at_2.45.06_PM_x06qia.jpg',
+    img3: 'https://res.cloudinary.com/xcltech/image/upload/v1679305881/jjr%20photos/styrofoam%20execution/WhatsApp_Image_2023-03-20_at_2.44.51_PM_kc7d0x.jpg',
+    img4: 'https://res.cloudinary.com/xcltech/image/upload/v1678185356/jjr%20photos/styrofoam%20execution/Picture92_frcizb.jpg',
+    img5: 'https://res.cloudinary.com/xcltech/image/upload/v1678185356/jjr%20photos/styrofoam%20execution/Picture91_goonki.jpg',
+    img6: 'https://res.cloudinary.com/xcltech/image/upload/v1678185356/jjr%20photos/styrofoam%20execution/Picture94_uc26xy.jpg',
+    img7: 'https://res.cloudinary.com/xcltech/image/upload/v1678185380/jjr%20photos/STYROFOAM%20EXECUTION%201/Picture96_hkbabw.jpg',
+    img8: 'https://res.cloudinary.com/xcltech/image/upload/v1678185380/jjr%20photos/STYROFOAM%20EXECUTION%201/Picture95_zc0jtl.jpg',
+    img9: 'https://res.cloudinary.com/xcltech/image/upload/v1678185380/jjr%20photos/STYROFOAM%20EXECUTION%201/Picture96_hkbabw.jpg',
+    eventName: 'styrofoam execution',
   },
 ];

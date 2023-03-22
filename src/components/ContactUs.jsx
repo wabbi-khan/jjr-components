@@ -36,7 +36,7 @@ const ContactUs = () => {
               <div className="email details">
                 <i className="fas fa-envelope"></i>
                 <div className="topic">Email</div>
-                <div className="text-one">info@jjrnetwork.com</div>
+                <div className="text-one">admin@jjrnetwork.com</div>
               </div>
             </div>
             <div className="right-side">
