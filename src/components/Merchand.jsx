@@ -22,7 +22,7 @@ const Merchand = () => {
       </div>
       <div className="outPartnersHeading">
         <div className="heading-sec-new">
-          <h1>btml / merchandising</h1>
+          <h1>btl / merchandising</h1>
           <div className="border-sec-new">
             <strong></strong>
           </div>

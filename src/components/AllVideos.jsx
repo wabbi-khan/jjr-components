@@ -27,6 +27,7 @@ const AllVideos = () => {
                   id={item.id}
                   className="carousel slide"
                   data-ride="carousel"
+                  data-interval="false"
                 >
                   <div className="carousel-inner">
                     <div className="carousel-item active">

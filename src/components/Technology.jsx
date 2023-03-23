@@ -1,25 +1,28 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useState } from 'react';
+import React from 'react'; // { useState }
 import Header from './Header';
 import CopyRight from './CopyRight';
-import { techData } from '../data/data';
-import { MdClose } from 'react-icons/md';
+import {
+  // techData,
+  techVideo,
+} from '../data/data';
+// import { MdClose } from 'react-icons/md';
 
 const Technology = () => {
-  const [model, setModel] = useState();
-  const [temImgSrc, setTemImgSrc] = useState('');
-  const getImg = (imgUrl) => {
-    console.log(imgUrl);
-    setTemImgSrc(imgUrl);
-    setModel(true);
-  };
+  // const [model, setModel] = useState();
+  // const [temImgSrc, setTemImgSrc] = useState('');
+  // const getImg = (imgUrl) => {
+  //   console.log(imgUrl);
+  //   setTemImgSrc(imgUrl);
+  //   setModel(true);
+  // };
   return (
     <section>
       <Header />
-      <div className={model ? 'model open' : 'model'}>
+      {/* <div className={model ? 'model open' : 'model'}>
         <img src={temImgSrc} alt="temImgSrc" />
         <MdClose className="closeIcon" onClick={() => setModel(false)} />
-      </div>
+      </div> */}
       <div className="outPartnersHeading">
         <div className="heading-sec-new">
           <h1>technology</h1>
@@ -31,7 +34,34 @@ const Technology = () => {
       <div className="eventCard">
         <div className="container">
           <div className="row">
-            {techData.map((item) => (
+            {techVideo.map((item) => (
+              <div className="col-md-4">
+                <div
+                  id={item.id}
+                  className="carousel slide"
+                  // data-ride="carousel"
+                  // data-interval="false"
+                >
+                  <div className="carousel-inner">
+                    <div className="carousel-item active">
+                      <a className="card">
+                        <video
+                          className="card__img pb-3"
+                          src={item.video1}
+                          controls
+                          autoplay
+                        />
+                      </a>
+                    </div>
+
+                    <span className="card__footer">
+                      <span>{item.eventName}</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            ))}
+            {/* {techData.map((item) => (
               <div className="col-md-4">
                 <div
                   id={item.id}
@@ -98,30 +128,6 @@ const Technology = () => {
                     ></span>
                     <span className="sr-only">Next</span>
                   </a>
-                </div>
-              </div>
-            ))}
-            {/* {techVideo.map((item) => (
-              <div className="col-md-4">
-                <div className="carousel-inner">
-                  <div className="carousel-item active">
-                    <a className="card">
-                      <iframe
-                        frameborder="0"
-                        type="text/html"
-                        src={item.video}
-                        width="100%"
-                        height="85%"
-                        allowfullscreen
-                        title="Dailymotion Video Player"
-                      >
-                        {' '}
-                      </iframe>
-                    </a>
-                  </div>
-                  <span className="card__footer">
-                    <span>{item.videoName}</span>
-                  </span>
                 </div>
               </div>
             ))} */}

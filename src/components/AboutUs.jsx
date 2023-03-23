@@ -3,7 +3,7 @@ import Header from './Header';
 import CopyRight from './CopyRight';
 import Img1 from '../assets/GKyZBZXafr9t.jpg';
 import Img2 from '../assets/4o0xW9tGpoKY.jpg';
-import Img3 from '../assets/IM9p2tG5FVyf.png';
+// import Img3 from '../assets/IM9p2tG5FVyf.png';
 import Img4 from '../assets/ChUPWrwRvbdZ.png';
 import Img5 from '../assets/DI81XriUmvs7.jpg';
 import { serviceCard } from '../data/data';
@@ -57,9 +57,15 @@ const AboutUs = () => {
                   </span>
                   <h2 className="title">
                     From Strategy to Delivery
-                    <span className="primary-color italic"> Quality </span>
+                    <span
+                      className="primary-color"
+                      style={{ color: ' #e42032' }}
+                    >
+                      {' '}
+                      Quality{' '}
+                    </span>
                     is the Best
-                    <span className="primary-color italic"> Business </span>
+                    <span className="primary-color"> Business </span>
                     Plan
                   </h2>
                   <p className="aboutPara">
@@ -133,10 +139,10 @@ const AboutUs = () => {
                   <div className="sc-auother-style-box sc-mb-30 mt-2">
                     <div className="sc-auother-style d-flex align-items-center">
                       <div className="sc-auother-image sc-mr-20 ladyIcon">
-                        <img
+                        {/* <img
                           src="https://res.cloudinary.com/xcltech/image/upload/v1678963792/jjr%20photos/Founder%20images/woman_xj2j6i.png"
                           alt="Auother"
-                        />
+                        /> */}
                       </div>
                       <div className="sc-auother-content">
                         <div className="sc-auother-text">
@@ -174,7 +180,7 @@ const AboutUs = () => {
               </span> */}
               <h2 className="title">
                 Our
-                <span className="primary-color italic"> Services </span>
+                <span className="primary-color"> Services </span>
               </h2>
             </div>
           </div>
