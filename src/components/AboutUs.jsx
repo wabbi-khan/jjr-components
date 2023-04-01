@@ -8,6 +8,7 @@ import Img4 from '../assets/ChUPWrwRvbdZ.png';
 import Img5 from '../assets/DI81XriUmvs7.jpg';
 import { serviceCard } from '../data/data';
 import { TiWavesOutline } from 'react-icons/ti';
+import WhatsappIcon from './WhatsappIcon';
 
 const AboutUs = () => {
   return (
@@ -200,6 +201,9 @@ const AboutUs = () => {
             </div>
           ))}
         </div>
+      </div>
+      <div className="fixWhatsapp">
+        <WhatsappIcon />
       </div>
       <CopyRight additionalClass={'copyRight'} />
     </section>

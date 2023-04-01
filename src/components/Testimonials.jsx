@@ -2,6 +2,8 @@ import React from 'react';
 import Header from './Header';
 import CopyRight from './CopyRight';
 import { tesiData } from '../data/data';
+import WhatsappIcon from './WhatsappIcon';
+
 const Testimonials = () => {
   return (
     <section>
@@ -71,6 +73,9 @@ const Testimonials = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="fixWhatsapp">
+        <WhatsappIcon />
       </div>
       <CopyRight additionalClass={'copyRight'} />
     </section>

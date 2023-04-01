@@ -2,6 +2,8 @@ import React from 'react';
 import Header from './Header';
 import { partnersLogo } from '../data/data';
 import CopyRight from './CopyRight';
+import WhatsappIcon from './WhatsappIcon';
+
 const OurPartners = () => {
   return (
     <section>
@@ -25,6 +27,9 @@ const OurPartners = () => {
           </div>
           //</div>
         ))}
+      </div>
+      <div className="fixWhatsapp">
+        <WhatsappIcon />
       </div>
       <CopyRight additionalClass={'copyRight'} />
     </section>

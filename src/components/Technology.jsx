@@ -2,6 +2,8 @@
 import React from 'react'; // { useState }
 import Header from './Header';
 import CopyRight from './CopyRight';
+import WhatsappIcon from './WhatsappIcon';
+
 import {
   // techData,
   techVideo,
@@ -134,7 +136,9 @@ const Technology = () => {
           </div>
         </div>
       </div>
-
+      <div className="fixWhatsapp">
+        <WhatsappIcon />
+      </div>
       <CopyRight additionalClass={'copyRight'} />
     </section>
   );

@@ -2,6 +2,8 @@
 import React, { useState } from 'react';
 import Header from './Header';
 import CopyRight from './CopyRight';
+import WhatsappIcon from './WhatsappIcon';
+
 import {
   productionAllData,
   noorRiyadh,
@@ -487,6 +489,9 @@ const Production = () => {
             ))}
           </div>
         </div>
+      </div>
+      <div className="fixWhatsapp">
+        <WhatsappIcon />
       </div>
       <CopyRight additionalClass={'copyRight'} />
     </section>

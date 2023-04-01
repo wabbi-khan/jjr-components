@@ -3,6 +3,7 @@ import React from 'react';
 import Header from './Header';
 import CopyRight from './CopyRight';
 import { allVideosData } from '../data/data';
+import WhatsappIcon from './WhatsappIcon';
 
 const AllVideos = () => {
   return (
@@ -93,6 +94,9 @@ const AllVideos = () => {
             ))}
           </div>
         </div>
+      </div>
+      <div className="fixWhatsapp">
+        <WhatsappIcon />
       </div>
       <CopyRight additionalClass={'copyRight'} />
     </section>

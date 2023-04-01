@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from './Header';
 import CopyRight from './CopyRight';
+import WhatsappIcon from './WhatsappIcon';
+
 const ContactUs = () => {
   return (
     <section>
@@ -58,6 +60,9 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="fixWhatsapp">
+        <WhatsappIcon />
       </div>
       <CopyRight additionalClass={'copyRight'} />
     </section>

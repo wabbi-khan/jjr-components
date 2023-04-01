@@ -347,7 +347,7 @@ td {
   width: 300px;
   height: 100%;
   padding: 20px;
-  z-index: 999;
+  z-index: 999999999;
   border-radius: 15px 0px 0px 0px;
   display: flex;
   flex-direction: column;
@@ -1278,9 +1278,31 @@ td {
   }
 }
 
+.fixWhatsapp {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  z-index: 99999;
+}
+
+.fixWhatsapp svg {
+  font-size: 35px !important;
+}
+
 @media only screen and (max-width: 600px) {
+  /* .fixWhatsapp svg {
+    font-size: 35px !important;
+  } */
   .header {
-    padding: 10px 20px;
+    padding: 8px 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999999;
+    top: 0;
+    background-color: rgb(238, 233, 233);
+    box-shadow: 0px 7px 16px 0px rgba(177, 176, 176, 0.5);
+    -webkit-box-shadow: 0px 7px 16px 0px rgba(177, 176, 176, 0.5);
+    -moz-box-shadow: 0px 7px 16px 0px rgba(177, 176, 176, 0.5);
   }
   .header .headerIcon {
     display: none;
@@ -1304,6 +1326,9 @@ td {
   }
   .copyRight span {
     font-size: 11px;
+  }
+  .outPartnersHeading {
+    padding-top: 5.5rem;
   }
   .features h2 {
     font-size: 20px;

@@ -4,6 +4,7 @@ import Header from './Header';
 import CopyRight from './CopyRight';
 import { merchandData } from '../data/data';
 import { MdClose } from 'react-icons/md';
+import WhatsappIcon from './WhatsappIcon';
 
 const Merchand = () => {
   const [model, setModel] = useState();
@@ -103,6 +104,9 @@ const Merchand = () => {
             ))}
           </div>
         </div>
+      </div>
+      <div className="fixWhatsapp">
+        <WhatsappIcon />
       </div>
       <CopyRight additionalClass={'copyRight'} />
     </section>
