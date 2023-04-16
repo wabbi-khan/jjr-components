@@ -1,60 +1,65 @@
-import React, { useState, useEffect } from 'react';
-import './App.css';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Home from './components/Home';
-import Event from './components/Event';
-import OurPartners from './components/OurPartners';
-import Technology from './components/Technology';
-import ContactUs from './components/ContactUs';
-import AboutUs from './components/AboutUs';
-import Testimonials from './components/Testimonials';
-import Production from './components/Production';
-import Merchand from './components/Merchand';
-import AllVideos from './components/AllVideos';
+import React, { useState, useEffect } from "react";
+import "./App.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Home from "./components/Home";
+import Event from "./components/Event";
+import OurPartners from "./components/OurPartners";
+import Technology from "./components/Technology";
+import ContactUs from "./components/ContactUs";
+import AboutUs from "./components/AboutUs";
+import Testimonials from "./components/Testimonials";
+import Production from "./components/Production";
+import Merchand from "./components/Merchand";
+import AllVideos from "./components/AllVideos";
+import Swipe from "./components/SwipeOption";
 // import Spinner from './components/Spinner';
-import { ScaleLoader } from 'react-spinners';
-import Logo from './assets/logo.png';
+import { ScaleLoader } from "react-spinners";
+import Logo from "./assets/logo.png";
 // Routes
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <Home />,
   },
   {
-    path: '/events',
+    path: "/events",
     element: <Event />,
   },
   {
-    path: '/ourPartners',
+    path: "/ourPartners",
     element: <OurPartners />,
   },
   {
-    path: '/technology',
+    path: "/technology",
     element: <Technology />,
   },
   {
-    path: '/contact-us',
+    path: "/contact-us",
     element: <ContactUs />,
   },
   {
-    path: '/about-us',
+    path: "/about-us",
     element: <AboutUs />,
   },
   {
-    path: '/testimonials',
+    path: "/testimonials",
     element: <Testimonials />,
   },
   {
-    path: '/production',
+    path: "/production",
     element: <Production />,
   },
   {
-    path: '/btl-merchand',
+    path: "/btl-merchand",
     element: <Merchand />,
   },
   {
-    path: '/all-videos',
+    path: "/all-videos",
     element: <AllVideos />,
+  },
+  {
+    path: "/swipe/:videoUrl",
+    element: <Swipe />,
   },
 ]);
 const App = () => {
@@ -68,13 +73,13 @@ const App = () => {
   return (
     <div>
       {loading ? (
-        <div className="spinner">
+        <div className='spinner'>
           <div>
-            <img src={Logo} alt="logo" />
+            <img src={Logo} alt='logo' />
           </div>
           <div>
             <ScaleLoader
-              color="#de0000"
+              color='#de0000'
               loading={loading}
               // size={150}
               width={10}
