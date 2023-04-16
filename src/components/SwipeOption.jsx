@@ -1,18 +1,25 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { MdClose } from "react-icons/md";
+import { dataWorld } from "../data/data";
 
 const Swipe = () => {
-  const { videoUrl } = useParams();
-  console.log(videoUrl);
+  const { id } = useParams();
+  console.log(id);
 
   return (
     <div>
-      <h1>wahabbb</h1>
-      <video src={videoUrl} autoPlay controls />
-      <MdClose className='closeIcon' />
+      {dataWorld
+        .filter((index) => index.id === id)
+        .map((item) => (
+          <div className='SwipeVideo'>
+            <Link to={"/"}>
+              <MdClose className='SwipeVideoIcone' />
+            </Link>
+            <video src={item.videoUrl} muted controls autoPlay />
+          </div>
+        ))}
     </div>
   );
 };
-
 export default Swipe;

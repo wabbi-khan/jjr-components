@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,100;1,200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,100;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -17,7 +17,7 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /* ============== Whatsapp icon =============== */
@@ -212,7 +212,7 @@ td {
 .cover::before {
   width: 90px;
   height: 300px;
-  content: '';
+  content: "";
   position: absolute;
   background: rgba(255, 255, 255, 0.3);
   border-radius: 5px;
@@ -403,7 +403,7 @@ td {
 
 .features h2 {
   font-size: 30px;
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   font-weight: 500;
   letter-spacing: 2px;
 }
@@ -427,7 +427,7 @@ td {
 
 .heading-sec-new h1 {
   letter-spacing: 1px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   font-weight: 700;
   font-size: 30px;
@@ -658,7 +658,7 @@ td {
 }
 
 .content .left-side::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 70%;
   width: 2px;
@@ -733,7 +733,7 @@ td {
   margin-top: 12px;
 }
 
-.right-side .button input[type='button'] {
+.right-side .button input[type="button"] {
   color: #fff;
   font-size: 18px;
   outline: none;
@@ -745,7 +745,7 @@ td {
   transition: all 0.3s ease;
 }
 
-.button input[type='button']:hover {
+.button input[type="button"]:hover {
   background: #000;
 }
 
@@ -787,7 +787,7 @@ td {
   font-weight: 600;
   font-size: 20px;
   color: #03041c;
-  font-family: 'Inter Tight', sans-serif;
+  font-family: "Inter Tight", sans-serif;
   transition: 0.4s;
   z-index: 99999;
 }
@@ -1018,7 +1018,7 @@ td {
 /* =========Services card ========== */
 
 .addon-services {
-  background: url('./assets/service-shape.png');
+  background: url("./assets/service-shape.png");
   background-repeat: no-repeat;
   background-position: 150px 200px;
   padding: 20px;
@@ -1072,7 +1072,7 @@ td {
 }
 
 .testimonial-view:before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -52px;
   left: 60px;
@@ -1086,7 +1086,7 @@ td {
 }
 
 .testimonial-view:after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -27px;
   left: 30px;
@@ -1135,7 +1135,7 @@ td {
 }
 
 .section-header:after {
-  content: '';
+  content: "";
   height: 4px;
   width: 100px;
   background-color: #e42032;
@@ -1187,7 +1187,7 @@ td {
 .testimonial-block
   .testimonial-block_user
   .testimonial-block_user_image:before {
-  content: '';
+  content: "";
   height: 120px;
   width: 120px;
   border-radius: 120px;
@@ -1199,7 +1199,7 @@ td {
 }
 
 .testimonial-block .testimonial-block_user .testimonial-block_user_image:after {
-  content: '';
+  content: "";
   height: 85px;
   width: 85px;
   border-radius: 85px;
@@ -1224,7 +1224,7 @@ td {
   .testimonial-block_user
   .testimonial-block_user_info
   .testimonial-block_user_info_name:after {
-  content: '';
+  content: "";
   height: 3px;
   width: 50px;
   background-color: #e42032;
@@ -1467,4 +1467,18 @@ td {
 .prev-Icon,
 .next-Icon {
   margin-top: 7rem;
+}
+
+.SwipeVideo video {
+  width: 100%;
+  height: 100vh;
+}
+
+.SwipeVideoIcone {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  color: #000;
+  z-index: 99999999;
 }

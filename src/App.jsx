@@ -58,7 +58,7 @@ const router = createBrowserRouter([
     element: <AllVideos />,
   },
   {
-    path: "/swipe/:videoUrl",
+    path: "/video/:id",
     element: <Swipe />,
   },
 ]);

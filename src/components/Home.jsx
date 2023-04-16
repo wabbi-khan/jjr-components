@@ -92,7 +92,7 @@ const Home = () => {
             // displayFullVideo={() => getImg(world?.videoUrl)}
             handleClick3={() => setActive(false)}
             stopBackgroundAudio={() => setIsPlaying(true)}
-            swipe={world.videoUrl}
+            swipe={`/video/${world.id}`}
           />
         ))}
       </div>
