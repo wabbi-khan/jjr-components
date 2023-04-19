@@ -12,11 +12,11 @@ const Swipe = () => {
       {dataWorld
         .filter((index) => index.id === id)
         .map((item) => (
-          <div className='SwipeVideo'>
+          <div className='SwipeVideo' key={item.id}>
             <Link to={"/"}>
               <MdClose className='SwipeVideoIcone' />
             </Link>
-            <video src={item.videoUrl} muted controls autoPlay />
+            <video src={item.videoUrl} controls autoPlay playsInline />
           </div>
         ))}
     </div>
