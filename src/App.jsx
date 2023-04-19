@@ -84,15 +84,6 @@ const App = () => {
               // size={150}
               width={10}
               height={50}
-              style={
-                {
-                  // display: 'flex',
-                  // justifyContent: 'center',
-                  // alignItems: 'center',
-                  // height: '100vh',
-                  // fontSize: '30rem',
-                }
-              }
             />
           </div>
         </div>
